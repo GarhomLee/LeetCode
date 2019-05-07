@@ -2,14 +2,14 @@ https://leetcode.com/problems/word-ladder-ii/
 
 // 比较难的一道题，步骤繁琐，不好debug。
 
-总体思路：单向BFS构建graph，然后用backtracking进行DFS把graph转变成List。
-        维护两个global variable：resultList，最后返回的List；children，用来构建有向图，key是parent，value是list of children。
-        在BFS时，维护steps Map，key为word，value为word所在的level（或者说step）。同时，利用Queue进行BFS。
-        维护boolean变量found，表示有无到达endWord。在最外层while loop，当found为true或者Queue为空时，都可以跳出循环。如果是因为found == true跳出的循环，就需要进行DFS构建List。
-        从Queue中取word，这个word一定没有被搜索过，所以在children Map里给它pair一个空的List。
-        改变word中的每个字母，记为child。当steps Map中没有child的信息，说明child未被搜索到，所以在steps Map和Queue中加入child的信息。
-        只有当steps Map中没有child的信息，或者有child且child对应的step和currWord的step相差1，说明currWord是child的valid parent，加入children Map。每搜索完一个currWord，都要从wordDict中删去。
-        注意：以这种方式构建的有向图，跟endWord处于同一个level的word（包括endWord）都没有children，在DFS时需要进行判断。
+// 总体思路：单向BFS构建graph，然后用backtracking进行DFS把graph转变成List。
+//         维护两个global variable：resultList，最后返回的List；children，用来构建有向图，key是parent，value是list of children。
+//         在BFS时，维护steps Map，key为word，value为word所在的level（或者说step）。同时，利用Queue进行BFS。
+//         维护boolean变量found，表示有无到达endWord。在最外层while loop，当found为true或者Queue为空时，都可以跳出循环。如果是因为found == true跳出的循环，就需要进行DFS构建List。
+//         从Queue中取word，这个word一定没有被搜索过，所以在children Map里给它pair一个空的List。
+//         改变word中的每个字母，记为child。当steps Map中没有child的信息，说明child未被搜索到，所以在steps Map和Queue中加入child的信息。
+//         只有当steps Map中没有child的信息，或者有child且child对应的step和currWord的step相差1，说明currWord是child的valid parent，加入children Map。每搜索完一个currWord，都要从wordDict中删去。
+//         注意：以这种方式构建的有向图，跟endWord处于同一个level的word（包括endWord）都没有children，在DFS时需要进行判断。
 
 class Solution {
     List<List<String>> resultList = new ArrayList<>();  // the final result list
