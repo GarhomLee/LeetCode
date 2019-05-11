@@ -1,5 +1,7 @@
 https://leetcode.com/problems/wildcard-matching/
 
+// 思路：和10. Regular Expression Matching类似，但'*'的作用不相同。在这题中，'*'表示可以匹配任意连续的0个至多个字符。
+
 // 解法一：DP
 //         维护二维boolean的dp数组（1-based），dp[i]][j]表示s[0:i - 1]和p[0:j - 1]是否匹配，dp[0][j]表示s为空，dp[i][0]表示p为空。
 //         对于s[i]和p[j]，如果s[i] == p[j]或者p[j]为匹配任意一个字符的'?'，那么只需看s[0:i - 1]是否和p[0:j - 1]全部匹配。
