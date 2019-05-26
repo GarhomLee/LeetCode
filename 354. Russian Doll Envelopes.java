@@ -2,10 +2,10 @@ https://leetcode.com/problems/russian-doll-envelopes/
 
 // 总体思路：根据题意，当将envelopes按width排序后，就转化为了300. Longest Increasing Subsequence问题，而且条件更严格，因为需要width和height都比前一个元素大。
 
-解法一：DP，维护一维数组dp，dp[i]表示包含envelopes在内的increasing subsequence长度
-时间复杂度：O(n^2), n = envelopes.length
-空间复杂度：O(n), n = envelopes.length
-犯错点：1.当generic type为int[]时Comparator的写法
+// 解法一：DP，维护一维数组dp，dp[i]表示包含envelopes在内的increasing subsequence长度
+// 时间复杂度：O(n^2), n = envelopes.length
+// 空间复杂度：O(n), n = envelopes.length
+// 犯错点：1.当generic type为int[]时Comparator的写法
 
 class Solution {
     public int maxEnvelopes(int[][] envelopes) {
