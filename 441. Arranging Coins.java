@@ -25,8 +25,8 @@ class Solution {
 //             这里不取等于是为了统一n恰好为sum[0:mid]和n大于sum[0:mid]的情况，统一为所求数再+1，最后返回的时候统一减回去。
 //             eg.n=6，low=4，返回3；n=8，low=4，同样返回3；n=10，low=5，则返回4
 //         返回值：low-1
-// // 时间复杂度：O(log n)
-// // 空间复杂度：O(1)
+// 时间复杂度：O(log n)
+// 空间复杂度：O(1)
 
 class Solution {
     public int arrangeCoins(int n) {
