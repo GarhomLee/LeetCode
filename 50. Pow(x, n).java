@@ -11,10 +11,12 @@ class Solution {
     public double myPow(double x, int n) {
         if (n == 0) return 1;
         if (n == 1) return x;
-        int t = n / 2;
+        // long t = n;  // {Mistake 1}
+        int t = n / 2;  // {Correction 1: reduce n first}
         if (n < 0) {
             x = 1 / x;
-            t = -t;
+            //t = -n;  // {Mistake 2}
+            t = -t;  // {Correction 2: to avoid the case where n=Integer.MIN_VALUE}
         }
         double temp = myPow(x, t);
         if (n % 2 == 0) return temp * temp;

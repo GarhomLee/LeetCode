@@ -39,6 +39,28 @@ class Solution {
 }
 
 // 解法二：iteration
-// 将recursion写成另一层while循环。
+// 将recursion写成另一层while循环。注意count的初始化，totalCount的更新。
+
+class Solution {
+    public int divide(int dividend, int divisor) {
+        if (dividend == 0 || Math.abs((long) dividend) < Math.abs((long) divisor)) return 0;  // {Mistake 1: should convert int to long before getting absolute value}
+        int sign = ((dividend > 0 && divisor < 0) || (dividend < 0 && divisor > 0)) ? -1 : 1;
+        long totalCount = 0;
+        long ldividend = Math.abs((long) dividend), ldivisor = Math.abs((long) divisor);  // {Mistake 1: should convert int to long before getting absolute value}
+        
+        while (ldividend >= ldivisor) {
+            long currdivisor = ldivisor;
+            int count = 0;
+            while (ldividend >= currdivisor) {
+                count = count == 0 ? 1 : count * 2;
+                ldividend -= currdivisor;
+                currdivisor += currdivisor;
+                totalCount += count;
+            }
+        }
+        long res = sign * totalCount;
+        return res > Integer.MAX_VALUE ? Integer.MAX_VALUE : (int) res;  // {Mistake 2: if result is greater than Integer.MAX_VALUE, it will cause overflow}
+    }
+}
 
 // 解法三：用Bit manipulation，将sum += sum（也就是sum *= 2）的操作变为【sum << 1】，quotient同理。
