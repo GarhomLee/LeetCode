@@ -5,8 +5,8 @@ https://leetcode.com/problems/n-queens/
 //         choices:每行有n个放置位置
 //         constraints:1）每一行只能放一个棋子
 //                     2）每一列只能放一个棋子
-//                     3）同一正对角线只能放一个棋子，同一正对角线的棋子有一个规律：【col+row相同】
-//                     4）同一反对角线只能放一个棋子，同一反对角线的棋子有一个规律：【col-row+n-1相同】
+//                     3）同一正对角线只能放一个棋子，同一正对角线的棋子有一个规律：【col-row+n-1相同】
+//                     4）同一反对角线只能放一个棋子，同一反对角线的棋子有一个规律：【col+row相同】
 // 犯错点：1.国际象棋中Queen的走法是会攻击位于同一行、同一列、同一【正对角线和反对角线】的所有棋子，而不是相邻对角线
 //        2.边长为n的正方形棋盘有(2*n - 1)条正对角线和(2*n - 1)条反对角线
 
@@ -46,8 +46,8 @@ class Solution {
 
             /* state change */
             colCheck[col] = true;
-            diagonal[col + row] = true;
-            backDiagonal[col - row + n - 1] = true;
+            diagonal[col - row + n - 1] = true;
+            backDiagonal[col + row] = true;
             sb.setCharAt(col, 'Q');
             list.add(sb.toString());
             /* depth-first search */
@@ -56,8 +56,8 @@ class Solution {
             sb.setCharAt(col, '.');
             list.remove(list.size() - 1);
             colCheck[col] = false;
-            diagonal[col + row] = false;
-            backDiagonal[col - row + n - 1] = false;
+            diagonal[col - row + n - 1] = false;
+            backDiagonal[col + row] = false;
             
         }
     }
