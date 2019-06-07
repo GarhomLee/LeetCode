@@ -63,6 +63,6 @@ class Solution {
     }
     
     private boolean isValid(int n, int row, int col) {
-        return !colCheck[col] && !diagonal[col + row] && !backDiagonal[col - row + n - 1];
+        return !colCheck[col] && !diagonal[col - row + n - 1] && !backDiagonal[col + row];
     }
 }
