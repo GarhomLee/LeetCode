@@ -12,6 +12,7 @@ https://leetcode.com/problems/sliding-window-maximum/
 //         当end < k-1，只需要push元素，相当于初始化MonotonicQueue；当end >= k-1，即start >= 0时，开始求最大元素。
 //         如果遇到了nums[start] == mq.peek()的情况，表示最大元素在window边缘，在window下一次移位就会来到window外，所以
 //         需要将最大元素poll出来。否则，window边缘的nums[start]不是最大元素，意味着在之前的push阶段已经被poll掉了，所以不需额外操作。
+//         因此，MonotonicQueue里的元素最多为k（在nums数组也为单调递减的情况下）。
 // 时间复杂度：O(n)，每个元素最多被push和poll各一次
 // 空间复杂度：O(n)
 // 犯错点：1.要判断是否要poll元素，即nums[start]是否等于mq.peek()，需要在start >= 0即window已经形成的情况下。
