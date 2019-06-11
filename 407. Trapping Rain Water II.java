@@ -63,3 +63,61 @@ class Solution {
         }
     }
 }
+
+
+06/11 二刷，写法略有不同
+
+class Solution {
+    int[] dir = new int[]{0, -1, 0, 1, 0};
+    
+    public int trapRainWater(int[][] heightMap) {
+        int rowLen = heightMap.length, colLen = rowLen == 0 ? 0 : heightMap[0].length;
+        if (rowLen == 0 || colLen == 0) return 0;
+        
+        boolean[][] used = new boolean[rowLen][colLen];
+        int water = 0, maxHeight = 0;
+        PriorityQueue<int[]> pq = new PriorityQueue(new Comparator<int[]>() {
+            @Override
+            public int compare(int[] block1, int[] block2) {
+                return block1[2] - block2[2];
+            }
+        });
+        
+        /* initialize */
+        for (int col = 0; col < colLen; col++) {
+            pq.offer(new int[]{0, col, heightMap[0][col]});  // 0-th row
+            used[0][col] = true;
+            if (rowLen - 1 != 0) {
+                pq.offer(new int[]{rowLen - 1, col, heightMap[rowLen - 1][col]});  // (rowLen-1)-th row
+                used[rowLen - 1][col] = true;
+            }
+        }
+        for (int row = 1; row < rowLen - 1; row++) {
+            pq.offer(new int[]{row, 0, heightMap[row][0]});  // 0-th col
+            used[row][0] = true;
+            if (colLen - 1 != 0) {
+                pq.offer(new int[]{row, colLen - 1, heightMap[row][colLen - 1]});  // (colLen-1)-th col
+                used[row][colLen - 1] = true;
+            }
+        }
+        
+        /* check by using minHeap */
+        while (!pq.isEmpty()) {
+            int[] block = pq.poll();  // get a new block, and update maxHeight as well as water
+            maxHeight = Math.max(maxHeight, block[2]);
+            water += maxHeight - block[2];
+            for (int i = 0; i < 4; i++) {
+                int nextRow = block[0] + dir[i], nextCol = block[1] + dir[i + 1];
+                if(!isValid(nextRow, nextCol, used)) continue;
+                pq.offer(new int[]{nextRow, nextCol, heightMap[nextRow][nextCol]});  // put valid neighbors into minHeap
+                used[nextRow][nextCol] = true;
+            }
+        }
+        
+        return water;
+    }
+    
+    private boolean isValid(int row, int col, boolean[][] used) {
+        return row >= 0 && row < used.length && col >= 0 && col < used[0].length && !used[row][col];
+    }
+}

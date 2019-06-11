@@ -23,3 +23,32 @@ class Solution {
         return res;
     }
 }
+
+// 做完407. Trapping Rain Water II回头在做本题，利用minHeap的思想。
+// 先将端点放入minHeap，然后取头部元素（较小的元素）。如果比当前maxHeight大，更新maxHeight；否则，当前元素处于低点，更新water。
+// 然后，将当前元素的所有neighbor放进minHeap。
+// 犯错点：1.先处理完当前元素，才能挪动pointer（表示将neighbor放进minHeap）
+
+class Solution {
+    public int trap(int[] height) {
+        if (height.length == 0) return 0;
+        
+        int left = 0, right = height.length - 1;
+        int maxHeight = -1;
+        int water = 0;
+        while (left < right) {  // it's ok to use left <= right
+            if (height[left] < height[right]) {
+                //left++;  // {Mistake 1}
+                maxHeight = Math.max(maxHeight, height[left]);
+                //water += maxHeight - height[left];  // {Mistake 1}
+                water += maxHeight - height[left++];  // {Correction 1}
+            } else {
+                //right--;  // {Mistake 1}
+                maxHeight = Math.max(maxHeight, height[right]);
+                //water += maxHeight - height[right];  // {Mistake 1}
+                water += maxHeight - height[right--];  // {Correction 1}
+            }
+        }
+        return water;
+    }
+}
