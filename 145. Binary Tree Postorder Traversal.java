@@ -68,11 +68,12 @@ class Solution {
             if (curr.right != null && curr.right != pre) {  // curr has right child and the right child is not visited
                 stack.push(curr);
                 curr = curr.right;
-                continue;
+            } else {
+                res.add(curr.val);
+                pre = curr;  // mark this TreeNode as is visited
+                curr = null;  // in order to skip next while loop and pop the top from Stack directly
+        
             }
-            res.add(curr.val);
-            pre = curr;  // mark this TreeNode as is visited
-            curr = null;  // in order to skip next while loop and pop the top from Stack directly
         }
         
         return res;
