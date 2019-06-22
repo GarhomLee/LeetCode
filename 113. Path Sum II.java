@@ -1,6 +1,6 @@
 https://leetcode.com/problems/path-sum-ii/
 
-// 思路：DFS，类似Backtracking，可以用模版稍作修改
+// 思路：112. Path Sum的follow-up。DFS，类似Backtracking，可以用模版稍作修改
 //      goal:到达leaf node，且root.val等于剩余的sum
 //      choices:左子树和右子树
 //      constraints:root不能为空
