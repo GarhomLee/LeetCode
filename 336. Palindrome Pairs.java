@@ -15,6 +15,9 @@ https://leetcode.com/problems/palindrome-pairs/
 //     那么如果target word的剩下部分也为palindrome，就可以组成pair。
 //     对于情况（b）：target word搜寻结束，位于Trie的某个节点中，那么只需遍历restPalindromes这个list，排除自己的index，即可组成
 //     palindrome pair。
+// 犯错点：1.注意corner cases】：["a",""]
+//        2.由于空字符串""的存在，curr = curr.next[c-'a']要在处理完了当前curr的情况下进行。因为在curr == root时，代表的就是空字符串，
+//           所以要先处理完当前curr再更新curr为curr.next[c-'a']。
 
 class Solution {
     public List<List<Integer>> palindromePairs(String[] words) {
