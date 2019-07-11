@@ -22,7 +22,7 @@ class Solution {
 }
 
 
-// 解法二：优化代码，不用管哪一层，只需要每层从右到左依次加入Queue。最后一个TreeNode就是最下面一行的最左边TreeNode。
+// 解法二：优化代码，不用管哪一层，只需要每层【从右到左依次加入Queue】。最后一个TreeNode就是最下面一行的最左边TreeNode。
 
 public int findLeftMostNode(TreeNode root) {
     Queue<TreeNode> queue = new LinkedList<>();
