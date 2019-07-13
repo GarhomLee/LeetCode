@@ -14,6 +14,8 @@ https://leetcode.com/problems/reverse-pairs/
 //             2）nums[left] <= nums[right] * 2，不符合题意。由于已经排好序，所有[right:high]都比left大，
 //                因此要更新left++来寻求新的解。
 // 注意：在判断比较nums[left] > nums[right] * 2时，为了防止数据溢出，要转换成long
+// 时间复杂度：O(n (logn)^2)，排序的过程可以进一步优化
+// 空间复杂度：O(n)
 // 犯错点：1.Java语言特性错误：Arrays.sort()如果给定范围，应该是左闭右开的。
 //        2.细节错误：left从low指针开始，而不是从0开始。
 
