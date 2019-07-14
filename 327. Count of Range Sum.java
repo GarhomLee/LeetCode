@@ -19,7 +19,7 @@ https://leetcode.com/problems/count-of-range-sum/
 //                 的所有元素sums[right]都满足lower<=sums[right]-sums[left]<=upper。
 //                 由于左半边也已经排好序，更新left++后，对应的rightLower一定不会在前一个rightLower左边，对
 //                 于rightUpper也同理，因此【不需要对于每个left都重置rightLower和rightUpper从mid+1开始，只需要
-//                 一直向后扫描即可】。
+//                 一直向后扫描即可】。这样每一个递归里的扫描操作就是O(n)。
 //                 处理完所有配对后，将sums[low:mid]排序（O(n log n)，可以优化为O(n)）。
 // 关键理解点：当求出前缀和数组sums后，sums[i]就可以变换位置了，和nums[0:i)实际上没有任何关系，只要在当前状态下
 //         保持着对于任意i<j有lower<=sums[j]-sums[i]<=upper的相对位置关系。
