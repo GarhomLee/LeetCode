@@ -44,4 +44,28 @@ class Solution {
     }
 }
 
-优化：空间降维，因为dp[i]只和dp[i - 1]有关，所以可以利用一维数组将空间复杂度降到O(sum)
+// 优化：空间降维，因为dp[i]只和dp[i - 1]有关，所以可以利用一维数组将空间复杂度降到O(sum)
+
+class Solution {
+    public boolean canPartition(int[] nums) {
+        int sum = 0;
+        for (int n: nums) {
+            sum += n;
+        }
+        if ((sum & 1) != 0) {
+            return false;
+        }
+        boolean[] dp = new boolean[sum / 2 + 1];
+        dp[0] = true;
+        for (int i = 1; i <= nums.length; i++) {
+            for (int j = sum / 2; j >= nums[i - 1]; j--) {
+                dp[j] = dp[j] || dp[j - nums[i - 1]];
+                if (dp[sum / 2]) {
+                    return true;
+                }
+            }
+        }
+        
+        return false;
+    }
+}
