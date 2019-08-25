@@ -1,6 +1,6 @@
 https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
 
-// 思路：HashMap + Stack
+// 解法一：Iteration with HashMap + Stack
 //         计算prefix sum，用HashMap记录。key为出现过的sum，value为对应的ListNode。
 //         为了应对[1,2,3,-2,-3,10,5,-5,1]这样的情况，可以维护一个Stack，记录从左往右的当前存在的sum。
 //         由于可能要删除第一个节点，所以维护dummy，使得dummy.next = head。
@@ -35,6 +35,42 @@ class Solution {
                     map.remove(stack.pop());
                 }
                 map.get(sum).next = curr.next;
+            }
+            curr = curr.next;
+        }
+        
+        return dummy.next;
+    }
+}
+
+
+// 解法二：Recursion
+// 时间复杂度：O(n^2)？
+// 空间复杂度：O(n^2)？
+// 犯错点：1.细节错误：将中间节点删除后，需要调用递归函数从头开始扫描，而不能只从curr.next开始扫描，这是因为如
+//             [1,2,3,-3,-2]的情况，会导致2和-2不能被删除。只有从头开始扫描才能删除。
+
+class Solution {
+    public ListNode removeZeroSumSublists(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        
+        ListNode dummy = new ListNode(-1), pre = dummy;
+        dummy.next = head;
+        Map<Integer, ListNode> map = new HashMap<>();
+        int sum = 0;
+        map.put(sum, dummy);
+        
+        ListNode curr = head;
+        while (curr != null) {
+            sum += curr.val;
+            if (!map.containsKey(sum)) {
+                map.put(sum, curr);
+            } else {
+                map.get(sum).next = curr.next;
+                //return removeZeroSumSublists(curr.next);  // {Mistake 1}
+                return removeZeroSumSublists(dummy.next);  // {Correction 1}
             }
             curr = curr.next;
         }
