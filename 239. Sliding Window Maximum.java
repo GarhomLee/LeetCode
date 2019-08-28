@@ -16,10 +16,11 @@ https://leetcode.com/problems/sliding-window-maximum/
 // 时间复杂度：O(n)，每个元素最多被push和poll各一次
 // 空间复杂度：O(n)
 // 犯错点：1.要判断是否要poll元素，即nums[start]是否等于mq.peek()，需要在start >= 0即window已经形成的情况下。
-
+//         2.边界条件错误：k==0时需要单独讨论
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        if (k == 0) return new int[0];
+        // {Mistake 2}
+        if (k == 0) return new int[0];  // {Correction 2}
         
         int[] res = new int[nums.length - k + 1];
         MonotonicQueue mq = new MonotonicQueue();
