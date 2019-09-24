@@ -11,9 +11,13 @@ Solutions and thoughts about LeetCode problems.
 
 ### Queue
 
+773. Sliding Puzzle
+
 ### Tree
 
 ### Graph
+
+269. Alien Dictionary
 
 ### Trie
 
@@ -21,3 +25,25 @@ Solutions and thoughts about LeetCode problems.
 
 
 ## Algorithm
+
+### Recursion (DFS)
+
+339. Nested List Weight Sum
+
+### BFS
+
+773. Sliding Puzzle
+
+### Greedy
+
+68. Text Justification
+
+### Topological Sort (DFS, BFS)
+
+269. Alien Dictionary
+
+### Info Cache
+
+36. Valid Sudoku
+348. Design Tic-Tac-Toe
+

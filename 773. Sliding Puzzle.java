@@ -75,3 +75,67 @@ class Solution {
         return sb.toString();
     }
 }
+
+
+09/23 二刷
+
+class Solution {
+    int[] dir = new int[]{-1, 0, 1, 0, -1};
+    final int ROW_LEN = 2;
+    final int COL_LEN = 3;
+    
+    public int slidingPuzzle(int[][] board) {
+        String goal = "123450";
+        
+        StringBuilder sb = new StringBuilder();
+        for (int[] line: board) {
+            for (int num: line) {
+                sb.append(num);
+            }
+        }
+        
+        Queue<String> queue = new LinkedList<>();
+        queue.offer(sb.toString());
+        Set<String> set = new HashSet<>();
+        set.add(sb.toString());
+        int move = 0;
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            while (size-- > 0) {
+                String curr = queue.poll();
+                if (curr.equals(goal)) {
+                    return move;
+                }
+
+                int index = -1;
+                for (int i = 0; i < curr.length(); i++) {
+                    if (curr.charAt(i) == '0') {
+                        index = i;
+                        break;
+                    }
+                }
+
+                int row = index / COL_LEN, col = index % COL_LEN;
+                for (int i = 0; i < 4; i++) {
+                    int nextRow = row + dir[i], nextCol = col + dir[i + 1];
+                    int nextIndex = nextRow * COL_LEN + nextCol;
+                    if (nextRow < 0 || nextRow >= ROW_LEN || nextCol < 0 || nextCol >= COL_LEN) continue;
+
+                    char c = curr.charAt(nextIndex);
+                    sb = new StringBuilder(curr);
+                    sb.setCharAt(index, c);
+                    sb.setCharAt(nextIndex, '0');
+                    String next = sb.toString();
+                    if (set.contains(next)) continue;
+
+                    set.add(next);
+                    queue.offer(next);
+                }
+            }
+            
+            move++;
+        }
+        
+        return -1;
+    }
+}
