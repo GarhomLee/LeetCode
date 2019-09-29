@@ -14,9 +14,16 @@ Solutions and thoughts about LeetCode problems.
 
 ### Stack
 
+700. Search in a Binary Search Tree
+
 ### Queue
 
 773. Sliding Puzzle
+
+### Heap
+
+218. The Skyline Problem
+253. Meeting Rooms II
 
 ### Monotonic Queue
 
@@ -29,31 +36,47 @@ Solutions and thoughts about LeetCode problems.
 
 ### Tree
 
+700. Search in a Binary Search Tree (BST)
+
+
 ### Graph
 
 269. Alien Dictionary
 743. Network Delay Time
 785. Is Graph Bipartite?
 
-
 ### Trie
+
 
 ### String
 
+271. Encode and Decode Strings
 290. Word Pattern
 291. Word Pattern II
 
 
+
+
+
+
+
 ## Algorithm
+
+### Sort
+
+252. Meeting Rooms
+253. Meeting Rooms II
 
 ### Recursion (DFS)
 
 339. Nested List Weight Sum
+700. Search in a Binary Search Tree (preorder traversal)
 785. Is Graph Bipartite?
 
 
 ### Backtracking (DFS)
 
+254. Factor Combinations
 291. Word Pattern II
 
 
@@ -61,6 +84,9 @@ Solutions and thoughts about LeetCode problems.
 
 773. Sliding Puzzle
 785. Is Graph Bipartite?
+
+### Morris Traversal
+700. Search in a Binary Search Tree
 
 ### Sliding Window
 
@@ -70,7 +96,7 @@ Solutions and thoughts about LeetCode problems.
 
 68. Text Justification
 
-### Dijkstra's algorithm (minHeap)
+### Dijkstra's Algorithm (minHeap)
 
 743. Network Delay Time
 
@@ -78,9 +104,19 @@ Solutions and thoughts about LeetCode problems.
 
 269. Alien Dictionary
 
+### Sweep Line
+
+218. The Skyline Problem
+253. Meeting Rooms II
+
 
 ### Info Cache
 
 36. Valid Sudoku
 348. Design Tic-Tac-Toe
 
+### Design
+
+271. Encode and Decode Strings (Chunked Transfer Encoding)
+705. Design HashSet
+706. Design HashMap
