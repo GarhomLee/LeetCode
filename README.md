@@ -6,11 +6,14 @@ Solutions and thoughts about LeetCode problems.
 
 ### Array
 
+1085. Sum of Digits in the Minimum Number
+
 ### Linked List
 
 ### Hash Table
 
 290. Word Pattern
+1207. Unique Number of Occurrences
 
 ### Stack
 
@@ -19,6 +22,7 @@ Solutions and thoughts about LeetCode problems.
 ### Queue
 
 773. Sliding Puzzle
+1089. Duplicate Zeros
 
 ### Heap
 
@@ -53,6 +57,8 @@ Solutions and thoughts about LeetCode problems.
 271. Encode and Decode Strings
 290. Word Pattern
 291. Word Pattern II
+1065. Index Pairs of a String
+
 
 
 
@@ -66,6 +72,12 @@ Solutions and thoughts about LeetCode problems.
 
 252. Meeting Rooms
 253. Meeting Rooms II
+1065. Index Pairs of a String
+1086. High Five
+
+### Binary Search
+
+1150. Check If a Number Is Majority Element in a Sorted Array
 
 ### Recursion (DFS)
 
@@ -109,6 +121,10 @@ Solutions and thoughts about LeetCode problems.
 218. The Skyline Problem
 253. Meeting Rooms II
 
+### Math
+
+1085. Sum of Digits in the Minimum Number
+1150. Check If a Number Is Majority Element in a Sorted Array
 
 ### Info Cache
 
