@@ -10,9 +10,12 @@ Solutions and thoughts about LeetCode problems.
 
 ### Linked List
 
+876. Middle of the Linked List
+
 ### Hash Table
 
 290. Word Pattern
+1002. Find Common Characters
 1207. Unique Number of Occurrences
 
 ### Stack
@@ -57,8 +60,9 @@ Solutions and thoughts about LeetCode problems.
 271. Encode and Decode Strings
 290. Word Pattern
 291. Word Pattern II
+1002. Find Common Characters
 1065. Index Pairs of a String
-
+1108. Defanging an IP Address
 
 
 
@@ -74,9 +78,16 @@ Solutions and thoughts about LeetCode problems.
 253. Meeting Rooms II
 1065. Index Pairs of a String
 1086. High Five
+1099. Two Sum Less Than K
+
+### Two Pointers
+
+876. Middle of the Linked List (fast & slow)
+1099. Two Sum Less Than K (low & high)
 
 ### Binary Search
 
+702. Search in a Sorted Array of Unknown Size
 1150. Check If a Number Is Majority Element in a Sorted Array
 
 ### Recursion (DFS)
