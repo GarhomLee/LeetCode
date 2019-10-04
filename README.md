@@ -11,6 +11,7 @@ Solutions and thoughts about LeetCode problems.
 876. Middle of the Linked List
 
 ### Hash Table
+288. Unique Word Abbreviation
 290. Word Pattern
 1002. Find Common Characters
 1207. Unique Number of Occurrences
@@ -48,6 +49,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### String
 271. Encode and Decode Strings
+288. Unique Word Abbreviation
 290. Word Pattern
 291. Word Pattern II
 1002. Find Common Characters
@@ -92,6 +94,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Dynamic Programming (Bottom-up)
 361. Bomb Enemy
+1014. Best Sightseeing Pair
 
 ### BFS
 773. Sliding Puzzle
