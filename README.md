@@ -20,6 +20,7 @@ Solutions and thoughts about LeetCode problems.
 700. Search in a Binary Search Tree
 
 ### Queue
+281. Zigzag Iterator
 773. Sliding Puzzle
 1089. Duplicate Zeros
 
@@ -52,6 +53,7 @@ Solutions and thoughts about LeetCode problems.
 288. Unique Word Abbreviation
 290. Word Pattern
 291. Word Pattern II
+681. Next Closest Time
 1002. Find Common Characters
 1065. Index Pairs of a String
 1108. Defanging an IP Address
@@ -81,6 +83,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Recursion (DFS)
 339. Nested List Weight Sum
+489. Robot Room Cleaner
 700. Search in a Binary Search Tree (preorder traversal)
 785. Is Graph Bipartite?
 
@@ -134,5 +137,6 @@ Solutions and thoughts about LeetCode problems.
 
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)
+281. Zigzag Iterator
 705. Design HashSet
 706. Design HashMap
