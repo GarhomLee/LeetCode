@@ -15,6 +15,8 @@ Solutions and thoughts about LeetCode problems.
 290. Word Pattern
 1002. Find Common Characters
 1207. Unique Number of Occurrences
+1218. Longest Arithmetic Subsequence of Given Difference
+
 
 ### Stack
 700. Search in a Binary Search Tree
@@ -87,17 +89,19 @@ Solutions and thoughts about LeetCode problems.
 700. Search in a Binary Search Tree (preorder traversal)
 785. Is Graph Bipartite?
 
-
 ### Backtracking (DFS)
 254. Factor Combinations
 291. Word Pattern II
+1219. Path with Maximum Gold
 
 ### Recursion with Memoization (Top-down)
-
+1220. Count Vowels Permutation
 
 ### Dynamic Programming (Bottom-up)
 361. Bomb Enemy
 1014. Best Sightseeing Pair
+1218. Longest Arithmetic Subsequence of Given Difference
+
 
 ### BFS
 773. Sliding Puzzle
@@ -111,6 +115,8 @@ Solutions and thoughts about LeetCode problems.
 
 ### Greedy
 68. Text Justification
+1217. Play with Chips
+
 
 ### Dijkstra's Algorithm (minHeap)
 743. Network Delay Time
@@ -130,6 +136,8 @@ Solutions and thoughts about LeetCode problems.
 ### Math
 1085. Sum of Digits in the Minimum Number
 1150. Check If a Number Is Majority Element in a Sorted Array
+1217. Play with Chips
+
 
 ### Info Cache
 36. Valid Sudoku
