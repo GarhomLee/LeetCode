@@ -15,20 +15,25 @@ Solutions and thoughts about LeetCode problems.
 290. Word Pattern
 1002. Find Common Characters
 1207. Unique Number of Occurrences
+1213. Intersection of Three Sorted Arrays
 1218. Longest Arithmetic Subsequence of Given Difference
 
 
+
 ### Stack
+285. Inorder Successor in BST (inorder traversal)
 700. Search in a Binary Search Tree
 
 ### Queue
 281. Zigzag Iterator
+286. Walls and Gates
 773. Sliding Puzzle
 1089. Duplicate Zeros
 
 ### Heap
 218. The Skyline Problem
 253. Meeting Rooms II
+767. Reorganize String
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -39,8 +44,8 @@ Solutions and thoughts about LeetCode problems.
 907. Sum of Subarray Minimums
 
 ### Tree
+285. Inorder Successor in BST (BST)
 700. Search in a Binary Search Tree (BST)
-
 
 ### Graph
 269. Alien Dictionary
@@ -78,12 +83,15 @@ Solutions and thoughts about LeetCode problems.
 ### Two Pointers
 876. Middle of the Linked List (fast & slow)
 1099. Two Sum Less Than K (low & high)
+1213. Intersection of Three Sorted Arrays
 
 ### Binary Search
 702. Search in a Sorted Array of Unknown Size
 1150. Check If a Number Is Majority Element in a Sorted Array
+1213. Intersection of Three Sorted Arrays
 
 ### Recursion (DFS)
+286. Walls and Gates
 339. Nested List Weight Sum
 489. Robot Room Cleaner
 700. Search in a Binary Search Tree (preorder traversal)
@@ -104,10 +112,12 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### BFS
+286. Walls and Gates
 773. Sliding Puzzle
 785. Is Graph Bipartite?
 
 ### Morris Traversal
+285. Inorder Successor in BST
 700. Search in a Binary Search Tree
 
 ### Sliding Window
@@ -115,6 +125,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Greedy
 68. Text Justification
+767. Reorganize String
 1217. Play with Chips
 
 

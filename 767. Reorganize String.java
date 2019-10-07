@@ -74,3 +74,60 @@ class Solution {
         }
     }
 }
+
+
+二刷：
+class Solution {
+    public String reorganizeString(String S) {
+        PriorityQueue<Node> pq = new PriorityQueue<>(new Comparator<Node>() {
+            @Override
+            public int compare(Node n1, Node n2) {
+                return n1.count == n2.count ? n1.c - n2.c: n2.count - n1.count;
+            }
+        });
+        
+        int[] count = new int[26];
+        for (char c: S.toCharArray()) {
+            count[c - 'a']++;
+        }
+        
+        for (int i = 0; i < 26; i++) {
+            if (count[i] > 0) {
+                pq.offer(new Node((char) (i + 'a'), count[i]));
+            }
+        }
+        
+        StringBuilder sb = new StringBuilder();
+        while (pq.size() >= 2) {
+            Node n1 = pq.poll(), n2 = pq.poll();
+            sb.append(n1.c).append(n2.c);
+            //if (--n1.count > 0)  // {Mistake 1}
+            if (--n1.count > 0) {  // {Correction 1}
+                pq.offer(n1);
+            }
+            //if (--n2.count > 0)  // {Mistake 1}
+            if (--n2.count > 0) {  // {Correction 1}
+                pq.offer(n2);
+            }
+        }
+        
+        if (!pq.isEmpty()) {
+            Node n = pq.poll();
+            if (n.count > 1) {
+                return "";
+            }
+            sb.append(n.c);
+        }
+        
+        return sb.toString();
+    }
+    
+    class Node {
+        char c;
+        int count;
+        Node (char ch, int cnt) {
+            c = ch;
+            count = cnt;
+        }
+    }
+}
