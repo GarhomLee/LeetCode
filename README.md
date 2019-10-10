@@ -13,6 +13,8 @@ Solutions and thoughts about LeetCode problems.
 ### Hash Table
 288. Unique Word Abbreviation
 290. Word Pattern
+353. Design Snake Game
+895. Maximum Frequency Stack
 1002. Find Common Characters
 1207. Unique Number of Occurrences
 1213. Intersection of Three Sorted Arrays
@@ -23,10 +25,12 @@ Solutions and thoughts about LeetCode problems.
 ### Stack
 285. Inorder Successor in BST (inorder traversal)
 700. Search in a Binary Search Tree
+895. Maximum Frequency Stack
 
 ### Queue
 281. Zigzag Iterator
 286. Walls and Gates
+353. Design Snake Game
 773. Sliding Puzzle
 1089. Duplicate Zeros
 
@@ -159,5 +163,7 @@ Solutions and thoughts about LeetCode problems.
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)
 281. Zigzag Iterator
+353. Design Snake Game
 705. Design HashSet
 706. Design HashMap
+895. Maximum Frequency Stack
