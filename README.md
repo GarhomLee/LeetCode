@@ -102,6 +102,8 @@ Solutions and thoughts about LeetCode problems.
 700. Search in a Binary Search Tree (preorder traversal)
 785. Is Graph Bipartite?
 1214. Two Sum BSTs (preorder traversal)
+1222. Queens That Can Attack the King
+
 
 ### Backtracking (DFS)
 254. Factor Combinations
@@ -112,11 +114,13 @@ Solutions and thoughts about LeetCode problems.
 
 ### Recursion with Memoization (Top-down)
 1220. Count Vowels Permutation
+1223. Dice Roll Simulation
 
 ### Dynamic Programming (Bottom-up)
 361. Bomb Enemy
 1014. Best Sightseeing Pair
 1218. Longest Arithmetic Subsequence of Given Difference
+1223. Dice Roll Simulation
 
 
 ### BFS
@@ -135,6 +139,7 @@ Solutions and thoughts about LeetCode problems.
 68. Text Justification
 767. Reorganize String
 1217. Play with Chips
+1221. Split a String in Balanced Strings
 
 
 ### Dijkstra's Algorithm (minHeap)
