@@ -23,6 +23,7 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### Stack
+227. Basic Calculator II
 285. Inorder Successor in BST (inorder traversal)
 700. Search in a Binary Search Tree
 895. Maximum Frequency Stack
@@ -37,6 +38,7 @@ Solutions and thoughts about LeetCode problems.
 ### Heap
 218. The Skyline Problem
 253. Meeting Rooms II
+642. Design Search Autocomplete System
 767. Reorganize String
 
 ### Monotonic Queue
@@ -57,6 +59,7 @@ Solutions and thoughts about LeetCode problems.
 785. Is Graph Bipartite?
 
 ### Trie
+642. Design Search Autocomplete System
 
 
 ### String
@@ -68,8 +71,6 @@ Solutions and thoughts about LeetCode problems.
 1002. Find Common Characters
 1065. Index Pairs of a String
 1108. Defanging an IP Address
-
-
 
 
 
@@ -105,6 +106,7 @@ Solutions and thoughts about LeetCode problems.
 ### Backtracking (DFS)
 254. Factor Combinations
 291. Word Pattern II
+642. Design Search Autocomplete System
 1215. Stepping Numbers
 1219. Path with Maximum Gold
 
@@ -151,6 +153,7 @@ Solutions and thoughts about LeetCode problems.
 661. Image Smoother
 
 ### Math
+227. Basic Calculator II
 1085. Sum of Digits in the Minimum Number
 1150. Check If a Number Is Majority Element in a Sorted Array
 1217. Play with Chips

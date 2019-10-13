@@ -70,3 +70,42 @@ class Solution {
         return res;
     }
 }
+
+
+// 解法二：Math，利用变量pre处理乘除的情况
+
+class Solution {
+    public int calculate(String s) {
+        int res = 0, pre = 0, curr = 0;
+        char preOp = '+';
+        for (int i = 0; i <= s.length(); i++) {
+            if (i == s.length() || !Character.isDigit(s.charAt(i))) {
+                if (i < s.length() && s.charAt(i) == ' ') continue;
+                
+                if (preOp == '+') {
+                    res += curr;
+                    pre = curr;
+                } else if (preOp == '-') {
+                    res -= curr;
+                    pre = -curr;
+                } else if (preOp == '*') {
+                    res = res - pre + pre * curr;
+                    pre = pre * curr;
+                } else if (preOp == '/') {
+                    res = res - pre + pre / curr;
+                    pre = pre / curr;
+                }
+                
+                curr = 0;
+                
+                if (i < s.length()) {
+                    preOp = s.charAt(i);
+                }
+            } else {
+                curr = curr * 10 + (s.charAt(i) - '0');
+            }
+        }
+        
+        return res;
+    }
+}
