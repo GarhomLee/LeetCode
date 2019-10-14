@@ -15,6 +15,7 @@ Solutions and thoughts about LeetCode problems.
 290. Word Pattern
 353. Design Snake Game
 895. Maximum Frequency Stack
+993. Cousins in Binary Tree
 1002. Find Common Characters
 1207. Unique Number of Occurrences
 1213. Intersection of Three Sorted Arrays
@@ -23,7 +24,9 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### Stack
+224. Basic Calculator
 227. Basic Calculator II
+772. Basic Calculator III
 285. Inorder Successor in BST (inorder traversal)
 700. Search in a Binary Search Tree
 895. Maximum Frequency Stack
@@ -52,6 +55,7 @@ Solutions and thoughts about LeetCode problems.
 ### Tree
 285. Inorder Successor in BST (BST)
 700. Search in a Binary Search Tree (BST)
+993. Cousins in Binary Tree
 
 ### Graph
 269. Alien Dictionary
@@ -101,8 +105,10 @@ Solutions and thoughts about LeetCode problems.
 489. Robot Room Cleaner
 700. Search in a Binary Search Tree (preorder traversal)
 785. Is Graph Bipartite?
+993. Cousins in Binary Tree
 1214. Two Sum BSTs (preorder traversal)
 1222. Queens That Can Attack the King
+
 
 
 ### Backtracking (DFS)
@@ -159,6 +165,8 @@ Solutions and thoughts about LeetCode problems.
 
 ### Math
 227. Basic Calculator II
+772. Basic Calculator III
+780. Reaching Points
 1085. Sum of Digits in the Minimum Number
 1150. Check If a Number Is Majority Element in a Sorted Array
 1217. Play with Chips
