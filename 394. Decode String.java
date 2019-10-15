@@ -46,3 +46,40 @@ class Solution {
         return sb.toString();
     }
 }
+
+// 二刷：只维护一个Stack
+
+class Solution {
+    public String decodeString(String s) {
+        Stack<String> stack = new Stack<>();
+        StringBuilder sb = new StringBuilder();
+//         for (int i = 0; i <= s.length(); i++) {
+            
+//         }
+        int curr = 0;
+        for (char c: s.toCharArray()) {
+            if (Character.isDigit(c)) {
+                curr = curr * 10 + (c - '0');
+            } else if (c == ']') {
+                String str = sb.toString();
+                StringBuilder temp = new StringBuilder();
+                curr = Integer.valueOf(stack.pop());
+                for (int i = 0; i < curr; i++) {
+                    temp.append(str);
+                }
+                sb = new StringBuilder(stack.pop());
+                sb.append(temp.toString());
+                curr = 0;
+            } else if (c == '[') {
+                stack.push(sb.toString());
+                stack.push(curr + "");
+                sb = new StringBuilder();
+                curr = 0;
+            } else {
+                sb.append(c);
+            }
+        }
+        
+        return sb.toString();
+    }
+}

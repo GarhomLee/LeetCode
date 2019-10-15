@@ -42,30 +42,41 @@ class Solution {
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
         int rowLen = matrix.length, colLen = rowLen == 0? 0 : matrix[0].length;
+        /* binary search using range [lowest:highest] in matrix, ie. low is the lowest and high is the highest number in matrix */
         int low = matrix[0][0], high = matrix[rowLen - 1][colLen - 1];
-        
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            int count = getLessThan(matrix, mid);
+            int count = getLE(matrix, mid);
             if (count >= k) high = mid - 1;
             else low = mid + 1;
         }
         return low;
     }
     
-    private int getLessThan(int[][] matrix, int val) {
+    private int getLE(int[][] matrix, int val) {
         int rowLen = matrix.length, colLen = rowLen == 0? 0 : matrix[0].length;
         int count = 0;
         for (int row = 0; row < rowLen; row++) {
             /* optimization: use binary search to find the number of elements less than val in each col */
-            int colLow = 0, colHigh = colLen - 1;
-            while (colLow <= colHigh) {
-                int colMid = colLow + (colHigh - colLow) / 2;
-                if (matrix[row][colMid] > val) colHigh = colMid - 1;
-                else colLow = colMid + 1;
-            }
-            count += colLow;
+            int index = binarySearch(matrix[row], target);  // find the index where elements in [index, length) are greater than target, therefore elements in [0:index) are less than target
+            count += index;
         }
+        
         return count;
+    }
+    
+    private int binarySearch(int[] arr, int target) {
+        /* binary search using index [0:length-1] in matrix, ie. low is 0, high is arr.length - 1 */
+        int low = 0, high = arr.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] > target) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        
+        return low;
     }
 }

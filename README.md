@@ -26,6 +26,8 @@ Solutions and thoughts about LeetCode problems.
 ### Stack
 224. Basic Calculator
 227. Basic Calculator II
+394. Decode String
+591. Tag Validator
 772. Basic Calculator III
 285. Inorder Successor in BST (inorder traversal)
 700. Search in a Binary Search Tree
@@ -85,16 +87,19 @@ Solutions and thoughts about LeetCode problems.
 ### Sort
 252. Meeting Rooms
 253. Meeting Rooms II
+287. Find the Duplicate Number
 1065. Index Pairs of a String
 1086. High Five
 1099. Two Sum Less Than K
 
 ### Two Pointers
+287. Find the Duplicate Number (fast & slow)
 876. Middle of the Linked List (fast & slow)
 1099. Two Sum Less Than K (low & high)
 1213. Intersection of Three Sorted Arrays
 
 ### Binary Search
+378. Kth Smallest Element in a Sorted Matrix (search in range)
 702. Search in a Sorted Array of Unknown Size
 1150. Check If a Number Is Majority Element in a Sorted Array
 1213. Intersection of Three Sorted Arrays
@@ -112,6 +117,8 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### Backtracking (DFS)
+126. Word Ladder II
+140. Word Break II
 254. Factor Combinations
 291. Word Pattern II
 642. Design Search Autocomplete System
@@ -123,6 +130,7 @@ Solutions and thoughts about LeetCode problems.
 1223. Dice Roll Simulation
 
 ### Dynamic Programming (Bottom-up)
+139. Word Break
 361. Bomb Enemy
 1014. Best Sightseeing Pair
 1218. Longest Arithmetic Subsequence of Given Difference
@@ -130,9 +138,12 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### BFS
+126. Word Ladder II
+127. Word Ladder
 286. Walls and Gates
 773. Sliding Puzzle
 785. Is Graph Bipartite?
+909. Snakes and Ladders
 
 ### Morris Traversal
 285. Inorder Successor in BST
