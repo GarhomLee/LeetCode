@@ -1,9 +1,10 @@
 https://leetcode.com/problems/word-break-ii/
 
-解法一：Bottom-up Memoization
-        由于对于确定的字符串s，进行word break后能得到的所有sequence组合是确定的，所以可以用memoization来减少计算降低，时间复杂度。
-        例如：s = "pineapplepenapple"，wordDict = ["apple", "pen", "pineapple"]，无论前半部分是分割成["pineapple"]还是["pine apple"]，
-        后半部分只有["pen applen"]一种情况，所以可以用Map存储下来跟这个字符串对应的sequence情况。
+// 解法一：Bottom-up Memoization
+//         由于对于确定的字符串s，进行word break后能得到的所有sequence组合是确定的，所以可以用memoization来减少计算降低，时间复杂度。
+//         例如：s = "pineapplepenapple"，wordDict = ["apple", "pen", "pineapple"]，无论前半部分是分割成["pineapple"]还是["pine apple"]，
+//         后半部分只有["pen applen"]一种情况，所以可以用Map存储下来跟这个字符串对应的sequence情况。
+
 class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         Set<String> set = new HashSet<>(wordDict);

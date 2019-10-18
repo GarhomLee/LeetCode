@@ -28,3 +28,37 @@ class Solution {
         return dp[s.length()];
     }
 }
+
+
+// 解法二：Top-down Recursion with Memoization
+// 时间复杂度：O(w^2), w=wordDict.size()
+// 空间复杂度：O(n), n=s.length()
+
+class Solution {
+    public boolean wordBreak(String s, List<String> wordDict) {
+        // Set<String> set =  new HashSet<>(wordDict);
+        int[] dp = new int[s.length()];
+        return dfs(s, 0, wordDict, dp) == 2;
+    }
+    
+    private int dfs(String s, int start, List<String> list, int[] dp) {
+        if (start >= s.length()) {
+            return start == s.length() ? 2 : 1;
+        }
+        if (dp[start] != 0) {
+            return dp[start];
+        }
+        
+        dp[start] = 1;
+        for (String next: list) {
+            if (s.startsWith(next, start)) {
+                dp[start] = dfs(s, start + next.length(), list, dp);
+                if (dp[start] == 2) {
+                    break;
+                }
+            }
+        }
+        
+        return dp[start];
+    }
+}

@@ -46,3 +46,54 @@ class Solution {
         return false;
     }
 }
+
+
+// 解法二：BFS，维护indegree数组
+// 时间复杂度：O(V + E)
+// 空间复杂度：O(V)
+
+class Solution {
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
+        int[] indegree = new int[numCourses];
+        List<Integer>[] graph = new List[numCourses];
+        for (int i = 0; i < numCourses; i++) {
+            graph[i] = new ArrayList<>();
+        }
+        
+        for (int[] edge: prerequisites) {
+            int from = edge[1], to = edge[0];
+            graph[from].add(to);
+            indegree[to]++;
+        }
+        
+        Queue<Integer> queue = new LinkedList<>();
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < numCourses; i++) {
+            if (indegree[i] == 0) {
+                queue.offer(i);
+                list.add(i);
+            }
+        }
+        
+        while (!queue.isEmpty()) {
+            int curr = queue.poll();
+            for (int next: graph[curr]) {
+                if (--indegree[next] == 0) {
+                    queue.offer(next);
+                    list.add(next);
+                }
+            }
+        }
+        
+        if (list.size() != numCourses) {
+            return new int[0];
+        }
+        
+        int[] res = new int[numCourses];
+        for (int i = 0; i < numCourses; i++) {
+            res[i] = list.get(i);
+        }
+        
+        return res;
+    }
+}

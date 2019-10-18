@@ -43,8 +43,11 @@ Solutions and thoughts about LeetCode problems.
 ### Heap
 218. The Skyline Problem
 253. Meeting Rooms II
+630. Course Schedule III (maxHeap)
 642. Design Search Autocomplete System
+743. Network Delay Time (shortest path)
 767. Reorganize String
+1168. Optimize Water Distribution in a Village (MST)
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -61,14 +64,16 @@ Solutions and thoughts about LeetCode problems.
 
 ### Graph
 269. Alien Dictionary
-743. Network Delay Time
+743. Network Delay Time (shortest path)
 785. Is Graph Bipartite?
+1168. Optimize Water Distribution in a Village (MST)
 
 ### Trie
 642. Design Search Autocomplete System
 
 
 ### String
+179. Largest Number
 271. Encode and Decode Strings
 288. Unique Word Abbreviation
 290. Word Pattern
@@ -85,6 +90,7 @@ Solutions and thoughts about LeetCode problems.
 ## Algorithm
 
 ### Sort
+179. Largest Number
 252. Meeting Rooms
 253. Meeting Rooms II
 287. Find the Duplicate Number
@@ -105,6 +111,8 @@ Solutions and thoughts about LeetCode problems.
 1213. Intersection of Three Sorted Arrays
 
 ### Recursion (DFS)
+207. Course Schedule
+210. Course Schedule II
 286. Walls and Gates
 339. Nested List Weight Sum
 489. Robot Room Cleaner
@@ -118,7 +126,6 @@ Solutions and thoughts about LeetCode problems.
 
 ### Backtracking (DFS)
 126. Word Ladder II
-140. Word Break II
 254. Factor Combinations
 291. Word Pattern II
 642. Design Search Autocomplete System
@@ -126,6 +133,8 @@ Solutions and thoughts about LeetCode problems.
 1219. Path with Maximum Gold
 
 ### Recursion with Memoization (Top-down)
+139. Word Break
+140. Word Break II
 1220. Count Vowels Permutation
 1223. Dice Roll Simulation
 
@@ -140,7 +149,10 @@ Solutions and thoughts about LeetCode problems.
 ### BFS
 126. Word Ladder II
 127. Word Ladder
+207. Course Schedule
+210. Course Schedule II
 286. Walls and Gates
+743. Network Delay Time (shortest path)
 773. Sliding Puzzle
 785. Is Graph Bipartite?
 909. Snakes and Ladders
@@ -154,6 +166,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Greedy
 68. Text Justification
+630. Course Schedule III
 767. Reorganize String
 1217. Play with Chips
 1221. Split a String in Balanced Strings
@@ -164,6 +177,8 @@ Solutions and thoughts about LeetCode problems.
 
 ### Topological Sort (DFS, BFS)
 269. Alien Dictionary
+207. Course Schedule
+210. Course Schedule II
 
 ### Sweep Line
 218. The Skyline Problem

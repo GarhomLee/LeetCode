@@ -16,22 +16,27 @@ class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         /* graph construction */
         List<List<Integer>> graph = new ArrayList<>();
-        for (int i = 0; i < numCourses; i++) graph.add(new ArrayList<Integer>());  // preprocessing
+        for (int i = 0; i < numCourses; i++)
+            graph.add(new ArrayList<Integer>()); // preprocessing
 
         for (int i = 0; i < prerequisites.length; i++) {
             int course = prerequisites[i][0];
             int prerequisite = prerequisites[i][1];
-            graph.get(prerequisite).add(course);  // direction: from prerequisite to courses
+            graph.get(prerequisite).add(course); // direction: from prerequisite to courses
         }
-        /* maintain a array that records the visiting state: 0 is not visited, 1 is visiting, 2 is visited */
+        /*
+         * maintain a array that records the visiting state: 0 is not visited, 1 is
+         * visiting, 2 is visited
+         */
         int[] state = new int[numCourses];
         /* dfs */
         for (int i = 0; i < numCourses; i++) {
-            if (isCyclic(graph, state, i)) return false;  // a cycle is found, therefore it is not possible to finish
+            if (isCyclic(graph, state, i))
+                return false; // a cycle is found, therefore it is not possible to finish
         }
         return true;
     }
-    
+
     /** helper method for finding cycle, return true if a cycle is found */
     private boolean isCyclic(List<List<Integer>> graph, int[] state, int curr) {
         if (state[curr] == 1) return true;  // cycle found
@@ -42,5 +47,49 @@ class Solution {
         }
         state[curr] = 2;
         return false;
+    }}
+
+// 解法二：BFS，维护indegree数组。
+//     利用topological sort，得到结果List，比较List中元素个数是否为所有node个数的总数。
+// 时间复杂度：O(V + E)
+// 空间复杂度：O(V)
+// 犯错点：1.细节错误：在利用indegree为0的节点初始化Queue时，这些节点也需要加入res列表中。
+
+class Solution {
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        int[] indegree = new int[numCourses];
+        List<Integer>[] graph = new List[numCourses];
+        for (int i = 0; i < numCourses; i++) {
+            graph[i] = new ArrayList<>();
+        }
+        
+        for (int[] edge: prerequisites) {
+            int from = edge[0], to = edge[1];
+            graph[from].add(to);
+            indegree[to]++;
+        }
+        
+        Queue<Integer> queue = new LinkedList<>();
+        // {Mistake 1}
+        List<Integer> res = new ArrayList<>();  // {Correction 1}
+        for (int i = 0; i < numCourses; i++) {
+            if (indegree[i] == 0) {
+                queue.offer(i);
+                // {Mistake 1}
+                res.add(i);  // {Correction 1}
+            }
+        }
+        
+        while (!queue.isEmpty()) {
+            int curr = queue.poll();
+            for (int next: graph[curr]) {
+                if (--indegree[next] == 0) {
+                    queue.offer(next);
+                    res.add(next);
+                }
+            }
+        }
+        
+        return res.size() == numCourses;
     }
 }
