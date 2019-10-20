@@ -82,7 +82,7 @@ Solutions and thoughts about LeetCode problems.
 1002. Find Common Characters
 1065. Index Pairs of a String
 1108. Defanging an IP Address
-
+1233. Remove Sub-Folders from the Filesystem
 
 
 
@@ -97,6 +97,7 @@ Solutions and thoughts about LeetCode problems.
 1065. Index Pairs of a String
 1086. High Five
 1099. Two Sum Less Than K
+1235. Maximum Profit in Job Scheduling
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -110,6 +111,8 @@ Solutions and thoughts about LeetCode problems.
 1150. Check If a Number Is Majority Element in a Sorted Array
 1213. Intersection of Three Sorted Arrays
 1228. Missing Number In Arithmetic Progression (search in index)
+1235. Maximum Profit in Job Scheduling (search in index)
+
 
 ### Recursion (DFS)
 207. Course Schedule
@@ -145,6 +148,7 @@ Solutions and thoughts about LeetCode problems.
 1014. Best Sightseeing Pair
 1218. Longest Arithmetic Subsequence of Given Difference
 1223. Dice Roll Simulation
+1235. Maximum Profit in Job Scheduling
 
 
 ### BFS
@@ -163,7 +167,9 @@ Solutions and thoughts about LeetCode problems.
 700. Search in a Binary Search Tree
 
 ### Sliding Window
+76. Minimum Window Substring （模版题）
 239. Sliding Window Maximum
+1234. Replace the Substring for Balanced String
 
 ### Greedy
 68. Text Justification
@@ -199,6 +205,7 @@ Solutions and thoughts about LeetCode problems.
 1085. Sum of Digits in the Minimum Number
 1150. Check If a Number Is Majority Element in a Sorted Array
 1217. Play with Chips
+1232. Check If It Is a Straight Line
 
 
 ### Info Cache
