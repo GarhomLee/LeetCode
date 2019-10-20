@@ -109,6 +109,7 @@ Solutions and thoughts about LeetCode problems.
 702. Search in a Sorted Array of Unknown Size
 1150. Check If a Number Is Majority Element in a Sorted Array
 1213. Intersection of Three Sorted Arrays
+1228. Missing Number In Arithmetic Progression (search in index)
 
 ### Recursion (DFS)
 207. Course Schedule
@@ -188,11 +189,13 @@ Solutions and thoughts about LeetCode problems.
 ### Bit Manipulation
 289. Game of Life
 661. Image Smoother
+1073. Adding Two Negabinary Numbers
 
 ### Math
 227. Basic Calculator II
 772. Basic Calculator III
 780. Reaching Points
+1073. Adding Two Negabinary Numbers
 1085. Sum of Digits in the Minimum Number
 1150. Check If a Number Is Majority Element in a Sorted Array
 1217. Play with Chips
