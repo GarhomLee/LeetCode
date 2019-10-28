@@ -14,6 +14,7 @@ Solutions and thoughts about LeetCode problems.
 288. Unique Word Abbreviation
 290. Word Pattern
 353. Design Snake Game
+811. Subdomain Visit Count
 895. Maximum Frequency Stack
 993. Cousins in Binary Tree
 1002. Find Common Characters
@@ -175,6 +176,7 @@ Solutions and thoughts about LeetCode problems.
 68. Text Justification
 630. Course Schedule III
 767. Reorganize String
+1007. Minimum Domino Rotations For Equal Row
 1217. Play with Chips
 1221. Split a String in Balanced Strings
 
