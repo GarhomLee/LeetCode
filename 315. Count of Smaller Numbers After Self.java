@@ -65,3 +65,63 @@ class Solution {
 }
 
 解法二：Binary Indexed Tree
+
+
+解法三：Divide & Conquer
+
+class Solution {
+    public List<Integer> countSmaller(int[] nums) {
+        List<Integer> res = new ArrayList<>();
+        Node[] arr = new Node[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            arr[i] = new Node(i, nums[i], 0);
+        }
+        
+        mergesort(arr, 0, nums.length - 1);
+        
+        Arrays.sort(arr, new Comparator<Node>() {
+            @Override
+            public int compare(Node n1, Node n2) {
+                return n1.index - n2.index;
+            }
+        });
+        for (Node node : arr) {
+            res.add(node.count);
+        }
+        return res;
+    }
+    
+    private void mergesort(Node[] arr, int low, int high) {
+        if (low >= high) {
+            return;
+        }
+        
+        int mid = low + (high - low) / 2;
+        mergesort(arr, low, mid);
+        mergesort(arr, mid + 1, high);
+        
+        for (int left = low, right = mid + 1; left <= mid; left++) {
+            while (right <= high && arr[right].val < arr[left].val) {
+                right++;
+            }
+            
+            arr[left].count += (right - (mid + 1));
+        }
+        
+        Arrays.sort(arr, low, high + 1, new Comparator<Node>() {
+            @Override
+            public int compare(Node n1, Node n2) {
+                return n1.val - n2.val;
+            }
+        });
+    }
+    
+    class Node {
+        int index, count, val;
+        public Node(int i, int v, int cnt) {
+            index = i;
+            val = v;
+            count = cnt;
+        }
+    }
+}

@@ -5,6 +5,7 @@ Solutions and thoughts about LeetCode problems.
 ## Data Structrue
 
 ### Array
+641. Design Circular Deque
 1085. Sum of Digits in the Minimum Number
 
 ### Linked List
@@ -29,6 +30,7 @@ Solutions and thoughts about LeetCode problems.
 227. Basic Calculator II
 394. Decode String
 591. Tag Validator
+682. Baseball Game
 772. Basic Calculator III
 285. Inorder Successor in BST (inorder traversal)
 700. Search in a Binary Search Tree
@@ -60,6 +62,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Tree
 285. Inorder Successor in BST (BST)
+669. Trim a Binary Search Tree (BST)
 700. Search in a Binary Search Tree (BST)
 993. Cousins in Binary Tree
 
@@ -95,6 +98,7 @@ Solutions and thoughts about LeetCode problems.
 252. Meeting Rooms
 253. Meeting Rooms II
 287. Find the Duplicate Number
+628. Maximum Product of Three Numbers
 1065. Index Pairs of a String
 1086. High Five
 1099. Two Sum Less Than K
@@ -102,6 +106,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
+828. Unique Letter String
 876. Middle of the Linked List (fast & slow)
 1099. Two Sum Less Than K (low & high)
 1213. Intersection of Three Sorted Arrays
@@ -109,6 +114,7 @@ Solutions and thoughts about LeetCode problems.
 ### Binary Search
 378. Kth Smallest Element in a Sorted Matrix (search in range)
 702. Search in a Sorted Array of Unknown Size
+718. Maximum Length of Repeated Subarray (search in index or length)
 1150. Check If a Number Is Majority Element in a Sorted Array
 1213. Intersection of Three Sorted Arrays
 1228. Missing Number In Arithmetic Progression (search in index)
@@ -121,8 +127,11 @@ Solutions and thoughts about LeetCode problems.
 286. Walls and Gates
 339. Nested List Weight Sum
 489. Robot Room Cleaner
+669. Trim a Binary Search Tree
+695. Max Area of Island
 700. Search in a Binary Search Tree (preorder traversal)
 785. Is Graph Bipartite?
+872. Leaf-Similar Trees
 993. Cousins in Binary Tree
 1214. Two Sum BSTs (preorder traversal)
 1222. Queens That Can Attack the King
@@ -146,6 +155,7 @@ Solutions and thoughts about LeetCode problems.
 ### Dynamic Programming (Bottom-up)
 139. Word Break
 361. Bomb Enemy
+718. Maximum Length of Repeated Subarray
 1014. Best Sightseeing Pair
 1218. Longest Arithmetic Subsequence of Given Difference
 1223. Dice Roll Simulation
@@ -174,12 +184,17 @@ Solutions and thoughts about LeetCode problems.
 
 ### Greedy
 68. Text Justification
+435. Non-overlapping Intervals
+452. Minimum Number of Arrows to Burst Balloons
 630. Course Schedule III
 767. Reorganize String
 1007. Minimum Domino Rotations For Equal Row
 1217. Play with Chips
 1221. Split a String in Balanced Strings
 
+### Divide & Conquer
+315. Count of Smaller Numbers After Self
+327. Count of Range Sum
 
 ### Dijkstra's Algorithm (minHeap)
 743. Network Delay Time
@@ -201,6 +216,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Math
 227. Basic Calculator II
+628. Maximum Product of Three Numbers
 772. Basic Calculator III
 780. Reaching Points
 1073. Adding Two Negabinary Numbers
@@ -218,6 +234,15 @@ Solutions and thoughts about LeetCode problems.
 271. Encode and Decode Strings (Chunked Transfer Encoding)
 281. Zigzag Iterator
 353. Design Snake Game
+641. Design Circular Deque
 705. Design HashSet
 706. Design HashMap
 895. Maximum Frequency Stack
+
+
+
+### Intervals
+253. Meeting Rooms II
+435. Non-overlapping Intervals
+452. Minimum Number of Arrows to Burst Balloons
+1235. Maximum Profit in Job Scheduling

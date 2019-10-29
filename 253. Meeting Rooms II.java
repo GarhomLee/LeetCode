@@ -42,3 +42,33 @@ class Solution {
         return maxCount;
     }
 }
+
+
+// 二刷：Sort
+//     转成List，起始时间为非负数，终止时间为负数，排序，求最大重叠数量。
+// 时间复杂度：O(n log n)
+// 空间复杂度：O(n)
+
+class Solution {
+    public int minMeetingRooms(int[][] intervals) {
+        List<Integer> list = new ArrayList<>();
+        for (int[] interval : intervals) {
+            list.add(interval[0]);
+            list.add(-interval[1]);
+        }
+        Collections.sort(list, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer i1, Integer i2) {
+                return Math.abs(i1) == Math.abs(i2) ? i1 - i2 : Math.abs(i1) - Math.abs(i2);
+            }
+        });
+        
+        int max = 0, curr = 0;
+        for (int num : list) {
+            curr += num >= 0 ? 1 : -1;
+            max = Math.max(max, curr);
+        }
+        
+        return max;
+    }
+}
