@@ -82,6 +82,7 @@ Solutions and thoughts about LeetCode problems.
 288. Unique Word Abbreviation
 290. Word Pattern
 291. Word Pattern II
+657. Robot Return to Origin
 681. Next Closest Time
 1002. Find Common Characters
 1065. Index Pairs of a String
@@ -108,6 +109,7 @@ Solutions and thoughts about LeetCode problems.
 287. Find the Duplicate Number (fast & slow)
 828. Unique Letter String
 876. Middle of the Linked List (fast & slow)
+905. Sort Array By Parity (low & high)
 1099. Two Sum Less Than K (low & high)
 1213. Intersection of Three Sorted Arrays
 
@@ -172,6 +174,9 @@ Solutions and thoughts about LeetCode problems.
 773. Sliding Puzzle
 785. Is Graph Bipartite?
 909. Snakes and Ladders
+
+### Quick Select
+215. Kth Largest Element in an Array
 
 ### Morris Traversal
 285. Inorder Successor in BST
