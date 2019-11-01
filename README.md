@@ -40,6 +40,7 @@ Solutions and thoughts about LeetCode problems.
 281. Zigzag Iterator
 286. Walls and Gates
 353. Design Snake Game
+362. Design Hit Counter
 773. Sliding Puzzle
 1089. Duplicate Zeros
 
@@ -147,6 +148,7 @@ Solutions and thoughts about LeetCode problems.
 254. Factor Combinations
 291. Word Pattern II
 642. Design Search Autocomplete System
+980. Unique Paths III
 1215. Stepping Numbers
 1219. Path with Maximum Gold
 
@@ -243,6 +245,7 @@ Solutions and thoughts about LeetCode problems.
 271. Encode and Decode Strings (Chunked Transfer Encoding)
 281. Zigzag Iterator
 353. Design Snake Game
+362. Design Hit Counter
 641. Design Circular Deque
 705. Design HashSet
 706. Design HashMap
