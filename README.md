@@ -6,6 +6,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Array
 641. Design Circular Deque
+645. Set Mismatch
 1085. Sum of Digits in the Minimum Number
 
 ### Linked List
@@ -258,3 +259,8 @@ Solutions and thoughts about LeetCode problems.
 435. Non-overlapping Intervals
 452. Minimum Number of Arrows to Burst Balloons
 1235. Maximum Profit in Job Scheduling
+
+
+### Find Missing/Duplicate Number
+287. Find the Duplicate Number
+645. Set Mismatch
