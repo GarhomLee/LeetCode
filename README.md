@@ -18,6 +18,7 @@ Solutions and thoughts about LeetCode problems.
 353. Design Snake Game
 811. Subdomain Visit Count
 895. Maximum Frequency Stack
+961. N-Repeated Element in Size 2N Array
 993. Cousins in Binary Tree
 1002. Find Common Characters
 1207. Unique Number of Occurrences
@@ -75,6 +76,11 @@ Solutions and thoughts about LeetCode problems.
 785. Is Graph Bipartite?
 1168. Optimize Water Distribution in a Village (MST)
 
+### Union Find
+305. Number of Islands II
+547. Friend Circles
+685. Redundant Connection II
+
 ### Trie
 642. Design Search Autocomplete System
 
@@ -125,6 +131,8 @@ Solutions and thoughts about LeetCode problems.
 1213. Intersection of Three Sorted Arrays
 1228. Missing Number In Arithmetic Progression (search in index)
 1235. Maximum Profit in Job Scheduling (search in index)
+1237. Find Positive Integer Solution for a Given Equation
+
 
 
 ### Recursion (DFS)
@@ -134,14 +142,16 @@ Solutions and thoughts about LeetCode problems.
 339. Nested List Weight Sum
 489. Robot Room Cleaner
 669. Trim a Binary Search Tree
+694. Number of Distinct Islands
 695. Max Area of Island
 700. Search in a Binary Search Tree (preorder traversal)
 785. Is Graph Bipartite?
 872. Leaf-Similar Trees
 993. Cousins in Binary Tree
+1022. Sum of Root To Leaf Binary Numbers
 1214. Two Sum BSTs (preorder traversal)
 1222. Queens That Can Attack the King
-
+1254. Number of Closed Islands
 
 
 ### Backtracking (DFS)
@@ -152,6 +162,8 @@ Solutions and thoughts about LeetCode problems.
 980. Unique Paths III
 1215. Stepping Numbers
 1219. Path with Maximum Gold
+1255. Maximum Score Words Formed by Letters
+
 
 ### Recursion with Memoization (Top-down)
 139. Word Break
@@ -203,6 +215,7 @@ Solutions and thoughts about LeetCode problems.
 1007. Minimum Domino Rotations For Equal Row
 1217. Play with Chips
 1221. Split a String in Balanced Strings
+1253. Reconstruct a 2-Row Binary Matrix
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -231,6 +244,7 @@ Solutions and thoughts about LeetCode problems.
 628. Maximum Product of Three Numbers
 772. Basic Calculator III
 780. Reaching Points
+1056. Confusing Number
 1073. Adding Two Negabinary Numbers
 1085. Sum of Digits in the Minimum Number
 1150. Check If a Number Is Majority Element in a Sorted Array
@@ -264,3 +278,7 @@ Solutions and thoughts about LeetCode problems.
 ### Find Missing/Duplicate Number
 287. Find the Duplicate Number
 645. Set Mismatch
+
+### Simulation
+1243. Array Transformation
+1252. Cells with Odd Values in a Matrix
