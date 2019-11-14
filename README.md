@@ -10,6 +10,7 @@ Solutions and thoughts about LeetCode problems.
 1085. Sum of Digits in the Minimum Number
 
 ### Linked List
+716. Max Stack
 876. Middle of the Linked List
 
 ### Hash Table
@@ -26,16 +27,16 @@ Solutions and thoughts about LeetCode problems.
 1218. Longest Arithmetic Subsequence of Given Difference
 
 
-
 ### Stack
 224. Basic Calculator
 227. Basic Calculator II
+285. Inorder Successor in BST (inorder traversal)
 394. Decode String
 591. Tag Validator
 682. Baseball Game
-772. Basic Calculator III
-285. Inorder Successor in BST (inorder traversal)
 700. Search in a Binary Search Tree
+735. Asteroid Collision
+772. Basic Calculator III
 895. Maximum Frequency Stack
 
 ### Queue
@@ -68,10 +69,12 @@ Solutions and thoughts about LeetCode problems.
 314. Binary Tree Vertical Order Traversal (BST)
 669. Trim a Binary Search Tree (BST)
 700. Search in a Binary Search Tree (BST)
+716. Max Stack (TreeMap)
 993. Cousins in Binary Tree
 
 ### Graph
 269. Alien Dictionary
+277. Find the Celebrity
 743. Network Delay Time (shortest path)
 785. Is Graph Bipartite?
 1168. Optimize Water Distribution in a Village (MST)
@@ -207,6 +210,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Greedy
 68. Text Justification
+277. Find the Celebrity
 280. Wiggle Sort
 435. Non-overlapping Intervals
 452. Minimum Number of Arrows to Burst Balloons
