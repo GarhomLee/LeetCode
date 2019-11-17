@@ -25,6 +25,7 @@ Solutions and thoughts about LeetCode problems.
 1207. Unique Number of Occurrences
 1213. Intersection of Three Sorted Arrays
 1218. Longest Arithmetic Subsequence of Given Difference
+1261. Find Elements in a Contaminated Binary Tree
 
 
 ### Stack
@@ -74,6 +75,7 @@ Solutions and thoughts about LeetCode problems.
 700. Search in a Binary Search Tree (BST)
 716. Max Stack (TreeMap)
 993. Cousins in Binary Tree
+1261. Find Elements in a Contaminated Binary Tree
 
 ### Graph
 269. Alien Dictionary
@@ -149,6 +151,7 @@ Solutions and thoughts about LeetCode problems.
 339. Nested List Weight Sum
 426. Convert Binary Search Tree to Sorted Doubly Linked List (inorder traversal)
 489. Robot Room Cleaner
+490. The Maze
 669. Trim a Binary Search Tree
 694. Number of Distinct Islands
 695. Max Area of Island
@@ -160,6 +163,7 @@ Solutions and thoughts about LeetCode problems.
 1214. Two Sum BSTs (preorder traversal)
 1222. Queens That Can Attack the King
 1254. Number of Closed Islands
+1261. Find Elements in a Contaminated Binary Tree
 
 
 ### Backtracking (DFS)
@@ -189,6 +193,7 @@ Solutions and thoughts about LeetCode problems.
 1218. Longest Arithmetic Subsequence of Given Difference
 1223. Dice Roll Simulation
 1235. Maximum Profit in Job Scheduling
+1262. Greatest Sum Divisible by Three
 
 
 ### BFS
@@ -198,6 +203,8 @@ Solutions and thoughts about LeetCode problems.
 210. Course Schedule II
 286. Walls and Gates
 314. Binary Tree Vertical Order Traversal
+490. The Maze
+505. The Maze II
 743. Network Delay Time (shortest path)
 773. Sliding Puzzle
 785. Is Graph Bipartite?
@@ -262,6 +269,7 @@ Solutions and thoughts about LeetCode problems.
 1150. Check If a Number Is Majority Element in a Sorted Array
 1217. Play with Chips
 1232. Check If It Is a Straight Line
+1262. Greatest Sum Divisible by Three
 
 
 ### Info Cache
