@@ -17,6 +17,7 @@ Solutions and thoughts about LeetCode problems.
 288. Unique Word Abbreviation
 290. Word Pattern
 353. Design Snake Game
+652. Find Duplicate Subtrees
 811. Subdomain Visit Count
 895. Maximum Frequency Stack
 961. N-Repeated Element in Size 2N Array
@@ -70,7 +71,9 @@ Solutions and thoughts about LeetCode problems.
 ### Tree
 285. Inorder Successor in BST (BST)
 314. Binary Tree Vertical Order Traversal (BST)
+333. Largest BST Subtree (BST)
 426. Convert Binary Search Tree to Sorted Doubly Linked List (BST)
+652. Find Duplicate Subtrees
 669. Trim a Binary Search Tree (BST)
 700. Search in a Binary Search Tree (BST)
 716. Max Stack (TreeMap)
@@ -86,6 +89,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Union Find
 305. Number of Islands II
+323. Number of Connected Components in an Undirected Graph （模版题）
 547. Friend Circles
 685. Redundant Connection II
 
@@ -148,10 +152,12 @@ Solutions and thoughts about LeetCode problems.
 207. Course Schedule
 210. Course Schedule II
 286. Walls and Gates
+333. Largest BST Subtree
 339. Nested List Weight Sum
 426. Convert Binary Search Tree to Sorted Doubly Linked List (inorder traversal)
 489. Robot Room Cleaner
 490. The Maze
+652. Find Duplicate Subtrees
 669. Trim a Binary Search Tree
 694. Number of Distinct Islands
 695. Max Area of Island
@@ -189,6 +195,7 @@ Solutions and thoughts about LeetCode problems.
 139. Word Break
 361. Bomb Enemy
 718. Maximum Length of Repeated Subarray
+983. Minimum Cost For Tickets
 1014. Best Sightseeing Pair
 1218. Longest Arithmetic Subsequence of Given Difference
 1223. Dice Roll Simulation
@@ -209,6 +216,8 @@ Solutions and thoughts about LeetCode problems.
 773. Sliding Puzzle
 785. Is Graph Bipartite?
 909. Snakes and Ladders
+1263. Minimum Moves to Move a Box to Their Target Location
+
 
 ### Quick Select
 215. Kth Largest Element in an Array
