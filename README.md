@@ -27,6 +27,7 @@ Solutions and thoughts about LeetCode problems.
 1213. Intersection of Three Sorted Arrays
 1218. Longest Arithmetic Subsequence of Given Difference
 1261. Find Elements in a Contaminated Binary Tree
+1267. Count Servers that Communicate
 
 
 ### Stack
@@ -59,6 +60,7 @@ Solutions and thoughts about LeetCode problems.
 767. Reorganize String
 1057. Campus Bikes (minHeap)
 1168. Optimize Water Distribution in a Village (MST)
+1268. Search Suggestions System
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -87,6 +89,7 @@ Solutions and thoughts about LeetCode problems.
 785. Is Graph Bipartite?
 1168. Optimize Water Distribution in a Village (MST)
 
+
 ### Union Find
 305. Number of Islands II
 323. Number of Connected Components in an Undirected Graph （模版题）
@@ -95,6 +98,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Trie
 642. Design Search Autocomplete System
+1268. Search Suggestions System
 
 
 ### String
@@ -279,6 +283,7 @@ Solutions and thoughts about LeetCode problems.
 1217. Play with Chips
 1232. Check If It Is a Straight Line
 1262. Greatest Sum Divisible by Three
+1266. Minimum Time Visiting All Points
 
 
 ### Info Cache
