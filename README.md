@@ -58,6 +58,7 @@ Solutions and thoughts about LeetCode problems.
 642. Design Search Autocomplete System
 743. Network Delay Time (shortest path)
 767. Reorganize String
+1046. Last Stone Weight (maxHeap)
 1057. Campus Bikes (minHeap)
 1168. Optimize Water Distribution in a Village (MST)
 1268. Search Suggestions System
@@ -87,6 +88,7 @@ Solutions and thoughts about LeetCode problems.
 277. Find the Celebrity
 743. Network Delay Time (shortest path)
 785. Is Graph Bipartite?
+787. Cheapest Flights Within K Stops
 1168. Optimize Water Distribution in a Village (MST)
 
 
@@ -254,6 +256,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Dijkstra's Algorithm (minHeap)
 743. Network Delay Time
+787. Cheapest Flights Within K Stops
 
 ### Topological Sort (DFS, BFS)
 269. Alien Dictionary
