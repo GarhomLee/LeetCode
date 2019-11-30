@@ -43,6 +43,7 @@ Solutions and thoughts about LeetCode problems.
 700. Search in a Binary Search Tree
 735. Asteroid Collision
 772. Basic Calculator III
+783. Minimum Distance Between BST Nodes
 895. Maximum Frequency Stack
 
 ### Queue
@@ -80,8 +81,10 @@ Solutions and thoughts about LeetCode problems.
 426. Convert Binary Search Tree to Sorted Doubly Linked List (BST)
 652. Find Duplicate Subtrees
 669. Trim a Binary Search Tree (BST)
+687. Longest Univalue Path
 700. Search in a Binary Search Tree (BST)
 716. Max Stack (TreeMap)
+783. Minimum Distance Between BST Nodes (BST)
 993. Cousins in Binary Tree
 1261. Find Elements in a Contaminated Binary Tree
 
@@ -167,10 +170,12 @@ Solutions and thoughts about LeetCode problems.
 490. The Maze
 652. Find Duplicate Subtrees
 669. Trim a Binary Search Tree
+687. Longest Univalue Path (postorder traversal)
 690. Employee Importance
 694. Number of Distinct Islands
 695. Max Area of Island
 700. Search in a Binary Search Tree (preorder traversal)
+783. Minimum Distance Between BST Nodes (inorder traversal)
 785. Is Graph Bipartite?
 872. Leaf-Similar Trees
 993. Cousins in Binary Tree
@@ -235,6 +240,7 @@ Solutions and thoughts about LeetCode problems.
 ### Morris Traversal
 285. Inorder Successor in BST
 700. Search in a Binary Search Tree
+783. Minimum Distance Between BST Nodes
 
 ### Sliding Window
 76. Minimum Window Substring （模版题）
@@ -284,6 +290,7 @@ Solutions and thoughts about LeetCode problems.
 772. Basic Calculator III
 780. Reaching Points
 836. Rectangle Overlap
+867. Transpose Matrix
 1056. Confusing Number
 1073. Adding Two Negabinary Numbers
 1085. Sum of Digits in the Minimum Number
