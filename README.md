@@ -7,6 +7,7 @@ Solutions and thoughts about LeetCode problems.
 ### Array
 641. Design Circular Deque
 645. Set Mismatch
+1010. Pairs of Songs With Total Durations Divisible by 60
 1085. Sum of Digits in the Minimum Number
 
 ### Linked List
@@ -23,6 +24,7 @@ Solutions and thoughts about LeetCode problems.
 961. N-Repeated Element in Size 2N Array
 993. Cousins in Binary Tree
 1002. Find Common Characters
+1010. Pairs of Songs With Total Durations Divisible by 60
 1207. Unique Number of Occurrences
 1213. Intersection of Three Sorted Arrays
 1218. Longest Arithmetic Subsequence of Given Difference
@@ -165,6 +167,7 @@ Solutions and thoughts about LeetCode problems.
 490. The Maze
 652. Find Duplicate Subtrees
 669. Trim a Binary Search Tree
+690. Employee Importance
 694. Number of Distinct Islands
 695. Max Area of Island
 700. Search in a Binary Search Tree (preorder traversal)
@@ -218,6 +221,7 @@ Solutions and thoughts about LeetCode problems.
 314. Binary Tree Vertical Order Traversal
 490. The Maze
 505. The Maze II
+690. Employee Importance
 743. Network Delay Time (shortest path)
 773. Sliding Puzzle
 785. Is Graph Bipartite?
@@ -279,6 +283,7 @@ Solutions and thoughts about LeetCode problems.
 628. Maximum Product of Three Numbers
 772. Basic Calculator III
 780. Reaching Points
+836. Rectangle Overlap
 1056. Confusing Number
 1073. Adding Two Negabinary Numbers
 1085. Sum of Digits in the Minimum Number
