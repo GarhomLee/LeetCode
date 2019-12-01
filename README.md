@@ -87,6 +87,7 @@ Solutions and thoughts about LeetCode problems.
 783. Minimum Distance Between BST Nodes (BST)
 993. Cousins in Binary Tree
 1261. Find Elements in a Contaminated Binary Tree
+1273. Delete Tree Nodes
 
 ### Graph
 269. Alien Dictionary
@@ -120,8 +121,7 @@ Solutions and thoughts about LeetCode problems.
 1065. Index Pairs of a String
 1108. Defanging an IP Address
 1233. Remove Sub-Folders from the Filesystem
-
-
+1271. Hexspeak
 
 
 ## Algorithm
@@ -184,6 +184,7 @@ Solutions and thoughts about LeetCode problems.
 1222. Queens That Can Attack the King
 1254. Number of Closed Islands
 1261. Find Elements in a Contaminated Binary Tree
+1273. Delete Tree Nodes
 
 
 ### Backtracking (DFS)
@@ -299,6 +300,7 @@ Solutions and thoughts about LeetCode problems.
 1232. Check If It Is a Straight Line
 1262. Greatest Sum Divisible by Three
 1266. Minimum Time Visiting All Points
+1271. Hexspeak
 
 
 ### Info Cache
@@ -322,6 +324,7 @@ Solutions and thoughts about LeetCode problems.
 435. Non-overlapping Intervals
 452. Minimum Number of Arrows to Burst Balloons
 1235. Maximum Profit in Job Scheduling
+1272. Remove Interval
 
 
 ### Find Missing/Duplicate Number
