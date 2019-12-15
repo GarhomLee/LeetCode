@@ -51,6 +51,7 @@ Solutions and thoughts about LeetCode problems.
 286. Walls and Gates
 353. Design Snake Game
 362. Design Hit Counter
+637. Average of Levels in Binary Tree
 773. Sliding Puzzle
 1089. Duplicate Zeros
 
@@ -79,6 +80,8 @@ Solutions and thoughts about LeetCode problems.
 314. Binary Tree Vertical Order Traversal (BST)
 333. Largest BST Subtree (BST)
 426. Convert Binary Search Tree to Sorted Doubly Linked List (BST)
+606. Construct String from Binary Tree
+637. Average of Levels in Binary Tree
 652. Find Duplicate Subtrees
 669. Trim a Binary Search Tree (BST)
 687. Longest Univalue Path
@@ -168,6 +171,7 @@ Solutions and thoughts about LeetCode problems.
 426. Convert Binary Search Tree to Sorted Doubly Linked List (inorder traversal)
 489. Robot Room Cleaner
 490. The Maze
+606. Construct String from Binary Tree
 652. Find Duplicate Subtrees
 669. Trim a Binary Search Tree
 687. Longest Univalue Path (postorder traversal)
@@ -227,6 +231,7 @@ Solutions and thoughts about LeetCode problems.
 314. Binary Tree Vertical Order Traversal
 490. The Maze
 505. The Maze II
+637. Average of Levels in Binary Tree
 690. Employee Importance
 743. Network Delay Time (shortest path)
 773. Sliding Puzzle
@@ -306,6 +311,7 @@ Solutions and thoughts about LeetCode problems.
 ### Info Cache
 36. Valid Sudoku
 348. Design Tic-Tac-Toe
+1275. Find Winner on a Tic Tac Toe Game
 
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)
@@ -334,3 +340,5 @@ Solutions and thoughts about LeetCode problems.
 ### Simulation
 1243. Array Transformation
 1252. Cells with Odd Values in a Matrix
+1275. Find Winner on a Tic Tac Toe Game
+
