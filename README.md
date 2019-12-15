@@ -13,6 +13,7 @@ Solutions and thoughts about LeetCode problems.
 ### Linked List
 716. Max Stack
 876. Middle of the Linked List
+1290. Convert Binary Number in a Linked List to Integer
 
 ### Hash Table
 288. Unique Word Abbreviation
@@ -120,11 +121,13 @@ Solutions and thoughts about LeetCode problems.
 291. Word Pattern II
 657. Robot Return to Origin
 681. Next Closest Time
+796. Rotate String
 1002. Find Common Characters
 1065. Index Pairs of a String
 1108. Defanging an IP Address
 1233. Remove Sub-Folders from the Filesystem
 1271. Hexspeak
+
 
 
 ## Algorithm
@@ -238,6 +241,7 @@ Solutions and thoughts about LeetCode problems.
 785. Is Graph Bipartite?
 909. Snakes and Ladders
 1263. Minimum Moves to Move a Box to Their Target Location
+1291. Sequential Digits
 
 
 ### Quick Select
@@ -306,6 +310,7 @@ Solutions and thoughts about LeetCode problems.
 1262. Greatest Sum Divisible by Three
 1266. Minimum Time Visiting All Points
 1271. Hexspeak
+1290. Convert Binary Number in a Linked List to Integer
 
 
 ### Info Cache
