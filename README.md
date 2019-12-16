@@ -31,6 +31,8 @@ Solutions and thoughts about LeetCode problems.
 1218. Longest Arithmetic Subsequence of Given Difference
 1261. Find Elements in a Contaminated Binary Tree
 1267. Count Servers that Communicate
+1287. Element Appearing More Than 25% In Sorted Array
+
 
 
 ### Stack
@@ -55,6 +57,7 @@ Solutions and thoughts about LeetCode problems.
 637. Average of Levels in Binary Tree
 773. Sliding Puzzle
 1089. Duplicate Zeros
+1293. Shortest Path in a Grid with Obstacles Elimination
 
 ### Heap
 218. The Skyline Problem
@@ -67,6 +70,8 @@ Solutions and thoughts about LeetCode problems.
 1057. Campus Bikes (minHeap)
 1168. Optimize Water Distribution in a Village (MST)
 1268. Search Suggestions System
+1289. Minimum Falling Path Sum II (minHeap)
+
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -144,6 +149,8 @@ Solutions and thoughts about LeetCode problems.
 1086. High Five
 1099. Two Sum Less Than K
 1235. Maximum Profit in Job Scheduling
+1288. Remove Covered Intervals
+
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -162,7 +169,8 @@ Solutions and thoughts about LeetCode problems.
 1228. Missing Number In Arithmetic Progression (search in index)
 1235. Maximum Profit in Job Scheduling (search in index)
 1237. Find Positive Integer Solution for a Given Equation
-
+1287. Element Appearing More Than 25% In Sorted Array (search in index)
+1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold (search in length)
 
 
 ### Recursion (DFS)
@@ -204,6 +212,7 @@ Solutions and thoughts about LeetCode problems.
 1215. Stepping Numbers
 1219. Path with Maximum Gold
 1255. Maximum Score Words Formed by Letters
+1286. Iterator for Combination
 
 
 ### Recursion with Memoization (Top-down)
@@ -217,12 +226,14 @@ Solutions and thoughts about LeetCode problems.
 139. Word Break
 361. Bomb Enemy
 718. Maximum Length of Repeated Subarray
+931. Minimum Falling Path Sum
 983. Minimum Cost For Tickets
 1014. Best Sightseeing Pair
 1218. Longest Arithmetic Subsequence of Given Difference
 1223. Dice Roll Simulation
 1235. Maximum Profit in Job Scheduling
 1262. Greatest Sum Divisible by Three
+1289. Minimum Falling Path Sum II
 
 
 ### BFS
@@ -242,7 +253,7 @@ Solutions and thoughts about LeetCode problems.
 909. Snakes and Ladders
 1263. Minimum Moves to Move a Box to Their Target Location
 1291. Sequential Digits
-
+1293. Shortest Path in a Grid with Obstacles Elimination
 
 ### Quick Select
 215. Kth Largest Element in an Array
@@ -291,6 +302,7 @@ Solutions and thoughts about LeetCode problems.
 ### Bit Manipulation
 289. Game of Life
 661. Image Smoother
+762. Prime Number of Set Bits in Binary Representation
 1066. Campus Bikes II
 1073. Adding Two Negabinary Numbers
 
@@ -310,6 +322,7 @@ Solutions and thoughts about LeetCode problems.
 1262. Greatest Sum Divisible by Three
 1266. Minimum Time Visiting All Points
 1271. Hexspeak
+1281. Subtract the Product and Sum of Digits of an Integer
 1290. Convert Binary Number in a Linked List to Integer
 
 
@@ -336,6 +349,7 @@ Solutions and thoughts about LeetCode problems.
 452. Minimum Number of Arrows to Burst Balloons
 1235. Maximum Profit in Job Scheduling
 1272. Remove Interval
+1288. Remove Covered Intervals
 
 
 ### Find Missing/Duplicate Number
@@ -347,3 +361,8 @@ Solutions and thoughts about LeetCode problems.
 1252. Cells with Odd Values in a Matrix
 1275. Find Winner on a Tic Tac Toe Game
 
+### Prefix Sum
+1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
+
+### Synchronization
+1279. Traffic Light Controlled Intersection
