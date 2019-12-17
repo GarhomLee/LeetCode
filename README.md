@@ -11,7 +11,10 @@ Solutions and thoughts about LeetCode problems.
 1085. Sum of Digits in the Minimum Number
 
 ### Linked List
+369. Plus One Linked List
+708. Insert into a Sorted Circular Linked List
 716. Max Stack
+725. Split Linked List in Parts
 876. Middle of the Linked List
 1290. Convert Binary Number in a Linked List to Integer
 
@@ -68,6 +71,7 @@ Solutions and thoughts about LeetCode problems.
 767. Reorganize String
 1046. Last Stone Weight (maxHeap)
 1057. Campus Bikes (minHeap)
+1102. Path With Maximum Minimum Value (maxHeap)
 1168. Optimize Water Distribution in a Village (MST)
 1268. Search Suggestions System
 1289. Minimum Falling Path Sum II (minHeap)
@@ -112,6 +116,8 @@ Solutions and thoughts about LeetCode problems.
 323. Number of Connected Components in an Undirected Graph （模版题）
 547. Friend Circles
 685. Redundant Connection II
+1102. Path With Maximum Minimum Value
+
 
 ### Trie
 642. Design Search Autocomplete System
@@ -119,11 +125,13 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### String
+159. Longest Substring with At Most Two Distinct Characters
 179. Largest Number
 271. Encode and Decode Strings
 288. Unique Word Abbreviation
 290. Word Pattern
 291. Word Pattern II
+340. Longest Substring with At Most K Distinct Characters
 657. Robot Return to Origin
 681. Next Closest Time
 796. Rotate String
@@ -154,6 +162,8 @@ Solutions and thoughts about LeetCode problems.
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
+369. Plus One Linked List
+708. Insert into a Sorted Circular Linked List (prev & curr)
 828. Unique Letter String
 876. Middle of the Linked List (fast & slow)
 905. Sort Array By Parity (low & high)
@@ -164,7 +174,9 @@ Solutions and thoughts about LeetCode problems.
 378. Kth Smallest Element in a Sorted Matrix (search in range)
 702. Search in a Sorted Array of Unknown Size
 718. Maximum Length of Repeated Subarray (search in index or length)
+1060. Missing Element in Sorted Array (in index)
 1150. Check If a Number Is Majority Element in a Sorted Array
+1157. Online Majority Element In Subarray
 1213. Intersection of Three Sorted Arrays
 1228. Missing Number In Arithmetic Progression (search in index)
 1235. Maximum Profit in Job Scheduling (search in index)
@@ -179,6 +191,7 @@ Solutions and thoughts about LeetCode problems.
 286. Walls and Gates
 333. Largest BST Subtree
 339. Nested List Weight Sum
+369. Plus One Linked List
 426. Convert Binary Search Tree to Sorted Doubly Linked List (inorder traversal)
 489. Robot Room Cleaner
 490. The Maze
@@ -225,6 +238,7 @@ Solutions and thoughts about LeetCode problems.
 ### Dynamic Programming (Bottom-up)
 139. Word Break
 361. Bomb Enemy
+678. Valid Parenthesis String
 718. Maximum Length of Repeated Subarray
 931. Minimum Falling Path Sum
 983. Minimum Cost For Tickets
@@ -251,6 +265,7 @@ Solutions and thoughts about LeetCode problems.
 773. Sliding Puzzle
 785. Is Graph Bipartite?
 909. Snakes and Ladders
+1102. Path With Maximum Minimum Value
 1263. Minimum Moves to Move a Box to Their Target Location
 1291. Sequential Digits
 1293. Shortest Path in a Grid with Obstacles Elimination
@@ -265,7 +280,9 @@ Solutions and thoughts about LeetCode problems.
 
 ### Sliding Window
 76. Minimum Window Substring （模版题）
+159. Longest Substring with At Most Two Distinct Characters
 239. Sliding Window Maximum
+340. Longest Substring with At Most K Distinct Characters
 1234. Replace the Substring for Balanced String
 
 ### Greedy
@@ -275,6 +292,7 @@ Solutions and thoughts about LeetCode problems.
 435. Non-overlapping Intervals
 452. Minimum Number of Arrows to Burst Balloons
 630. Course Schedule III
+678. Valid Parenthesis String
 767. Reorganize String
 1007. Minimum Domino Rotations For Equal Row
 1217. Play with Chips
@@ -288,6 +306,7 @@ Solutions and thoughts about LeetCode problems.
 ### Dijkstra's Algorithm (minHeap)
 743. Network Delay Time
 787. Cheapest Flights Within K Stops
+
 
 ### Topological Sort (DFS, BFS)
 269. Alien Dictionary
@@ -308,6 +327,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Math
 227. Basic Calculator II
+369. Plus One Linked List
 628. Maximum Product of Three Numbers
 772. Basic Calculator III
 780. Reaching Points
@@ -362,7 +382,13 @@ Solutions and thoughts about LeetCode problems.
 1275. Find Winner on a Tic Tac Toe Game
 
 ### Prefix Sum
+724. Find Pivot Index
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
+
+### Boyer–Moore majority vote algo
+169. Majority Element
+229. Majority Element II
+1157. Online Majority Element In Subarray
