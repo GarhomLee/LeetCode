@@ -19,10 +19,12 @@ Solutions and thoughts about LeetCode problems.
 1290. Convert Binary Number in a Linked List to Integer
 
 ### Hash Table
+205. Isomorphic Strings
 288. Unique Word Abbreviation
 290. Word Pattern
 353. Design Snake Game
 652. Find Duplicate Subtrees
+721. Accounts Merge
 811. Subdomain Visit Count
 895. Maximum Frequency Stack
 961. N-Repeated Element in Size 2N Array
@@ -58,8 +60,11 @@ Solutions and thoughts about LeetCode problems.
 353. Design Snake Game
 362. Design Hit Counter
 637. Average of Levels in Binary Tree
+752. Open the Lock
 773. Sliding Puzzle
 1089. Duplicate Zeros
+1236. Web Crawler
+1245. Tree Diameter
 1293. Shortest Path in a Grid with Obstacles Elimination
 
 ### Heap
@@ -99,6 +104,7 @@ Solutions and thoughts about LeetCode problems.
 716. Max Stack (TreeMap)
 783. Minimum Distance Between BST Nodes (BST)
 993. Cousins in Binary Tree
+1245. Tree Diameter
 1261. Find Elements in a Contaminated Binary Tree
 1273. Delete Tree Nodes
 
@@ -109,6 +115,7 @@ Solutions and thoughts about LeetCode problems.
 785. Is Graph Bipartite?
 787. Cheapest Flights Within K Stops
 1168. Optimize Water Distribution in a Village (MST)
+1245. Tree Diameter
 
 
 ### Union Find
@@ -116,6 +123,7 @@ Solutions and thoughts about LeetCode problems.
 323. Number of Connected Components in an Undirected Graph （模版题）
 547. Friend Circles
 685. Redundant Connection II
+721. Accounts Merge
 1102. Path With Maximum Minimum Value
 
 
@@ -139,6 +147,7 @@ Solutions and thoughts about LeetCode problems.
 1065. Index Pairs of a String
 1108. Defanging an IP Address
 1233. Remove Sub-Folders from the Filesystem
+1236. Web Crawler
 1271. Hexspeak
 
 
@@ -210,6 +219,7 @@ Solutions and thoughts about LeetCode problems.
 1022. Sum of Root To Leaf Binary Numbers
 1214. Two Sum BSTs (preorder traversal)
 1222. Queens That Can Attack the King
+1245. Tree Diameter
 1254. Number of Closed Islands
 1261. Find Elements in a Contaminated Binary Tree
 1273. Delete Tree Nodes
@@ -262,10 +272,13 @@ Solutions and thoughts about LeetCode problems.
 637. Average of Levels in Binary Tree
 690. Employee Importance
 743. Network Delay Time (shortest path)
+752. Open the Lock
 773. Sliding Puzzle
 785. Is Graph Bipartite?
 909. Snakes and Ladders
 1102. Path With Maximum Minimum Value
+1236. Web Crawler
+1245. Tree Diameter
 1263. Minimum Moves to Move a Box to Their Target Location
 1291. Sequential Digits
 1293. Shortest Path in a Grid with Obstacles Elimination

@@ -66,3 +66,86 @@ class Solution {
         }
     }
 }
+
+
+12/17 二刷
+class Solution {
+    public List<List<Integer>> getSkyline(int[][] buildings) {
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] == b[0] ? b[1] - a[1] : a[0] - b[0]);
+        for (int[] building : buildings) {
+            int left = building[0], right = building[1], height = building[2];
+            pq.offer(new int[]{left, height});
+            pq.offer(new int[]{right, -height});
+        }
+        
+        List<List<Integer>> res = new ArrayList<>();
+        PriorityQueue<Integer> heights = new PriorityQueue<>((a, b) -> b - a);
+        heights.offer(0);
+        while (!pq.isEmpty()) {
+            int[] curr = pq.poll();
+            int x = curr[0], y = curr[1];
+            if (y >= 0) {
+                int top = heights.peek();
+                if (y > top) {
+                    res.add(Arrays.asList(x, y));
+                }
+                heights.offer(y);
+            } else {
+                y = -y;
+                heights.remove(y);
+                int top = heights.peek();
+                if (y > top) {
+                    res.add(Arrays.asList(x, top));
+                }
+            }
+        }
+        
+        return res;
+    }
+}
+
+
+用TreeMap优化remove()的时间复杂度：（不能用TreeSet，因为可能存在多个相同的height，移除其中一个后剩下的依然能起作用）
+class Solution {
+    public List<List<Integer>> getSkyline(int[][] buildings) {
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] == b[0] ? b[1] - a[1] : a[0] - b[0]);
+        for (int[] building : buildings) {
+            int left = building[0], right = building[1], height = building[2];
+            pq.offer(new int[]{left, height});
+            pq.offer(new int[]{right, -height});
+        }
+        
+        List<List<Integer>> res = new ArrayList<>();
+        // PriorityQueue<Integer> heights = new PriorityQueue<>((a, b) -> b - a);
+        // heights.offer(0);
+        TreeMap<Integer, Integer> heights = new TreeMap<>();
+        heights.put(0, 1);
+        while (!pq.isEmpty()) {
+            int[] curr = pq.poll();
+            int x = curr[0], y = curr[1];
+            if (y >= 0) {
+                // int top = heights.peek();
+                int top = heights.lastKey();
+                if (y > top) {
+                    res.add(Arrays.asList(x, y));
+                }
+                // heights.offer(y);
+                heights.put(y, heights.getOrDefault(y, 0) + 1);
+            } else {
+                y = -y;
+                // heights.remove(y);
+                heights.put(y, heights.get(y) - 1);
+                if (heights.get(y) == 0) {
+                    heights.remove(y);
+                }
+                // int top = heights.peek();
+                int top = heights.lastKey();
+                if (y > top) {
+                    res.add(Arrays.asList(x, top));
+                }
+            }
+        }
+        
+        return res;
+    }
+}

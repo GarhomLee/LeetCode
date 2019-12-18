@@ -65,3 +65,57 @@ class Solution {
     }
 }
 
+
+再刷：
+class Solution {
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+    
+    private int quickselect(int[] nums, int low, int high) {
+        int pivot = low;
+        low++;
+        while (low <= high) {
+            if (nums[low] < nums[pivot]) {
+                swap(nums, low, high--);
+            } else {
+                low++;
+            }
+        }
+        swap(nums, pivot, high);
+        return high;
+    }
+    
+    public int findKthLargest(int[] nums, int k) {
+        int low = 0, high = nums.length - 1;
+        while (low <= high) {
+            int pivot = quickselect(nums, low, high);
+            // 写法一：类似binary search模版
+            if (pivot >= k - 1) {
+                high = pivot - 1;
+            } else {
+                low = pivot + 1;
+            }
+
+            /*写法二：pivot == k - 1时直接返回
+            if (pivot == k - 1) {
+                return nums[pivot];
+            } else if (pivot >= k - 1) {
+                high = pivot - 1;
+            } else {
+                low = pivot + 1;
+            }*/
+
+            
+        }
+
+        // 写法一
+        return nums[low];
+        
+        // 写法二：return -1;
+
+        
+    }
+}
