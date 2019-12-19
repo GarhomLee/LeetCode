@@ -41,6 +41,7 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### Stack
+98. Validate Binary Search Tree
 224. Basic Calculator
 227. Basic Calculator II
 285. Inorder Successor in BST (inorder traversal)
@@ -91,6 +92,7 @@ Solutions and thoughts about LeetCode problems.
 907. Sum of Subarray Minimums
 
 ### Tree
+98. Validate Binary Search Tree (BST)
 285. Inorder Successor in BST (BST)
 314. Binary Tree Vertical Order Traversal (BST)
 333. Largest BST Subtree (BST)
@@ -195,6 +197,7 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### Recursion (DFS)
+98. Validate Binary Search Tree
 207. Course Schedule
 210. Course Schedule II
 286. Walls and Gates
@@ -287,6 +290,7 @@ Solutions and thoughts about LeetCode problems.
 215. Kth Largest Element in an Array
 
 ### Morris Traversal
+98. Validate Binary Search Tree
 285. Inorder Successor in BST
 700. Search in a Binary Search Tree
 783. Minimum Distance Between BST Nodes

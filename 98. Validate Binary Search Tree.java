@@ -44,6 +44,30 @@ class Solution {
     }
 }
 
+// 另一种DFS：递归函数得到左右边界，用来更新全局变量isBST
+
+class Solution {
+    boolean isBST = true;
+    
+    private long[] dfs(TreeNode node) {
+        if (node == null) {
+            return new long[]{Long.MAX_VALUE, Long.MIN_VALUE};
+        }
+        
+        long[] left = dfs(node.left), right = dfs(node.right);
+        if (node.val <= left[1] || node.val >= right[0]) {
+            isBST = false; 
+        }
+        return new long[]{Math.min(left[0], node.val), Math.max(right[1], node.val)};
+    }
+    
+    public boolean isValidBST(TreeNode root) {
+        dfs(root);
+        
+        return isBST;
+    }
+}
+
 
 // 解法三：Iteration with Stack，利用inorder traversal的性质
 //        维护一个TreeNode pre，记录inorder traversal当前节点的前一个节点。
@@ -74,3 +98,39 @@ class Solution {
 
 
 // 解法四：Morris traversal，相当于解法三的优化
+
+class Solution {
+    public boolean isValidBST(TreeNode root) {
+        TreeNode pre = null, curr = root;
+        while (curr != null) {
+            if (curr.left != null) {
+                TreeNode temp = curr.left;
+                while (temp.right != null && temp.right != curr) {
+                    temp = temp.right;
+                }
+                
+                if (temp.right != curr) {
+                    temp.right = curr;
+                    curr = curr.left;
+                } else {
+                    temp.right = null;
+                    if (pre != null && pre.val >= curr.val) {
+                        return false;
+                    }
+
+                    pre = curr;
+                    curr = curr.right;
+                }
+            } else {
+                if (pre != null && pre.val >= curr.val) {
+                    return false;
+                }
+                
+                pre = curr;
+                curr = curr.right;
+            }
+        }
+        
+        return true;
+    }
+}
