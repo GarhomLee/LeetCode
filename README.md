@@ -56,6 +56,7 @@ Solutions and thoughts about LeetCode problems.
 895. Maximum Frequency Stack
 
 ### Queue
+103. Binary Tree Zigzag Level Order Traversal
 281. Zigzag Iterator
 286. Walls and Gates
 353. Design Snake Game
@@ -93,6 +94,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Tree
 98. Validate Binary Search Tree (BST)
+103. Binary Tree Zigzag Level Order Traversal
 285. Inorder Successor in BST (BST)
 314. Binary Tree Vertical Order Traversal (BST)
 333. Largest BST Subtree (BST)
@@ -130,6 +132,7 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### Trie
+212. Word Search II
 642. Design Search Autocomplete System
 1268. Search Suggestions System
 
@@ -200,6 +203,7 @@ Solutions and thoughts about LeetCode problems.
 98. Validate Binary Search Tree
 207. Course Schedule
 210. Course Schedule II
+212. Word Search II
 286. Walls and Gates
 333. Largest BST Subtree
 339. Nested List Weight Sum
@@ -229,6 +233,7 @@ Solutions and thoughts about LeetCode problems.
 
 
 ### Backtracking (DFS)
+22. Generate Parentheses
 126. Word Ladder II
 254. Factor Combinations
 291. Word Pattern II
@@ -251,6 +256,7 @@ Solutions and thoughts about LeetCode problems.
 ### Dynamic Programming (Bottom-up)
 139. Word Break
 361. Bomb Enemy
+418. Sentence Screen Fitting
 678. Valid Parenthesis String
 718. Maximum Length of Repeated Subarray
 931. Minimum Falling Path Sum
@@ -259,11 +265,13 @@ Solutions and thoughts about LeetCode problems.
 1218. Longest Arithmetic Subsequence of Given Difference
 1223. Dice Roll Simulation
 1235. Maximum Profit in Job Scheduling
+1255. Maximum Score Words Formed by Letters
 1262. Greatest Sum Divisible by Three
 1289. Minimum Falling Path Sum II
 
 
 ### BFS
+103. Binary Tree Zigzag Level Order Traversal
 126. Word Ladder II
 127. Word Ladder
 207. Course Schedule
@@ -341,6 +349,7 @@ Solutions and thoughts about LeetCode problems.
 762. Prime Number of Set Bits in Binary Representation
 1066. Campus Bikes II
 1073. Adding Two Negabinary Numbers
+1255. Maximum Score Words Formed by Letters
 
 ### Math
 227. Basic Calculator II

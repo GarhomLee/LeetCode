@@ -59,3 +59,53 @@ class Solution {
         }
     }
 }
+
+
+再刷：DP + Bit Manipulation，对比1066. Campus Bikes II
+时间复杂度：O(2^n), n=wordslength
+空间复杂度：O(2^n), n=wordslength
+
+class Solution {
+    /* find the maximum score given the info of unusedWords */
+    private int dfs(int start, String[] words, int unusedWords, int[] count, int[] score, int[] dp) {
+        if (start == words.length) {
+            return 0;
+        }
+        if (dp[unusedWords] != 0) {
+            // cached results
+            return dp[unusedWords];
+        }
+        
+        for (int i = start; i < words.length; i++) {
+            boolean isValid = true;
+            int currScore = 0;
+            for (char c : words[i].toCharArray()) {
+                count[c]--;
+                currScore += score[c - 'a'];
+                if (count[c] < 0) {
+                    isValid = false;
+                }
+            }
+            
+            if (isValid) {
+                dp[unusedWords] = Math.max(dp[unusedWords], currScore + dfs(i + 1, words, unusedWords | (1 << i), count, score, dp));
+            }
+            
+            for (char c : words[i].toCharArray()) {
+                count[c]++;
+            }
+        }
+        
+        return dp[unusedWords];
+    }
+    
+    public int maxScoreWords(String[] words, char[] letters, int[] score) {
+        int[] dp = new int[1 << words.length];
+        int[] count = new int[128];
+        for (char c : letters) {
+            count[c]++;
+        } 
+
+        return dfs(0, words, 0, count, score, dp);
+    }
+}
