@@ -34,6 +34,7 @@ Solutions and thoughts about LeetCode problems.
 1207. Unique Number of Occurrences
 1213. Intersection of Three Sorted Arrays
 1218. Longest Arithmetic Subsequence of Given Difference
+1244. Design A Leaderboard
 1261. Find Elements in a Contaminated Binary Tree
 1267. Count Servers that Communicate
 1287. Element Appearing More Than 25% In Sorted Array
@@ -108,6 +109,7 @@ Solutions and thoughts about LeetCode problems.
 716. Max Stack (TreeMap)
 783. Minimum Distance Between BST Nodes (BST)
 993. Cousins in Binary Tree
+1244. Design A Leaderboard
 1245. Tree Diameter
 1261. Find Elements in a Contaminated Binary Tree
 1273. Delete Tree Nodes
