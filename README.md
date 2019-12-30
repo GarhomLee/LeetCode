@@ -65,6 +65,7 @@ Solutions and thoughts about LeetCode problems.
 637. Average of Levels in Binary Tree
 752. Open the Lock
 773. Sliding Puzzle
+821. Shortest Distance to a Character
 1089. Duplicate Zeros
 1236. Web Crawler
 1245. Tree Diameter
@@ -150,6 +151,7 @@ Solutions and thoughts about LeetCode problems.
 657. Robot Return to Origin
 681. Next Closest Time
 796. Rotate String
+859. Buddy Strings
 1002. Find Common Characters
 1065. Index Pairs of a String
 1108. Defanging an IP Address
@@ -190,6 +192,8 @@ Solutions and thoughts about LeetCode problems.
 378. Kth Smallest Element in a Sorted Matrix (search in range)
 702. Search in a Sorted Array of Unknown Size
 718. Maximum Length of Repeated Subarray (search in index or length)
+729. My Calendar I
+731. My Calendar II
 1060. Missing Element in Sorted Array (in index)
 1150. Check If a Number Is Majority Element in a Sorted Array
 1157. Online Majority Element In Subarray
@@ -288,6 +292,7 @@ Solutions and thoughts about LeetCode problems.
 752. Open the Lock
 773. Sliding Puzzle
 785. Is Graph Bipartite?
+821. Shortest Distance to a Character
 909. Snakes and Ladders
 1102. Path With Maximum Minimum Value
 1236. Web Crawler
@@ -321,6 +326,7 @@ Solutions and thoughts about LeetCode problems.
 630. Course Schedule III
 678. Valid Parenthesis String
 767. Reorganize String
+821. Shortest Distance to a Character
 1007. Minimum Domino Rotations For Equal Row
 1217. Play with Chips
 1221. Split a String in Balanced Strings
@@ -395,6 +401,8 @@ Solutions and thoughts about LeetCode problems.
 253. Meeting Rooms II
 435. Non-overlapping Intervals
 452. Minimum Number of Arrows to Burst Balloons
+729. My Calendar I
+731. My Calendar II
 1235. Maximum Profit in Job Scheduling
 1272. Remove Interval
 1288. Remove Covered Intervals
