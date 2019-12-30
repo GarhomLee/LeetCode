@@ -22,6 +22,7 @@ Solutions and thoughts about LeetCode problems.
 205. Isomorphic Strings
 288. Unique Word Abbreviation
 290. Word Pattern
+325. Maximum Size Subarray Sum Equals k
 353. Design Snake Game
 652. Find Duplicate Subtrees
 721. Accounts Merge
@@ -37,8 +38,8 @@ Solutions and thoughts about LeetCode problems.
 1244. Design A Leaderboard
 1261. Find Elements in a Contaminated Binary Tree
 1267. Count Servers that Communicate
+1282. Group the People Given the Group Size They Belong To
 1287. Element Appearing More Than 25% In Sorted Array
-
 
 
 ### Stack
@@ -70,6 +71,7 @@ Solutions and thoughts about LeetCode problems.
 1236. Web Crawler
 1245. Tree Diameter
 1293. Shortest Path in a Grid with Obstacles Elimination
+1302. Deepest Leaves Sum
 
 ### Heap
 218. The Skyline Problem
@@ -114,6 +116,7 @@ Solutions and thoughts about LeetCode problems.
 1245. Tree Diameter
 1261. Find Elements in a Contaminated Binary Tree
 1273. Delete Tree Nodes
+1305. All Elements in Two Binary Search Trees (BST)
 
 ### Graph
 269. Alien Dictionary
@@ -203,6 +206,7 @@ Solutions and thoughts about LeetCode problems.
 1237. Find Positive Integer Solution for a Given Equation
 1287. Element Appearing More Than 25% In Sorted Array (search in index)
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold (search in length)
+1300. Sum of Mutated Array Closest to Target (search in range)
 
 
 ### Recursion (DFS)
@@ -236,6 +240,7 @@ Solutions and thoughts about LeetCode problems.
 1254. Number of Closed Islands
 1261. Find Elements in a Contaminated Binary Tree
 1273. Delete Tree Nodes
+1305. All Elements in Two Binary Search Trees (inorder traversal)
 
 
 ### Backtracking (DFS)
@@ -258,6 +263,7 @@ Solutions and thoughts about LeetCode problems.
 1066. Campus Bikes II
 1220. Count Vowels Permutation
 1223. Dice Roll Simulation
+1306. Jump Game III
 
 ### Dynamic Programming (Bottom-up)
 139. Word Break
@@ -300,6 +306,8 @@ Solutions and thoughts about LeetCode problems.
 1263. Minimum Moves to Move a Box to Their Target Location
 1291. Sequential Digits
 1293. Shortest Path in a Grid with Obstacles Elimination
+1302. Deepest Leaves Sum
+1306. Jump Game III
 
 ### Quick Select
 215. Kth Largest Element in an Array
@@ -331,6 +339,7 @@ Solutions and thoughts about LeetCode problems.
 1217. Play with Chips
 1221. Split a String in Balanced Strings
 1253. Reconstruct a 2-Row Binary Matrix
+1282. Group the People Given the Group Size They Belong To
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -349,6 +358,7 @@ Solutions and thoughts about LeetCode problems.
 ### Sweep Line
 218. The Skyline Problem
 253. Meeting Rooms II
+370. Range Addition
 
 
 ### Bit Manipulation
@@ -362,6 +372,7 @@ Solutions and thoughts about LeetCode problems.
 ### Math
 227. Basic Calculator II
 369. Plus One Linked List
+390. Elimination Game
 628. Maximum Product of Three Numbers
 772. Basic Calculator III
 780. Reaching Points
@@ -399,6 +410,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Intervals
 253. Meeting Rooms II
+370. Range Addition
 435. Non-overlapping Intervals
 452. Minimum Number of Arrows to Burst Balloons
 729. My Calendar I
@@ -418,6 +430,7 @@ Solutions and thoughts about LeetCode problems.
 1275. Find Winner on a Tic Tac Toe Game
 
 ### Prefix Sum
+325. Maximum Size Subarray Sum Equals k
 724. Find Pivot Index
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 
