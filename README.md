@@ -24,6 +24,7 @@ Solutions and thoughts about LeetCode problems.
 290. Word Pattern
 325. Maximum Size Subarray Sum Equals k
 353. Design Snake Game
+356. Line Reflection
 652. Find Duplicate Subtrees
 721. Accounts Merge
 811. Subdomain Visit Count
@@ -32,6 +33,7 @@ Solutions and thoughts about LeetCode problems.
 993. Cousins in Binary Tree
 1002. Find Common Characters
 1010. Pairs of Songs With Total Durations Divisible by 60
+1048. Longest String Chain
 1207. Unique Number of Occurrences
 1213. Intersection of Three Sorted Arrays
 1218. Longest Arithmetic Subsequence of Given Difference
@@ -217,6 +219,8 @@ Solutions and thoughts about LeetCode problems.
 286. Walls and Gates
 333. Largest BST Subtree
 339. Nested List Weight Sum
+364. Nested List Weight Sum II
+366. Find Leaves of Binary Tree (post order traversal)
 369. Plus One Linked List
 426. Convert Binary Search Tree to Sorted Doubly Linked List (inorder traversal)
 489. Robot Room Cleaner
@@ -274,6 +278,8 @@ Solutions and thoughts about LeetCode problems.
 931. Minimum Falling Path Sum
 983. Minimum Cost For Tickets
 1014. Best Sightseeing Pair
+1031. Maximum Sum of Two Non-Overlapping Subarrays
+1048. Longest String Chain
 1218. Longest Arithmetic Subsequence of Given Difference
 1223. Dice Roll Simulation
 1235. Maximum Profit in Job Scheduling
@@ -290,6 +296,8 @@ Solutions and thoughts about LeetCode problems.
 210. Course Schedule II
 286. Walls and Gates
 314. Binary Tree Vertical Order Traversal
+339. Nested List Weight Sum
+364. Nested List Weight Sum II
 490. The Maze
 505. The Maze II
 637. Average of Levels in Binary Tree
@@ -371,6 +379,8 @@ Solutions and thoughts about LeetCode problems.
 
 ### Math
 227. Basic Calculator II
+311. Sparse Matrix Multiplication
+356. Line Reflection
 369. Plus One Linked List
 390. Elimination Game
 628. Maximum Product of Three Numbers
@@ -425,6 +435,7 @@ Solutions and thoughts about LeetCode problems.
 645. Set Mismatch
 
 ### Simulation
+755. Pour Water
 1243. Array Transformation
 1252. Cells with Odd Values in a Matrix
 1275. Find Winner on a Tic Tac Toe Game
@@ -432,6 +443,7 @@ Solutions and thoughts about LeetCode problems.
 ### Prefix Sum
 325. Maximum Size Subarray Sum Equals k
 724. Find Pivot Index
+1031. Maximum Sum of Two Non-Overlapping Subarrays
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 
 ### Synchronization

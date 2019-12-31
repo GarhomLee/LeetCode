@@ -1,5 +1,6 @@
 https://leetcode.com/problems/nested-list-weight-sum/
 
+
 // 思路：Recursion (DFS)
 //         维护全局变量res，记录Integer值和层数level乘积的加和。
 //         递归函数定义：void dfs(NestedInteger ni, int level)，表示处理在当前level的NestedInteger ni。
@@ -8,6 +9,7 @@ https://leetcode.com/problems/nested-list-weight-sum/
 //             调用递归函数dfs()，同时传入level+1作为下一层的level。
 // 时间复杂度：O(n), n=num of total integers
 // 空间复杂度：O(d), d=depth of input NestedInteger
+// follow-up：364. Nested List Weight Sum II
 
 /**
  * // This is the interface that allows for creating nested lists.
