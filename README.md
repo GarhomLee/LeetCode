@@ -70,6 +70,7 @@ Solutions and thoughts about LeetCode problems.
 773. Sliding Puzzle
 821. Shortest Distance to a Character
 1089. Duplicate Zeros
+1091. Shortest Path in Binary Matrix
 1236. Web Crawler
 1245. Tree Diameter
 1293. Shortest Path in a Grid with Obstacles Elimination
@@ -82,6 +83,7 @@ Solutions and thoughts about LeetCode problems.
 642. Design Search Autocomplete System
 743. Network Delay Time (shortest path)
 767. Reorganize String
+855. Exam Room
 1046. Last Stone Weight (maxHeap)
 1057. Campus Bikes (minHeap)
 1102. Path With Maximum Minimum Value (maxHeap)
@@ -199,6 +201,7 @@ Solutions and thoughts about LeetCode problems.
 718. Maximum Length of Repeated Subarray (search in index or length)
 729. My Calendar I
 731. My Calendar II
+875. Koko Eating Bananas (search in range)
 1060. Missing Element in Sorted Array (in index)
 1150. Check If a Number Is Majority Element in a Sorted Array
 1157. Online Majority Element In Subarray
@@ -233,6 +236,7 @@ Solutions and thoughts about LeetCode problems.
 694. Number of Distinct Islands
 695. Max Area of Island
 700. Search in a Binary Search Tree (preorder traversal)
+723. Candy Crush
 783. Minimum Distance Between BST Nodes (inorder traversal)
 785. Is Graph Bipartite?
 872. Leaf-Similar Trees
@@ -308,6 +312,7 @@ Solutions and thoughts about LeetCode problems.
 785. Is Graph Bipartite?
 821. Shortest Distance to a Character
 909. Snakes and Ladders
+1091. Shortest Path in Binary Matrix
 1102. Path With Maximum Minimum Value
 1236. Web Crawler
 1245. Tree Diameter
@@ -339,10 +344,12 @@ Solutions and thoughts about LeetCode problems.
 280. Wiggle Sort
 435. Non-overlapping Intervals
 452. Minimum Number of Arrows to Burst Balloons
+605. Can Place Flowers
 630. Course Schedule III
 678. Valid Parenthesis String
 767. Reorganize String
 821. Shortest Distance to a Character
+991. Broken Calculator
 1007. Minimum Domino Rotations For Equal Row
 1217. Play with Chips
 1221. Split a String in Balanced Strings
@@ -388,6 +395,7 @@ Solutions and thoughts about LeetCode problems.
 780. Reaching Points
 836. Rectangle Overlap
 867. Transpose Matrix
+991. Broken Calculator
 1056. Confusing Number
 1073. Adding Two Negabinary Numbers
 1085. Sum of Digits in the Minimum Number
@@ -435,6 +443,7 @@ Solutions and thoughts about LeetCode problems.
 645. Set Mismatch
 
 ### Simulation
+723. Candy Crush
 755. Pour Water
 1243. Array Transformation
 1252. Cells with Odd Values in a Matrix
