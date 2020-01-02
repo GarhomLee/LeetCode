@@ -1,5 +1,5 @@
 LeetCode Summary
-=======
+=====================
 Solutions and thoughts about LeetCode problems.
 
 ## Data Structrue
@@ -116,6 +116,7 @@ Solutions and thoughts about LeetCode problems.
 716. Max Stack (TreeMap)
 783. Minimum Distance Between BST Nodes (BST)
 993. Cousins in Binary Tree
+1110. Delete Nodes And Return Forest
 1244. Design A Leaderboard
 1245. Tree Diameter
 1261. Find Elements in a Contaminated Binary Tree
@@ -158,6 +159,7 @@ Solutions and thoughts about LeetCode problems.
 657. Robot Return to Origin
 681. Next Closest Time
 796. Rotate String
+824. Goat Latin
 859. Buddy Strings
 1002. Find Common Characters
 1065. Index Pairs of a String
@@ -165,7 +167,6 @@ Solutions and thoughts about LeetCode problems.
 1233. Remove Sub-Folders from the Filesystem
 1236. Web Crawler
 1271. Hexspeak
-
 
 
 ## Algorithm
@@ -242,6 +243,7 @@ Solutions and thoughts about LeetCode problems.
 872. Leaf-Similar Trees
 993. Cousins in Binary Tree
 1022. Sum of Root To Leaf Binary Numbers
+1110. Delete Nodes And Return Forest
 1214. Two Sum BSTs (preorder traversal)
 1222. Queens That Can Attack the King
 1245. Tree Diameter
@@ -257,6 +259,7 @@ Solutions and thoughts about LeetCode problems.
 254. Factor Combinations
 291. Word Pattern II
 642. Design Search Autocomplete System
+797. All Paths From Source to Target
 980. Unique Paths III
 1066. Campus Bikes II
 1215. Stepping Numbers
@@ -268,6 +271,7 @@ Solutions and thoughts about LeetCode problems.
 ### Recursion with Memoization (Top-down)
 139. Word Break
 140. Word Break II
+797. All Paths From Source to Target
 1066. Campus Bikes II
 1220. Count Vowels Permutation
 1223. Dice Roll Simulation
@@ -275,10 +279,12 @@ Solutions and thoughts about LeetCode problems.
 
 ### Dynamic Programming (Bottom-up)
 139. Word Break
+198. House Robber
 361. Bomb Enemy
 418. Sentence Screen Fitting
 678. Valid Parenthesis String
 718. Maximum Length of Repeated Subarray
+740. Delete and Earn
 931. Minimum Falling Path Sum
 983. Minimum Cost For Tickets
 1014. Best Sightseeing Pair
@@ -310,6 +316,7 @@ Solutions and thoughts about LeetCode problems.
 752. Open the Lock
 773. Sliding Puzzle
 785. Is Graph Bipartite?
+797. All Paths From Source to Target
 821. Shortest Distance to a Character
 909. Snakes and Ladders
 1091. Shortest Path in Binary Matrix
@@ -396,6 +403,7 @@ Solutions and thoughts about LeetCode problems.
 836. Rectangle Overlap
 867. Transpose Matrix
 991. Broken Calculator
+1041. Robot Bounded In Circle
 1056. Confusing Number
 1073. Adding Two Negabinary Numbers
 1085. Sum of Digits in the Minimum Number
