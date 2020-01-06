@@ -30,9 +30,11 @@ Solutions and thoughts about LeetCode problems.
 811. Subdomain Visit Count
 895. Maximum Frequency Stack
 961. N-Repeated Element in Size 2N Array
+974. Subarray Sums Divisible by K
 993. Cousins in Binary Tree
 1002. Find Common Characters
 1010. Pairs of Songs With Total Durations Divisible by 60
+1027. Longest Arithmetic Sequence
 1048. Longest String Chain
 1207. Unique Number of Occurrences
 1213. Intersection of Three Sorted Arrays
@@ -66,6 +68,7 @@ Solutions and thoughts about LeetCode problems.
 353. Design Snake Game
 362. Design Hit Counter
 637. Average of Levels in Binary Tree
+742. Closest Leaf in a Binary Tree
 752. Open the Lock
 773. Sliding Puzzle
 821. Shortest Distance to a Character
@@ -114,6 +117,7 @@ Solutions and thoughts about LeetCode problems.
 687. Longest Univalue Path
 700. Search in a Binary Search Tree (BST)
 716. Max Stack (TreeMap)
+742. Closest Leaf in a Binary Tree
 783. Minimum Distance Between BST Nodes (BST)
 993. Cousins in Binary Tree
 1110. Delete Nodes And Return Forest
@@ -126,6 +130,7 @@ Solutions and thoughts about LeetCode problems.
 ### Graph
 269. Alien Dictionary
 277. Find the Celebrity
+742. Closest Leaf in a Binary Tree
 743. Network Delay Time (shortest path)
 785. Is Graph Bipartite?
 787. Cheapest Flights Within K Stops
@@ -162,6 +167,7 @@ Solutions and thoughts about LeetCode problems.
 824. Goat Latin
 859. Buddy Strings
 1002. Find Common Characters
+1055. Shortest Way to Form String
 1065. Index Pairs of a String
 1108. Defanging an IP Address
 1233. Remove Sub-Folders from the Filesystem
@@ -178,6 +184,7 @@ Solutions and thoughts about LeetCode problems.
 280. Wiggle Sort
 287. Find the Duplicate Number
 628. Maximum Product of Three Numbers
+945. Minimum Increment to Make Array Unique
 1057. Campus Bikes (Bucket Sort)
 1065. Index Pairs of a String
 1086. High Five
@@ -203,6 +210,7 @@ Solutions and thoughts about LeetCode problems.
 729. My Calendar I
 731. My Calendar II
 875. Koko Eating Bananas (search in range)
+1055. Shortest Way to Form String
 1060. Missing Element in Sorted Array (in index)
 1150. Check If a Number Is Majority Element in a Sorted Array
 1157. Online Majority Element In Subarray
@@ -288,6 +296,7 @@ Solutions and thoughts about LeetCode problems.
 931. Minimum Falling Path Sum
 983. Minimum Cost For Tickets
 1014. Best Sightseeing Pair
+1027. Longest Arithmetic Sequence
 1031. Maximum Sum of Two Non-Overlapping Subarrays
 1048. Longest String Chain
 1218. Longest Arithmetic Subsequence of Given Difference
@@ -312,6 +321,7 @@ Solutions and thoughts about LeetCode problems.
 505. The Maze II
 637. Average of Levels in Binary Tree
 690. Employee Importance
+742. Closest Leaf in a Binary Tree
 743. Network Delay Time (shortest path)
 752. Open the Lock
 773. Sliding Puzzle
@@ -358,6 +368,7 @@ Solutions and thoughts about LeetCode problems.
 821. Shortest Distance to a Character
 991. Broken Calculator
 1007. Minimum Domino Rotations For Equal Row
+1055. Shortest Way to Form String
 1217. Play with Chips
 1221. Split a String in Balanced Strings
 1253. Reconstruct a 2-Row Binary Matrix
@@ -402,6 +413,8 @@ Solutions and thoughts about LeetCode problems.
 780. Reaching Points
 836. Rectangle Overlap
 867. Transpose Matrix
+945. Minimum Increment to Make Array Unique
+974. Subarray Sums Divisible by K
 991. Broken Calculator
 1041. Robot Bounded In Circle
 1056. Confusing Number
