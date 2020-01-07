@@ -44,7 +44,7 @@ Solutions and thoughts about LeetCode problems.
 1267. Count Servers that Communicate
 1282. Group the People Given the Group Size They Belong To
 1287. Element Appearing More Than 25% In Sorted Array
-
+1311. Get Watched Videos by Your Friends
 
 ### Stack
 98. Validate Binary Search Tree
@@ -60,6 +60,8 @@ Solutions and thoughts about LeetCode problems.
 772. Basic Calculator III
 783. Minimum Distance Between BST Nodes
 895. Maximum Frequency Stack
+1047. Remove All Adjacent Duplicates In String
+1209. Remove All Adjacent Duplicates in String II
 
 ### Queue
 103. Binary Tree Zigzag Level Order Traversal
@@ -78,6 +80,7 @@ Solutions and thoughts about LeetCode problems.
 1245. Tree Diameter
 1293. Shortest Path in a Grid with Obstacles Elimination
 1302. Deepest Leaves Sum
+1311. Get Watched Videos by Your Friends
 
 ### Heap
 218. The Skyline Problem
@@ -93,7 +96,7 @@ Solutions and thoughts about LeetCode problems.
 1168. Optimize Water Distribution in a Village (MST)
 1268. Search Suggestions System
 1289. Minimum Falling Path Sum II (minHeap)
-
+1311. Get Watched Videos by Your Friends
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -136,7 +139,7 @@ Solutions and thoughts about LeetCode problems.
 787. Cheapest Flights Within K Stops
 1168. Optimize Water Distribution in a Village (MST)
 1245. Tree Diameter
-
+1311. Get Watched Videos by Your Friends
 
 ### Union Find
 305. Number of Islands II
@@ -173,6 +176,9 @@ Solutions and thoughts about LeetCode problems.
 1233. Remove Sub-Folders from the Filesystem
 1236. Web Crawler
 1271. Hexspeak
+1309. Decrypt String from Alphabet to Integer Mapping
+1312. Minimum Insertion Steps to Make a String Palindrome
+
 
 
 ## Algorithm
@@ -201,6 +207,7 @@ Solutions and thoughts about LeetCode problems.
 876. Middle of the Linked List (fast & slow)
 905. Sort Array By Parity (low & high)
 1099. Two Sum Less Than K (low & high)
+1209. Remove All Adjacent Duplicates in String II (left & right)
 1213. Intersection of Three Sorted Arrays
 
 ### Binary Search
@@ -284,6 +291,7 @@ Solutions and thoughts about LeetCode problems.
 1220. Count Vowels Permutation
 1223. Dice Roll Simulation
 1306. Jump Game III
+1312. Minimum Insertion Steps to Make a String Palindrome
 
 ### Dynamic Programming (Bottom-up)
 139. Word Break
@@ -291,6 +299,7 @@ Solutions and thoughts about LeetCode problems.
 361. Bomb Enemy
 418. Sentence Screen Fitting
 678. Valid Parenthesis String
+714. Best Time to Buy and Sell Stock with Transaction Fee
 718. Maximum Length of Repeated Subarray
 740. Delete and Earn
 931. Minimum Falling Path Sum
@@ -338,6 +347,7 @@ Solutions and thoughts about LeetCode problems.
 1293. Shortest Path in a Grid with Obstacles Elimination
 1302. Deepest Leaves Sum
 1306. Jump Game III
+1311. Get Watched Videos by Your Friends
 
 ### Quick Select
 215. Kth Largest Element in an Array
@@ -393,7 +403,6 @@ Solutions and thoughts about LeetCode problems.
 253. Meeting Rooms II
 370. Range Addition
 
-
 ### Bit Manipulation
 289. Game of Life
 661. Image Smoother
@@ -401,6 +410,7 @@ Solutions and thoughts about LeetCode problems.
 1066. Campus Bikes II
 1073. Adding Two Negabinary Numbers
 1255. Maximum Score Words Formed by Letters
+1310. XOR Queries of a Subarray
 
 ### Math
 227. Basic Calculator II
