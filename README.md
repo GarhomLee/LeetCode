@@ -212,6 +212,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Binary Search
 378. Kth Smallest Element in a Sorted Matrix (search in range)
+611. Valid Triangle Number
 702. Search in a Sorted Array of Unknown Size
 718. Maximum Length of Repeated Subarray (search in index or length)
 729. My Calendar I
