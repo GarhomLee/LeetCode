@@ -29,6 +29,7 @@ Solutions and thoughts about LeetCode problems.
 721. Accounts Merge
 811. Subdomain Visit Count
 895. Maximum Frequency Stack
+939. Minimum Area Rectangle
 961. N-Repeated Element in Size 2N Array
 974. Subarray Sums Divisible by K
 993. Cousins in Binary Tree
@@ -148,7 +149,7 @@ Solutions and thoughts about LeetCode problems.
 685. Redundant Connection II
 721. Accounts Merge
 1102. Path With Maximum Minimum Value
-
+1319. Number of Operations to Make Network Connected
 
 ### Trie
 212. Word Search II
@@ -412,6 +413,7 @@ Solutions and thoughts about LeetCode problems.
 1073. Adding Two Negabinary Numbers
 1255. Maximum Score Words Formed by Letters
 1310. XOR Queries of a Subarray
+1318. Minimum Flips to Make a OR b Equal to c
 
 ### Math
 227. Basic Calculator II
