@@ -191,6 +191,7 @@ Solutions and thoughts about LeetCode problems.
 280. Wiggle Sort
 287. Find the Duplicate Number
 628. Maximum Product of Three Numbers
+912. Sort an Array
 945. Minimum Increment to Make Array Unique
 1057. Campus Bikes (Bucket Sort)
 1065. Index Pairs of a String
