@@ -117,6 +117,7 @@ Solutions and thoughts about LeetCode problems.
 606. Construct String from Binary Tree
 637. Average of Levels in Binary Tree
 652. Find Duplicate Subtrees
+655. Print Binary Tree
 669. Trim a Binary Search Tree (BST)
 687. Longest Univalue Path
 700. Search in a Binary Search Tree (BST)
@@ -130,6 +131,7 @@ Solutions and thoughts about LeetCode problems.
 1261. Find Elements in a Contaminated Binary Tree
 1273. Delete Tree Nodes
 1305. All Elements in Two Binary Search Trees (BST)
+1315. Sum of Nodes with Even-Valued Grandparent
 
 ### Graph
 269. Alien Dictionary
@@ -193,6 +195,7 @@ Solutions and thoughts about LeetCode problems.
 628. Maximum Product of Three Numbers
 912. Sort an Array
 945. Minimum Increment to Make Array Unique
+969. Pancake Sorting
 1057. Campus Bikes (Bucket Sort)
 1065. Index Pairs of a String
 1086. High Five
@@ -249,6 +252,7 @@ Solutions and thoughts about LeetCode problems.
 490. The Maze
 606. Construct String from Binary Tree
 652. Find Duplicate Subtrees
+655. Print Binary Tree
 669. Trim a Binary Search Tree
 687. Longest Univalue Path (postorder traversal)
 690. Employee Importance
@@ -269,7 +273,7 @@ Solutions and thoughts about LeetCode problems.
 1261. Find Elements in a Contaminated Binary Tree
 1273. Delete Tree Nodes
 1305. All Elements in Two Binary Search Trees (inorder traversal)
-
+1315. Sum of Nodes with Even-Valued Grandparent
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -280,6 +284,7 @@ Solutions and thoughts about LeetCode problems.
 797. All Paths From Source to Target
 980. Unique Paths III
 1066. Campus Bikes II
+1087. Brace Expansion
 1215. Stepping Numbers
 1219. Path with Maximum Gold
 1255. Maximum Score Words Formed by Letters
@@ -489,6 +494,7 @@ Solutions and thoughts about LeetCode problems.
 724. Find Pivot Index
 1031. Maximum Sum of Two Non-Overlapping Subarrays
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
+1314. Matrix Block Sum
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
