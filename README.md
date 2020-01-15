@@ -124,6 +124,7 @@ Solutions and thoughts about LeetCode problems.
 716. Max Stack (TreeMap)
 742. Closest Leaf in a Binary Tree
 783. Minimum Distance Between BST Nodes (BST)
+814. Binary Tree Pruning
 993. Cousins in Binary Tree
 1110. Delete Nodes And Return Forest
 1244. Design A Leaderboard
@@ -217,6 +218,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Binary Search
 378. Kth Smallest Element in a Sorted Matrix (search in range)
+528. Random Pick with Weight
 611. Valid Triangle Number
 702. Search in a Sorted Array of Unknown Size
 718. Maximum Length of Repeated Subarray (search in index or length)
@@ -262,6 +264,7 @@ Solutions and thoughts about LeetCode problems.
 723. Candy Crush
 783. Minimum Distance Between BST Nodes (inorder traversal)
 785. Is Graph Bipartite?
+814. Binary Tree Pruning
 872. Leaf-Similar Trees
 993. Cousins in Binary Tree
 1022. Sum of Root To Leaf Binary Numbers
@@ -491,6 +494,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Prefix Sum
 325. Maximum Size Subarray Sum Equals k
+528. Random Pick with Weight
 724. Find Pivot Index
 1031. Maximum Sum of Two Non-Overlapping Subarrays
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
