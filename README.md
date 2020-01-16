@@ -387,6 +387,7 @@ Solutions and thoughts about LeetCode problems.
 678. Valid Parenthesis String
 767. Reorganize String
 821. Shortest Distance to a Character
+915. Partition Array into Disjoint Intervals
 991. Broken Calculator
 1007. Minimum Domino Rotations For Equal Row
 1055. Shortest Way to Form String
@@ -437,6 +438,7 @@ Solutions and thoughts about LeetCode problems.
 867. Transpose Matrix
 945. Minimum Increment to Make Array Unique
 974. Subarray Sums Divisible by K
+989. Add to Array-Form of Integer
 991. Broken Calculator
 1041. Robot Bounded In Circle
 1056. Confusing Number
