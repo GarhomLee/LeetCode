@@ -151,6 +151,7 @@ Solutions and thoughts about LeetCode problems.
 547. Friend Circles
 685. Redundant Connection II
 721. Accounts Merge
+952. Largest Component Size by Common Factor
 1102. Path With Maximum Minimum Value
 1319. Number of Operations to Make Network Connected
 
@@ -437,6 +438,7 @@ Solutions and thoughts about LeetCode problems.
 836. Rectangle Overlap
 867. Transpose Matrix
 945. Minimum Increment to Make Array Unique
+952. Largest Component Size by Common Factor
 974. Subarray Sums Divisible by K
 989. Add to Array-Form of Integer
 991. Broken Calculator
@@ -457,6 +459,7 @@ Solutions and thoughts about LeetCode problems.
 ### Info Cache
 36. Valid Sudoku
 348. Design Tic-Tac-Toe
+794. Valid Tic-Tac-Toe State
 1275. Find Winner on a Tic Tac Toe Game
 
 ### Design
