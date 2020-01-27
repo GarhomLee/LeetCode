@@ -66,6 +66,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Queue
 103. Binary Tree Zigzag Level Order Traversal
+117. Populating Next Right Pointers in Each Node II
 281. Zigzag Iterator
 286. Walls and Gates
 353. Design Snake Game
@@ -110,10 +111,13 @@ Solutions and thoughts about LeetCode problems.
 ### Tree
 98. Validate Binary Search Tree (BST)
 103. Binary Tree Zigzag Level Order Traversal
+117. Populating Next Right Pointers in Each Node II
 285. Inorder Successor in BST (BST)
 314. Binary Tree Vertical Order Traversal (BST)
 333. Largest BST Subtree (BST)
 426. Convert Binary Search Tree to Sorted Doubly Linked List (BST)
+428. Serialize and Deserialize N-ary Tree
+510. Inorder Successor in BST II
 606. Construct String from Binary Tree
 637. Average of Levels in Binary Tree
 652. Find Duplicate Subtrees
@@ -169,6 +173,7 @@ Solutions and thoughts about LeetCode problems.
 290. Word Pattern
 291. Word Pattern II
 340. Longest Substring with At Most K Distinct Characters
+428. Serialize and Deserialize N-ary Tree
 657. Robot Return to Origin
 681. Next Closest Time
 796. Rotate String
@@ -330,6 +335,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### BFS
 103. Binary Tree Zigzag Level Order Traversal
+117. Populating Next Right Pointers in Each Node II
 126. Word Ladder II
 127. Word Ladder
 207. Course Schedule

@@ -45,3 +45,37 @@ class Solution {
         return dp[s.length()][p.length()];
     }
 }
+
+
+二刷：代码精简
+时间复杂度：O(slen + plen)
+空间复杂度：O(slen + plen)
+
+class Solution {
+    public boolean isMatch(String s, String p) {
+        int slen = s.length(), plen = p.length();
+        boolean[][] dp = new boolean[slen + 1][plen + 1];
+
+        // initial values
+        dp[0][0] = true;
+        for (int pi = 1; pi <= plen; pi++) {
+            dp[0][pi] = pi >= 2 && p.charAt(pi - 1) == '*' && p.charAt(pi - 2) != '*' && dp[0][pi - 2];
+        }
+        
+        // state transfer
+        for (int si = 1; si <= slen; si++) {
+            for (int pi = 1; pi <= plen; pi++) {
+                if (p.charAt(pi - 1) == s.charAt(si - 1) || p.charAt(pi - 1) == '.') {
+                    dp[si][pi] = dp[si - 1][pi - 1];
+                } else if (pi >= 2 && p.charAt(pi - 1) == '*' && p.charAt(pi - 2) != '*') {
+                    dp[si][pi] = dp[si][pi - 2];
+                    if (p.charAt(pi - 2) == s.charAt(si - 1) || p.charAt(pi - 2) == '.') {
+                        dp[si][pi] = dp[si][pi] || dp[si - 1][pi];
+                    }
+                }
+            }
+        }
+        
+        return dp[slen][plen];
+    }
+}

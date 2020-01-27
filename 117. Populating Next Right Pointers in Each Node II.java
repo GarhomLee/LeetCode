@@ -6,6 +6,8 @@ https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
 //      当curr.left != null时，curr.left就可以被pre.next连接，同时pre更新为pre.next。curr.right != null同理。
 //      然后移动curr。如果curr.next == null，说明当前层已经遍历完，而且下一层已经连接完，那么curr更新为dummy.next，
 //      同时dummy.next重置为null，等待pre帮助其进行连接。
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
 
 class Solution {
     public Node connect(Node root) {        
@@ -29,6 +31,40 @@ class Solution {
                 pre = dummy;
             }
         }
+        return root;
+    }
+}
+
+
+解法二：BFS
+时间复杂度：O(n)
+空间复杂度：O(n)
+
+class Solution {
+    public Node connect(Node root) {
+        Queue<Node> queue = new LinkedList<>();
+        if (root != null) {
+            queue.offer(root);
+        }
+        
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            while (size > 0) {
+                Node curr = queue.poll();
+                size--;
+                if (size > 0) {
+                    curr.next = queue.peek();
+                }
+                
+                if (curr.left != null) {
+                    queue.offer(curr.left);
+                }
+                if (curr.right != null) {
+                    queue.offer(curr.right);
+                }
+            }
+        }
+        
         return root;
     }
 }
