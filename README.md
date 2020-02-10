@@ -46,6 +46,7 @@ Solutions and thoughts about LeetCode problems.
 1282. Group the People Given the Group Size They Belong To
 1287. Element Appearing More Than 25% In Sorted Array
 1311. Get Watched Videos by Your Friends
+1329. Sort the Matrix Diagonally
 
 ### Stack
 98. Validate Binary Search Tree
@@ -99,6 +100,7 @@ Solutions and thoughts about LeetCode problems.
 1268. Search Suggestions System
 1289. Minimum Falling Path Sum II (minHeap)
 1311. Get Watched Videos by Your Friends
+1329. Sort the Matrix Diagonally
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -188,6 +190,7 @@ Solutions and thoughts about LeetCode problems.
 1271. Hexspeak
 1309. Decrypt String from Alphabet to Integer Mapping
 1312. Minimum Insertion Steps to Make a String Palindrome
+1328. Break a Palindrome
 
 
 
@@ -209,6 +212,7 @@ Solutions and thoughts about LeetCode problems.
 1099. Two Sum Less Than K
 1235. Maximum Profit in Job Scheduling
 1288. Remove Covered Intervals
+1329. Sort the Matrix Diagonally
 
 
 ### Two Pointers
