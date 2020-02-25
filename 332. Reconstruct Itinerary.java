@@ -45,3 +45,33 @@ class Solution {
         res.add(0, from);
     }
 }
+
+
+二刷：HashMap + PriorityQueue
+
+class Solution {
+    private void dfs(Map<String, PriorityQueue<String>> graph, String curr, List<String> res) {
+        PriorityQueue<String> pq = graph.get(curr);
+        while (!pq.isEmpty()) {
+            String next = pq.poll();
+            dfs(graph, next, res);
+        }
+        
+        res.add(0, curr);
+    }
+    
+    public List<String> findItinerary(List<List<String>> tickets) {
+        Map<String, PriorityQueue<String>> graph = new HashMap<>();
+        for (List<String> ticket : tickets) {
+            String from = ticket.get(0), to = ticket.get(1);
+            graph.putIfAbsent(from, new PriorityQueue<>());
+            graph.putIfAbsent(to, new PriorityQueue<>());
+            graph.get(from).offer(to);
+        }
+        
+        List<String> res = new ArrayList<>();
+        dfs(graph, "JFK", res);
+        
+        return res;
+    }
+}
