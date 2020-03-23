@@ -37,6 +37,7 @@ Solutions and thoughts about LeetCode problems.
 1010. Pairs of Songs With Total Durations Divisible by 60
 1027. Longest Arithmetic Sequence
 1048. Longest String Chain
+1054. Distant Barcodes
 1207. Unique Number of Occurrences
 1213. Intersection of Three Sorted Arrays
 1218. Longest Arithmetic Subsequence of Given Difference
@@ -77,6 +78,7 @@ Solutions and thoughts about LeetCode problems.
 752. Open the Lock
 773. Sliding Puzzle
 821. Shortest Distance to a Character
+933. Number of Recent Calls
 1089. Duplicate Zeros
 1091. Shortest Path in Binary Matrix
 1236. Web Crawler
@@ -95,6 +97,7 @@ Solutions and thoughts about LeetCode problems.
 778. Swim in Rising Water
 855. Exam Room
 1046. Last Stone Weight (maxHeap)
+1054. Distant Barcodes (maxHeap)
 1057. Campus Bikes (minHeap)
 1102. Path With Maximum Minimum Value (maxHeap)
 1168. Optimize Water Distribution in a Village (MST)
@@ -150,11 +153,12 @@ Solutions and thoughts about LeetCode problems.
 743. Network Delay Time (shortest path)
 785. Is Graph Bipartite?
 787. Cheapest Flights Within K Stops
+1042. Flower Planting With No Adjacent
 1168. Optimize Water Distribution in a Village (MST)
 1245. Tree Diameter
 1311. Get Watched Videos by Your Friends
 
-### Union Find
+### Disjoint Set
 305. Number of Islands II
 323. Number of Connected Components in an Undirected Graph （模版题）
 547. Friend Circles
@@ -162,6 +166,7 @@ Solutions and thoughts about LeetCode problems.
 721. Accounts Merge
 778. Swim in Rising Water
 952. Largest Component Size by Common Factor
+990. Satisfiability of Equality Equations
 1102. Path With Maximum Minimum Value
 1319. Number of Operations to Make Network Connected
 
@@ -186,6 +191,7 @@ Solutions and thoughts about LeetCode problems.
 796. Rotate String
 824. Goat Latin
 859. Buddy Strings
+880. Decoded String at Index
 1002. Find Common Characters
 1055. Shortest Way to Form String
 1065. Index Pairs of a String
@@ -211,6 +217,7 @@ Solutions and thoughts about LeetCode problems.
 912. Sort an Array
 945. Minimum Increment to Make Array Unique
 969. Pancake Sorting
+1054. Distant Barcodes
 1057. Campus Bikes (Bucket Sort)
 1065. Index Pairs of a String
 1086. High Five
