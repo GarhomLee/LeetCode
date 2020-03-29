@@ -25,6 +25,7 @@ Solutions and thoughts about LeetCode problems.
 325. Maximum Size Subarray Sum Equals k
 353. Design Snake Game
 356. Line Reflection
+519. Random Flip Matrix
 652. Find Duplicate Subtrees
 721. Accounts Merge
 811. Subdomain Visit Count
@@ -340,6 +341,7 @@ Solutions and thoughts about LeetCode problems.
 714. Best Time to Buy and Sell Stock with Transaction Fee
 718. Maximum Length of Repeated Subarray
 740. Delete and Earn
+898. Bitwise ORs of Subarrays
 931. Minimum Falling Path Sum
 983. Minimum Cost For Tickets
 1014. Best Sightseeing Pair
@@ -446,9 +448,11 @@ Solutions and thoughts about LeetCode problems.
 370. Range Addition
 
 ### Bit Manipulation
+201. Bitwise AND of Numbers Range
 289. Game of Life
 661. Image Smoother
 762. Prime Number of Set Bits in Binary Representation
+898. Bitwise ORs of Subarrays
 1066. Campus Bikes II
 1073. Adding Two Negabinary Numbers
 1255. Maximum Score Words Formed by Letters
@@ -461,6 +465,8 @@ Solutions and thoughts about LeetCode problems.
 356. Line Reflection
 369. Plus One Linked List
 390. Elimination Game
+396. Rotate Function
+400. Nth Digit
 628. Maximum Product of Three Numbers
 772. Basic Calculator III
 780. Reaching Points
@@ -468,9 +474,11 @@ Solutions and thoughts about LeetCode problems.
 867. Transpose Matrix
 945. Minimum Increment to Make Array Unique
 952. Largest Component Size by Common Factor
+963. Minimum Area Rectangle II
 974. Subarray Sums Divisible by K
 989. Add to Array-Form of Integer
 991. Broken Calculator
+1015. Smallest Integer Divisible by K
 1041. Robot Bounded In Circle
 1056. Confusing Number
 1073. Adding Two Negabinary Numbers
