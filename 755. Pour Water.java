@@ -31,3 +31,64 @@ class Solution {
         return heights;
     }
 }
+
+
+solution2: Intuition
+    First, check if it can go left; if so, update the height at correct position.
+    If the check returns false, it then check if it can go right; if so, update the height at correct position.
+    If it can go neither left nor right, just update the height of current position.
+time complexity: O(n * V)
+space complexity: O(1)
+
+class Solution {
+    private boolean goLeft(int[] heights, int start) {
+        boolean left = false;
+        int index = start - 1, lowest = index; 
+        while (index >= 0 && heights[index] <= heights[index + 1]) {
+            if (heights[index] < heights[index + 1]) {
+                left = true;
+                lowest = index;
+            }
+            index--;
+        }
+        
+        if (left) {
+            heights[lowest]++;
+        }
+        
+        return left;
+    }
+    
+    private boolean goRight(int[] heights, int start) {
+        boolean right = false;
+        int index = start + 1, lowest = index;
+        while (index < heights.length && heights[index] <= heights[index - 1]) {
+            if (heights[index] < heights[index - 1]) {
+                right = true;
+                lowest = index;
+            }
+            index++;
+        }
+        
+        if (right) {
+            heights[lowest]++;
+        }
+        
+        return right;
+    }
+    
+    public int[] pourWater(int[] heights, int V, int K) {
+        int len = heights.length;
+        
+        while (V-- > 0) {
+            boolean left = goLeft(heights, K), right = false;
+            if (!left) {
+                right = goRight(heights, K);
+                if (!right) {
+                    heights[K]++;
+                }
+            }
+        }
+        return heights;
+    }
+}
