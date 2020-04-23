@@ -39,6 +39,7 @@ Solutions and thoughts about LeetCode problems.
 1027. Longest Arithmetic Sequence
 1048. Longest String Chain
 1054. Distant Barcodes
+1181. Before and After Puzzle
 1207. Unique Number of Occurrences
 1213. Intersection of Three Sorted Arrays
 1218. Longest Arithmetic Subsequence of Given Difference
@@ -138,6 +139,7 @@ Solutions and thoughts about LeetCode problems.
 814. Binary Tree Pruning
 993. Cousins in Binary Tree
 1110. Delete Nodes And Return Forest
+1181. Before and After Puzzle (TreeSet)
 1244. Design A Leaderboard
 1245. Tree Diameter
 1261. Find Elements in a Contaminated Binary Tree
@@ -197,6 +199,7 @@ Solutions and thoughts about LeetCode problems.
 1055. Shortest Way to Form String
 1065. Index Pairs of a String
 1108. Defanging an IP Address
+1181. Before and After Puzzle
 1233. Remove Sub-Folders from the Filesystem
 1236. Web Crawler
 1271. Hexspeak
