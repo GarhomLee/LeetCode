@@ -427,6 +427,7 @@ Solutions and thoughts about LeetCode problems.
 1221. Split a String in Balanced Strings
 1253. Reconstruct a 2-Row Binary Matrix
 1282. Group the People Given the Group Size They Belong To
+1386. Cinema Seat Allocation
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
