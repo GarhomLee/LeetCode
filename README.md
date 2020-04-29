@@ -65,6 +65,7 @@ Solutions and thoughts about LeetCode problems.
 772. Basic Calculator III
 783. Minimum Distance Between BST Nodes
 895. Maximum Frequency Stack
+946. Validate Stack Sequences
 1047. Remove All Adjacent Duplicates In String
 1209. Remove All Adjacent Duplicates in String II
 
