@@ -138,6 +138,7 @@ Solutions and thoughts about LeetCode problems.
 742. Closest Leaf in a Binary Tree
 783. Minimum Distance Between BST Nodes (BST)
 814. Binary Tree Pruning
+846. Hand of Straights (TreeMap)
 993. Cousins in Binary Tree
 1110. Delete Nodes And Return Forest
 1181. Before and After Puzzle (TreeSet)
