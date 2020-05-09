@@ -77,6 +77,7 @@ Solutions and thoughts about LeetCode problems.
 353. Design Snake Game
 362. Design Hit Counter
 637. Average of Levels in Binary Tree
+662. Maximum Width of Binary Tree
 742. Closest Leaf in a Binary Tree
 752. Open the Lock
 773. Sliding Puzzle
@@ -131,6 +132,7 @@ Solutions and thoughts about LeetCode problems.
 637. Average of Levels in Binary Tree
 652. Find Duplicate Subtrees
 655. Print Binary Tree
+662. Maximum Width of Binary Tree
 669. Trim a Binary Search Tree (BST)
 687. Longest Univalue Path
 700. Search in a Binary Search Tree (BST)
@@ -314,6 +316,7 @@ Solutions and thoughts about LeetCode problems.
 22. Generate Parentheses
 126. Word Ladder II
 254. Factor Combinations
+267. Palindrome Permutation II
 291. Word Pattern II
 465. Optimal Account Balancing
 642. Design Search Autocomplete System
@@ -379,6 +382,7 @@ Solutions and thoughts about LeetCode problems.
 490. The Maze
 505. The Maze II
 637. Average of Levels in Binary Tree
+662. Maximum Width of Binary Tree
 690. Employee Importance
 742. Closest Leaf in a Binary Tree
 743. Network Delay Time (shortest path)
@@ -430,6 +434,7 @@ Solutions and thoughts about LeetCode problems.
 915. Partition Array into Disjoint Intervals
 991. Broken Calculator
 1007. Minimum Domino Rotations For Equal Row
+1029. Two City Scheduling
 1055. Shortest Way to Form String
 1217. Play with Chips
 1221. Split a String in Balanced Strings
