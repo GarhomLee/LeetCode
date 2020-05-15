@@ -68,6 +68,7 @@ Solutions and thoughts about LeetCode problems.
 946. Validate Stack Sequences
 1047. Remove All Adjacent Duplicates In String
 1209. Remove All Adjacent Duplicates in String II
+1441. Build an Array With Stack Operations
 
 ### Queue
 103. Binary Tree Zigzag Level Order Traversal
@@ -176,6 +177,7 @@ Solutions and thoughts about LeetCode problems.
 990. Satisfiability of Equality Equations
 1102. Path With Maximum Minimum Value
 1319. Number of Operations to Make Network Connected
+1443. Minimum Time to Collect All Apples in a Tree
 
 ### Trie
 212. Word Search II
@@ -311,6 +313,7 @@ Solutions and thoughts about LeetCode problems.
 1305. All Elements in Two Binary Search Trees (inorder traversal)
 1315. Sum of Nodes with Even-Valued Grandparent
 1339. Maximum Product of Splitted Binary Tree (postorder & preorder traversal)
+1443. Minimum Time to Collect All Apples in a Tree
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -473,6 +476,7 @@ Solutions and thoughts about LeetCode problems.
 1255. Maximum Score Words Formed by Letters
 1310. XOR Queries of a Subarray
 1318. Minimum Flips to Make a OR b Equal to c
+1442. Count Triplets That Can Form Two Arrays of Equal XOR
 
 ### Math
 227. Basic Calculator II

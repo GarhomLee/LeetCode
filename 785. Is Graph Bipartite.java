@@ -1,4 +1,4 @@
-https://leetcode.com/problems/is-graph-bipartite/
+0https://leetcode.com/problems/is-graph-bipartite/
 
 // 解法一：Graph + DFS。关键思路在于，给相邻的节点染上不同的颜色标记，同样标记的节点放到一组，看是否每个节点都只会有1个标记。
 //         由于图的表示已经给定，所以不需要重新构建。
