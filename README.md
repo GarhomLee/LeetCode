@@ -9,6 +9,7 @@ Solutions and thoughts about LeetCode problems.
 645. Set Mismatch
 1010. Pairs of Songs With Total Durations Divisible by 60
 1085. Sum of Digits in the Minimum Number
+1437. Check If All 1's Are at Least Length K Places Away
 
 ### Linked List
 369. Plus One Linked List
@@ -50,6 +51,7 @@ Solutions and thoughts about LeetCode problems.
 1287. Element Appearing More Than 25% In Sorted Array
 1311. Get Watched Videos by Your Friends
 1329. Sort the Matrix Diagonally
+1436. Destination City
 
 ### Stack
 98. Validate Binary Search Tree
@@ -118,6 +120,7 @@ Solutions and thoughts about LeetCode problems.
 862. Shortest Subarray with Sum at Least K (Deque)
 901. Online Stock Span
 907. Sum of Subarray Minimums
+1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 
 ### Tree
 98. Validate Binary Search Tree (BST)
@@ -369,7 +372,7 @@ Solutions and thoughts about LeetCode problems.
 1262. Greatest Sum Divisible by Three
 1289. Minimum Falling Path Sum II
 1339. Maximum Product of Splitted Binary Tree
-
+1444. Number of Ways of Cutting a Pizza
 
 ### BFS
 103. Binary Tree Zigzag Level Order Traversal
@@ -422,6 +425,7 @@ Solutions and thoughts about LeetCode problems.
 239. Sliding Window Maximum
 340. Longest Substring with At Most K Distinct Characters
 1234. Replace the Substring for Balanced String
+1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 
 ### Greedy
 68. Text Justification
