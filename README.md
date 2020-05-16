@@ -335,6 +335,7 @@ Solutions and thoughts about LeetCode problems.
 1239. Maximum Length of a Concatenated String with Unique Characters
 1255. Maximum Score Words Formed by Letters
 1286. Iterator for Combination
+1415. The k-th Lexicographical String of All Happy Strings of Length n
 
 
 ### Recursion with Memoization (Top-down)
@@ -425,6 +426,7 @@ Solutions and thoughts about LeetCode problems.
 239. Sliding Window Maximum
 340. Longest Substring with At Most K Distinct Characters
 1234. Replace the Substring for Balanced String
+1423. Maximum Points You Can Obtain from Cards
 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 
 ### Greedy
@@ -448,6 +450,7 @@ Solutions and thoughts about LeetCode problems.
 1253. Reconstruct a 2-Row Binary Matrix
 1282. Group the People Given the Group Size They Belong To
 1386. Cinema Seat Allocation
+1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -565,6 +568,8 @@ Solutions and thoughts about LeetCode problems.
 1140. Stone Game II
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 1314. Matrix Block Sum
+1413. Minimum Value to Get Positive Step by Step Sum
+1422. Maximum Score After Splitting a String
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
