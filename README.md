@@ -52,6 +52,7 @@ Solutions and thoughts about LeetCode problems.
 1311. Get Watched Videos by Your Friends
 1329. Sort the Matrix Diagonally
 1436. Destination City
+1452. People Whose List of Favorite Companies Is Not a Subset of Another List
 
 ### Stack
 98. Validate Binary Search Tree
@@ -155,6 +156,8 @@ Solutions and thoughts about LeetCode problems.
 1305. All Elements in Two Binary Search Trees (BST)
 1315. Sum of Nodes with Even-Valued Grandparent
 1339. Maximum Product of Splitted Binary Tree
+1448. Count Good Nodes in Binary Tree
+1451. Rearrange Words in a Sentence (TreeMap)
 
 
 ### Graph
@@ -215,7 +218,7 @@ Solutions and thoughts about LeetCode problems.
 1309. Decrypt String from Alphabet to Integer Mapping
 1312. Minimum Insertion Steps to Make a String Palindrome
 1328. Break a Palindrome
-
+1446. Consecutive Characters
 
 
 ## Algorithm
@@ -238,6 +241,7 @@ Solutions and thoughts about LeetCode problems.
 1235. Maximum Profit in Job Scheduling
 1288. Remove Covered Intervals
 1329. Sort the Matrix Diagonally
+1451. Rearrange Words in a Sentence
 
 
 ### Two Pointers
@@ -317,6 +321,7 @@ Solutions and thoughts about LeetCode problems.
 1315. Sum of Nodes with Even-Valued Grandparent
 1339. Maximum Product of Splitted Binary Tree (postorder & preorder traversal)
 1443. Minimum Time to Collect All Apples in a Tree
+1448. Count Good Nodes in Binary Tree
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -518,6 +523,7 @@ Solutions and thoughts about LeetCode problems.
 1281. Subtract the Product and Sum of Digits of an Integer
 1290. Convert Binary Number in a Linked List to Integer
 1344. Angle Between Hands of a Clock
+1447. Simplified Fractions (GCD template)
 
 ### Info Cache
 36. Valid Sudoku
