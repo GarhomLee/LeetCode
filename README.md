@@ -241,6 +241,7 @@ Solutions and thoughts about LeetCode problems.
 1235. Maximum Profit in Job Scheduling
 1288. Remove Covered Intervals
 1329. Sort the Matrix Diagonally
+1433. Check If a String Can Break Another String
 1451. Rearrange Words in a Sentence
 
 
@@ -456,6 +457,8 @@ Solutions and thoughts about LeetCode problems.
 1282. Group the People Given the Group Size They Belong To
 1386. Cinema Seat Allocation
 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+1432. Max Difference You Can Get From Changing an Integer
+1433. Check If a String Can Break Another String
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
