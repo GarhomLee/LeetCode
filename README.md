@@ -10,6 +10,7 @@ Solutions and thoughts about LeetCode problems.
 1010. Pairs of Songs With Total Durations Divisible by 60
 1085. Sum of Digits in the Minimum Number
 1437. Check If All 1's Are at Least Length K Places Away
+1460. Make Two Arrays Equal by Reversing Sub-arrays
 
 ### Linked List
 369. Plus One Linked List
@@ -53,6 +54,8 @@ Solutions and thoughts about LeetCode problems.
 1329. Sort the Matrix Diagonally
 1436. Destination City
 1452. People Whose List of Favorite Companies Is Not a Subset of Another List
+1461. Check If a String Contains All Binary Codes of Size K
+1462. Course Schedule IV
 
 ### Stack
 98. Validate Binary Search Tree
@@ -94,6 +97,7 @@ Solutions and thoughts about LeetCode problems.
 1293. Shortest Path in a Grid with Obstacles Elimination
 1302. Deepest Leaves Sum
 1311. Get Watched Videos by Your Friends
+1462. Course Schedule IV
 
 ### Heap
 218. The Skyline Problem
@@ -171,6 +175,7 @@ Solutions and thoughts about LeetCode problems.
 1168. Optimize Water Distribution in a Village (MST)
 1245. Tree Diameter
 1311. Get Watched Videos by Your Friends
+1462. Course Schedule IV
 
 ### Disjoint Set
 305. Number of Islands II
@@ -219,6 +224,7 @@ Solutions and thoughts about LeetCode problems.
 1312. Minimum Insertion Steps to Make a String Palindrome
 1328. Break a Palindrome
 1446. Consecutive Characters
+1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
 
 
 ## Algorithm
@@ -243,7 +249,7 @@ Solutions and thoughts about LeetCode problems.
 1329. Sort the Matrix Diagonally
 1433. Check If a String Can Break Another String
 1451. Rearrange Words in a Sentence
-
+1460. Make Two Arrays Equal by Reversing Sub-arrays
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -323,6 +329,7 @@ Solutions and thoughts about LeetCode problems.
 1339. Maximum Product of Splitted Binary Tree (postorder & preorder traversal)
 1443. Minimum Time to Collect All Apples in a Tree
 1448. Count Good Nodes in Binary Tree
+1457. Pseudo-Palindromic Paths in a Binary Tree
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -416,6 +423,7 @@ Solutions and thoughts about LeetCode problems.
 1302. Deepest Leaves Sum
 1306. Jump Game III
 1311. Get Watched Videos by Your Friends
+1462. Course Schedule IV
 
 ### Quick Select
 215. Kth Largest Element in an Array
@@ -434,6 +442,7 @@ Solutions and thoughts about LeetCode problems.
 1234. Replace the Substring for Balanced String
 1423. Maximum Points You Can Obtain from Cards
 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+1456. Maximum Number of Vowels in a Substring of Given Length
 
 ### Greedy
 68. Text Justification
