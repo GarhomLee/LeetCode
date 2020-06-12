@@ -52,6 +52,8 @@ Solutions and thoughts about LeetCode problems.
 1287. Element Appearing More Than 25% In Sorted Array
 1311. Get Watched Videos by Your Friends
 1329. Sort the Matrix Diagonally
+1426. Counting Elements
+1429. First Unique Number
 1436. Destination City
 1452. People Whose List of Favorite Companies Is Not a Subset of Another List
 1461. Check If a String Contains All Binary Codes of Size K
@@ -97,6 +99,7 @@ Solutions and thoughts about LeetCode problems.
 1293. Shortest Path in a Grid with Obstacles Elimination
 1302. Deepest Leaves Sum
 1311. Get Watched Videos by Your Friends
+1429. First Unique Number
 1462. Course Schedule IV
 
 ### Heap
@@ -160,6 +163,7 @@ Solutions and thoughts about LeetCode problems.
 1305. All Elements in Two Binary Search Trees (BST)
 1315. Sum of Nodes with Even-Valued Grandparent
 1339. Maximum Product of Splitted Binary Tree
+1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
 1448. Count Good Nodes in Binary Tree
 1451. Rearrange Words in a Sentence (TreeMap)
 
@@ -255,6 +259,7 @@ Solutions and thoughts about LeetCode problems.
 287. Find the Duplicate Number (fast & slow)
 369. Plus One Linked List
 708. Insert into a Sorted Circular Linked List (prev & curr)
+809. Expressive Words
 828. Unique Letter String
 876. Middle of the Linked List (fast & slow)
 905. Sort Array By Parity (low & high)
@@ -284,6 +289,7 @@ Solutions and thoughts about LeetCode problems.
 1287. Element Appearing More Than 25% In Sorted Array (search in index)
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold (search in length)
 1300. Sum of Mutated Array Closest to Target (search in range)
+1428. Leftmost Column with at Least a One (search in index)
 
 
 ### Recursion (DFS)
@@ -327,6 +333,7 @@ Solutions and thoughts about LeetCode problems.
 1305. All Elements in Two Binary Search Trees (inorder traversal)
 1315. Sum of Nodes with Even-Valued Grandparent
 1339. Maximum Product of Splitted Binary Tree (postorder & preorder traversal)
+1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
 1443. Minimum Time to Collect All Apples in a Tree
 1448. Count Good Nodes in Binary Tree
 1457. Pseudo-Palindromic Paths in a Binary Tree
@@ -384,6 +391,7 @@ Solutions and thoughts about LeetCode problems.
 1235. Maximum Profit in Job Scheduling
 1255. Maximum Score Words Formed by Letters
 1262. Greatest Sum Divisible by Three
+1277. Count Square Submatrices with All Ones
 1289. Minimum Falling Path Sum II
 1339. Maximum Product of Splitted Binary Tree
 1444. Number of Ways of Cutting a Pizza
@@ -535,12 +543,14 @@ Solutions and thoughts about LeetCode problems.
 1281. Subtract the Product and Sum of Digits of an Integer
 1290. Convert Binary Number in a Linked List to Integer
 1344. Angle Between Hands of a Clock
+1427. Perform String Shifts
 1447. Simplified Fractions (GCD template)
 
 ### Info Cache
 36. Valid Sudoku
 348. Design Tic-Tac-Toe
 794. Valid Tic-Tac-Toe State
+809. Expressive Words
 1275. Find Winner on a Tic Tac Toe Game
 
 ### Design
@@ -584,6 +594,7 @@ Solutions and thoughts about LeetCode problems.
 724. Find Pivot Index
 1031. Maximum Sum of Two Non-Overlapping Subarrays
 1140. Stone Game II
+1277. Count Square Submatrices with All Ones
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 1314. Matrix Block Sum
 1413. Minimum Value to Get Positive Step by Step Sum
