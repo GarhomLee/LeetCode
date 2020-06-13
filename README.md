@@ -29,6 +29,7 @@ Solutions and thoughts about LeetCode problems.
 356. Line Reflection
 519. Random Flip Matrix
 652. Find Duplicate Subtrees
+659. Split Array into Consecutive Subsequences
 721. Accounts Merge
 811. Subdomain Visit Count
 895. Maximum Frequency Stack
@@ -50,8 +51,10 @@ Solutions and thoughts about LeetCode problems.
 1267. Count Servers that Communicate
 1282. Group the People Given the Group Size They Belong To
 1287. Element Appearing More Than 25% In Sorted Array
+1296. Divide Array in Sets of K Consecutive Numbers
 1311. Get Watched Videos by Your Friends
 1329. Sort the Matrix Diagonally
+1396. Design Underground System
 1426. Counting Elements
 1429. First Unique Number
 1436. Destination City
@@ -107,6 +110,7 @@ Solutions and thoughts about LeetCode problems.
 253. Meeting Rooms II
 630. Course Schedule III (maxHeap)
 642. Design Search Autocomplete System
+659. Split Array into Consecutive Subsequences (minHeap)
 743. Network Delay Time (shortest path)
 767. Reorganize String
 778. Swim in Rising Water
@@ -160,6 +164,7 @@ Solutions and thoughts about LeetCode problems.
 1245. Tree Diameter
 1261. Find Elements in a Contaminated Binary Tree
 1273. Delete Tree Nodes
+1296. Divide Array in Sets of K Consecutive Numbers (TreeMap)
 1305. All Elements in Two Binary Search Trees (BST)
 1315. Sum of Nodes with Even-Valued Grandparent
 1339. Maximum Product of Splitted Binary Tree
@@ -448,6 +453,7 @@ Solutions and thoughts about LeetCode problems.
 239. Sliding Window Maximum
 340. Longest Substring with At Most K Distinct Characters
 1234. Replace the Substring for Balanced String
+1358. Number of Substrings Containing All Three Characters
 1423. Maximum Points You Can Obtain from Cards
 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 1456. Maximum Number of Vowels in a Substring of Given Length
@@ -460,6 +466,7 @@ Solutions and thoughts about LeetCode problems.
 452. Minimum Number of Arrows to Burst Balloons
 605. Can Place Flowers
 630. Course Schedule III
+659. Split Array into Consecutive Subsequences
 678. Valid Parenthesis String
 767. Reorganize String
 821. Shortest Distance to a Character
@@ -472,6 +479,7 @@ Solutions and thoughts about LeetCode problems.
 1221. Split a String in Balanced Strings
 1253. Reconstruct a 2-Row Binary Matrix
 1282. Group the People Given the Group Size They Belong To
+1296. Divide Array in Sets of K Consecutive Numbers
 1386. Cinema Seat Allocation
 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 1432. Max Difference You Can Get From Changing an Integer
@@ -552,6 +560,7 @@ Solutions and thoughts about LeetCode problems.
 794. Valid Tic-Tac-Toe State
 809. Expressive Words
 1275. Find Winner on a Tic Tac Toe Game
+1358. Number of Substrings Containing All Three Characters
 
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)
@@ -562,6 +571,7 @@ Solutions and thoughts about LeetCode problems.
 705. Design HashSet
 706. Design HashMap
 895. Maximum Frequency Stack
+1396. Design Underground System
 
 
 
