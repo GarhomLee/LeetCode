@@ -9,6 +9,7 @@ Solutions and thoughts about LeetCode problems.
 645. Set Mismatch
 1010. Pairs of Songs With Total Durations Divisible by 60
 1085. Sum of Digits in the Minimum Number
+1375. Bulb Switcher III
 1437. Check If All 1's Are at Least Length K Places Away
 1460. Make Two Arrays Equal by Reversing Sub-arrays
 
@@ -334,6 +335,7 @@ Solutions and thoughts about LeetCode problems.
 785. Is Graph Bipartite?
 814. Binary Tree Pruning
 872. Leaf-Similar Trees
+979. Distribute Coins in Binary Tree
 993. Cousins in Binary Tree
 1022. Sum of Root To Leaf Binary Numbers
 1110. Delete Nodes And Return Forest
@@ -479,6 +481,7 @@ Solutions and thoughts about LeetCode problems.
 767. Reorganize String
 821. Shortest Distance to a Character
 915. Partition Array into Disjoint Intervals
+921. Minimum Add to Make Parentheses Valid
 991. Broken Calculator
 1007. Minimum Domino Rotations For Equal Row
 1029. Two City Scheduling
@@ -540,6 +543,7 @@ Solutions and thoughts about LeetCode problems.
 780. Reaching Points
 836. Rectangle Overlap
 867. Transpose Matrix
+907. Sum of Subarray Minimums
 945. Minimum Increment to Make Array Unique
 952. Largest Component Size by Common Factor
 963. Minimum Area Rectangle II
@@ -569,6 +573,7 @@ Solutions and thoughts about LeetCode problems.
 348. Design Tic-Tac-Toe
 794. Valid Tic-Tac-Toe State
 809. Expressive Words
+907. Sum of Subarray Minimums
 1275. Find Winner on a Tic Tac Toe Game
 1358. Number of Substrings Containing All Three Characters
 
