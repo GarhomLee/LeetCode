@@ -12,6 +12,7 @@ Solutions and thoughts about LeetCode problems.
 1375. Bulb Switcher III
 1437. Check If All 1's Are at Least Length K Places Away
 1460. Make Two Arrays Equal by Reversing Sub-arrays
+1480. Running Sum of 1d Array
 
 ### Linked List
 369. Plus One Linked List
@@ -63,6 +64,7 @@ Solutions and thoughts about LeetCode problems.
 1452. People Whose List of Favorite Companies Is Not a Subset of Another List
 1461. Check If a String Contains All Binary Codes of Size K
 1462. Course Schedule IV
+1481. Least Number of Unique Integers after K Removals
 
 ### Stack
 98. Validate Binary Search Tree
@@ -128,6 +130,7 @@ Solutions and thoughts about LeetCode problems.
 1311. Get Watched Videos by Your Friends
 1329. Sort the Matrix Diagonally
 1353. Maximum Number of Events That Can Be Attended
+1481. Least Number of Unique Integers after K Removals
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -268,6 +271,7 @@ Solutions and thoughts about LeetCode problems.
 1433. Check If a String Can Break Another String
 1451. Rearrange Words in a Sentence
 1460. Make Two Arrays Equal by Reversing Sub-arrays
+1481. Least Number of Unique Integers after K Removals
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -304,7 +308,7 @@ Solutions and thoughts about LeetCode problems.
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold (search in length)
 1300. Sum of Mutated Array Closest to Target (search in range)
 1428. Leftmost Column with at Least a One (search in index)
-
+1482. Minimum Number of Days to Make m Bouquets (search in range)
 
 ### Recursion (DFS)
 98. Validate Binary Search Tree
@@ -496,6 +500,7 @@ Solutions and thoughts about LeetCode problems.
 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 1432. Max Difference You Can Get From Changing an Integer
 1433. Check If a String Can Break Another String
+1481. Least Number of Unique Integers after K Removals
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
