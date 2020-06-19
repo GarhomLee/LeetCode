@@ -15,6 +15,7 @@ Solutions and thoughts about LeetCode problems.
 1480. Running Sum of 1d Array
 
 ### Linked List
+138. Copy List with Random Pointer
 369. Plus One Linked List
 708. Insert into a Sorted Circular Linked List
 716. Max Stack
@@ -23,6 +24,7 @@ Solutions and thoughts about LeetCode problems.
 1290. Convert Binary Number in a Linked List to Integer
 
 ### Hash Table
+138. Copy List with Random Pointer
 205. Isomorphic Strings
 288. Unique Word Abbreviation
 290. Word Pattern
@@ -65,6 +67,7 @@ Solutions and thoughts about LeetCode problems.
 1461. Check If a String Contains All Binary Codes of Size K
 1462. Course Schedule IV
 1481. Least Number of Unique Integers after K Removals
+1485. Clone Binary Tree With Random Pointer
 
 ### Stack
 98. Validate Binary Search Tree
@@ -179,6 +182,7 @@ Solutions and thoughts about LeetCode problems.
 1353. Maximum Number of Events That Can Be Attended (TreeSet)
 1448. Count Good Nodes in Binary Tree
 1451. Rearrange Words in a Sentence (TreeMap)
+1485. Clone Binary Tree With Random Pointer
 
 
 ### Graph
@@ -356,6 +360,7 @@ Solutions and thoughts about LeetCode problems.
 1443. Minimum Time to Collect All Apples in a Tree
 1448. Count Good Nodes in Binary Tree
 1457. Pseudo-Palindromic Paths in a Binary Tree
+1485. Clone Binary Tree With Random Pointer
 
 ### Backtracking (DFS)
 22. Generate Parentheses
