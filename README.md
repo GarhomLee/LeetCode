@@ -36,6 +36,7 @@ Solutions and thoughts about LeetCode problems.
 659. Split Array into Consecutive Subsequences
 721. Accounts Merge
 734. Sentence Similarity
+792. Number of Matching Subsequences
 811. Subdomain Visit Count
 895. Maximum Frequency Stack
 939. Minimum Area Rectangle
@@ -167,6 +168,7 @@ Solutions and thoughts about LeetCode problems.
 783. Minimum Distance Between BST Nodes (BST)
 814. Binary Tree Pruning
 846. Hand of Straights (TreeMap)
+951. Flip Equivalent Binary Trees
 993. Cousins in Binary Tree
 1110. Delete Nodes And Return Forest
 1181. Before and After Puzzle (TreeSet)
@@ -231,6 +233,7 @@ Solutions and thoughts about LeetCode problems.
 657. Robot Return to Origin
 681. Next Closest Time
 712. Minimum ASCII Delete Sum for Two Strings
+792. Number of Matching Subsequences
 796. Rotate String
 824. Goat Latin
 859. Buddy Strings
@@ -298,6 +301,7 @@ Solutions and thoughts about LeetCode problems.
 729. My Calendar I
 731. My Calendar II
 778. Swim in Rising Water
+792. Number of Matching Subsequences
 875. Koko Eating Bananas (search in range)
 1011. Capacity To Ship Packages Within D Days
 1055. Shortest Way to Form String
@@ -343,9 +347,11 @@ Solutions and thoughts about LeetCode problems.
 785. Is Graph Bipartite?
 814. Binary Tree Pruning
 872. Leaf-Similar Trees
+951. Flip Equivalent Binary Trees
 979. Distribute Coins in Binary Tree
 993. Cousins in Binary Tree
 1022. Sum of Root To Leaf Binary Numbers
+1026. Maximum Difference Between Node and Ancestor
 1110. Delete Nodes And Return Forest
 1214. Two Sum BSTs (preorder traversal)
 1222. Queens That Can Attack the King
@@ -385,6 +391,7 @@ Solutions and thoughts about LeetCode problems.
 ### Recursion with Memoization (Top-down)
 139. Word Break
 140. Word Break II
+494. Target Sum
 797. All Paths From Source to Target
 1066. Campus Bikes II
 1140. Stone Game II
@@ -397,7 +404,9 @@ Solutions and thoughts about LeetCode problems.
 139. Word Break
 198. House Robber
 361. Bomb Enemy
+416. Partition Equal Subset Sum (Knapsack)
 418. Sentence Screen Fitting
+494. Target Sum
 678. Valid Parenthesis String
 712. Minimum ASCII Delete Sum for Two Strings
 714. Best Time to Buy and Sell Stock with Transaction Fee
@@ -410,6 +419,7 @@ Solutions and thoughts about LeetCode problems.
 1027. Longest Arithmetic Sequence
 1031. Maximum Sum of Two Non-Overlapping Subarrays
 1048. Longest String Chain
+1049. Last Stone Weight II (Knapsack)
 1218. Longest Arithmetic Subsequence of Given Difference
 1223. Dice Roll Simulation
 1235. Maximum Profit in Job Scheduling
