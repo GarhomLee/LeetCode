@@ -7,6 +7,7 @@ Solutions and thoughts about LeetCode problems.
 ### Array
 641. Design Circular Deque
 645. Set Mismatch
+896. Monotonic Array
 1010. Pairs of Songs With Total Durations Divisible by 60
 1085. Sum of Digits in the Minimum Number
 1375. Bulb Switcher III
@@ -134,6 +135,7 @@ Solutions and thoughts about LeetCode problems.
 1311. Get Watched Videos by Your Friends
 1329. Sort the Matrix Diagonally
 1353. Maximum Number of Events That Can Be Attended
+1405. Longest Happy String
 1481. Least Number of Unique Integers after K Removals
 
 ### Monotonic Queue
@@ -512,6 +514,7 @@ Solutions and thoughts about LeetCode problems.
 1296. Divide Array in Sets of K Consecutive Numbers
 1353. Maximum Number of Events That Can Be Attended
 1386. Cinema Seat Allocation
+1405. Longest Happy String
 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 1432. Max Difference You Can Get From Changing an Integer
 1433. Check If a String Can Break Another String
