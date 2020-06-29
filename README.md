@@ -70,6 +70,7 @@ Solutions and thoughts about LeetCode problems.
 1462. Course Schedule IV
 1481. Least Number of Unique Integers after K Removals
 1485. Clone Binary Tree With Random Pointer
+1496. Path Crossing
 
 ### Stack
 98. Validate Binary Search Tree
@@ -281,6 +282,7 @@ Solutions and thoughts about LeetCode problems.
 1451. Rearrange Words in a Sentence
 1460. Make Two Arrays Equal by Reversing Sub-arrays
 1481. Least Number of Unique Integers after K Removals
+1498. Number of Subsequences That Satisfy the Given Sum Condition
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -416,6 +418,7 @@ Solutions and thoughts about LeetCode problems.
 740. Delete and Earn
 898. Bitwise ORs of Subarrays
 931. Minimum Falling Path Sum
+978. Longest Turbulent Subarray
 983. Minimum Cost For Tickets
 1014. Best Sightseeing Pair
 1027. Longest Arithmetic Sequence
@@ -488,6 +491,7 @@ Solutions and thoughts about LeetCode problems.
 1423. Maximum Points You Can Obtain from Cards
 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 1456. Maximum Number of Vowels in a Substring of Given Length
+1498. Number of Subsequences That Satisfy the Given Sum Condition
 
 ### Greedy
 68. Text Justification
@@ -590,6 +594,7 @@ Solutions and thoughts about LeetCode problems.
 1344. Angle Between Hands of a Clock
 1427. Perform String Shifts
 1447. Simplified Fractions (GCD template)
+1497. Check If Array Pairs Are Divisible by k
 
 ### Info Cache
 36. Valid Sudoku
