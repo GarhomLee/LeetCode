@@ -61,6 +61,7 @@ Solutions and thoughts about LeetCode problems.
 1296. Divide Array in Sets of K Consecutive Numbers
 1311. Get Watched Videos by Your Friends
 1329. Sort the Matrix Diagonally
+1365. How Many Numbers Are Smaller Than the Current Number
 1396. Design Underground System
 1426. Counting Elements
 1429. First Unique Number
@@ -158,6 +159,7 @@ Solutions and thoughts about LeetCode problems.
 426. Convert Binary Search Tree to Sorted Doubly Linked List (BST)
 428. Serialize and Deserialize N-ary Tree
 510. Inorder Successor in BST II
+536. Construct Binary Tree from String (preorder traversal)
 606. Construct String from Binary Tree
 637. Average of Levels in Binary Tree
 652. Find Duplicate Subtrees
@@ -183,8 +185,9 @@ Solutions and thoughts about LeetCode problems.
 1305. All Elements in Two Binary Search Trees (BST)
 1315. Sum of Nodes with Even-Valued Grandparent
 1339. Maximum Product of Splitted Binary Tree
-1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
+1365. How Many Numbers Are Smaller Than the Current Number
 1353. Maximum Number of Events That Can Be Attended (TreeSet)
+1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
 1448. Count Good Nodes in Binary Tree
 1451. Rearrange Words in a Sentence (TreeMap)
 1485. Clone Binary Tree With Random Pointer
@@ -233,6 +236,8 @@ Solutions and thoughts about LeetCode problems.
 291. Word Pattern II
 340. Longest Substring with At Most K Distinct Characters
 428. Serialize and Deserialize N-ary Tree
+536. Construct Binary Tree from String
+640. Solve the Equation
 657. Robot Return to Origin
 681. Next Closest Time
 712. Minimum ASCII Delete Sum for Two Strings
@@ -336,6 +341,7 @@ Solutions and thoughts about LeetCode problems.
 426. Convert Binary Search Tree to Sorted Doubly Linked List (inorder traversal)
 489. Robot Room Cleaner
 490. The Maze
+536. Construct Binary Tree from String
 606. Construct String from Binary Tree
 652. Find Duplicate Subtrees
 655. Print Binary Tree
@@ -417,6 +423,7 @@ Solutions and thoughts about LeetCode problems.
 718. Maximum Length of Repeated Subarray
 740. Delete and Earn
 898. Bitwise ORs of Subarrays
+918. Maximum Sum Circular Subarray
 931. Minimum Falling Path Sum
 978. Longest Turbulent Subarray
 983. Minimum Cost For Tickets
@@ -425,6 +432,7 @@ Solutions and thoughts about LeetCode problems.
 1031. Maximum Sum of Two Non-Overlapping Subarrays
 1048. Longest String Chain
 1049. Last Stone Weight II (Knapsack)
+1062. Longest Repeating Substring
 1218. Longest Arithmetic Subsequence of Given Difference
 1223. Dice Roll Simulation
 1235. Maximum Profit in Job Scheduling
@@ -555,6 +563,7 @@ Solutions and thoughts about LeetCode problems.
 1255. Maximum Score Words Formed by Letters
 1310. XOR Queries of a Subarray
 1318. Minimum Flips to Make a OR b Equal to c
+1342. Number of Steps to Reduce a Number to Zero
 1442. Count Triplets That Can Form Two Arrays of Equal XOR
 
 ### Math
@@ -640,6 +649,8 @@ Solutions and thoughts about LeetCode problems.
 1243. Array Transformation
 1252. Cells with Odd Values in a Matrix
 1275. Find Winner on a Tic Tac Toe Game
+1342. Number of Steps to Reduce a Number to Zero
+
 
 ### Prefix Sum
 325. Maximum Size Subarray Sum Equals k
