@@ -205,6 +205,7 @@ Solutions and thoughts about LeetCode problems.
 1168. Optimize Water Distribution in a Village (MST)
 1245. Tree Diameter
 1311. Get Watched Videos by Your Friends
+1376. Time Needed to Inform All Employees
 1462. Course Schedule IV
 
 ### Disjoint Set
@@ -271,6 +272,7 @@ Solutions and thoughts about LeetCode problems.
 280. Wiggle Sort
 287. Find the Duplicate Number
 628. Maximum Product of Three Numbers
+881. Boats to Save People
 912. Sort an Array
 945. Minimum Increment to Make Array Unique
 969. Pancake Sorting
@@ -296,6 +298,7 @@ Solutions and thoughts about LeetCode problems.
 809. Expressive Words
 828. Unique Letter String
 876. Middle of the Linked List (fast & slow)
+881. Boats to Save People (low & high)
 905. Sort Array By Parity (low & high)
 1099. Two Sum Less Than K (low & high)
 1209. Remove All Adjacent Duplicates in String II (left & right)
@@ -478,6 +481,7 @@ Solutions and thoughts about LeetCode problems.
 1302. Deepest Leaves Sum
 1306. Jump Game III
 1311. Get Watched Videos by Your Friends
+1376. Time Needed to Inform All Employees
 1462. Course Schedule IV
 
 ### Quick Select
@@ -513,6 +517,7 @@ Solutions and thoughts about LeetCode problems.
 678. Valid Parenthesis String
 767. Reorganize String
 821. Shortest Distance to a Character
+881. Boats to Save People
 915. Partition Array into Disjoint Intervals
 921. Minimum Add to Make Parentheses Valid
 991. Broken Calculator
@@ -579,6 +584,7 @@ Solutions and thoughts about LeetCode problems.
 780. Reaching Points
 836. Rectangle Overlap
 867. Transpose Matrix
+888. Fair Candy Swap
 907. Sum of Subarray Minimums
 945. Minimum Increment to Make Array Unique
 952. Largest Component Size by Common Factor
@@ -646,6 +652,7 @@ Solutions and thoughts about LeetCode problems.
 ### Simulation
 723. Candy Crush
 755. Pour Water
+950. Reveal Cards In Increasing Order
 1243. Array Transformation
 1252. Cells with Odd Values in a Matrix
 1275. Find Winner on a Tic Tac Toe Game
