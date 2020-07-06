@@ -71,6 +71,7 @@ Solutions and thoughts about LeetCode problems.
 1462. Course Schedule IV
 1481. Least Number of Unique Integers after K Removals
 1485. Clone Binary Tree With Random Pointer
+1488. Avoid Flood in The City
 1496. Path Crossing
 
 ### Stack
@@ -191,7 +192,7 @@ Solutions and thoughts about LeetCode problems.
 1448. Count Good Nodes in Binary Tree
 1451. Rearrange Words in a Sentence (TreeMap)
 1485. Clone Binary Tree With Random Pointer
-
+1488. Avoid Flood in The City
 
 ### Graph
 269. Alien Dictionary
@@ -444,6 +445,7 @@ Solutions and thoughts about LeetCode problems.
 1277. Count Square Submatrices with All Ones
 1289. Minimum Falling Path Sum II
 1339. Maximum Product of Splitted Binary Tree
+1395. Count Number of Teams
 1444. Number of Ways of Cutting a Pizza
 
 ### BFS
@@ -570,6 +572,7 @@ Solutions and thoughts about LeetCode problems.
 1318. Minimum Flips to Make a OR b Equal to c
 1342. Number of Steps to Reduce a Number to Zero
 1442. Count Triplets That Can Form Two Arrays of Equal XOR
+1486. XOR Operation in an Array
 
 ### Math
 227. Basic Calculator II
@@ -657,6 +660,7 @@ Solutions and thoughts about LeetCode problems.
 1252. Cells with Odd Values in a Matrix
 1275. Find Winner on a Tic Tac Toe Game
 1342. Number of Steps to Reduce a Number to Zero
+1486. XOR Operation in an Array
 
 
 ### Prefix Sum
