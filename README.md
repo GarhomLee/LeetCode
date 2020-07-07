@@ -54,6 +54,7 @@ Solutions and thoughts about LeetCode problems.
 1213. Intersection of Three Sorted Arrays
 1218. Longest Arithmetic Subsequence of Given Difference
 1244. Design A Leaderboard
+1258. Synonymous Sentences
 1261. Find Elements in a Contaminated Binary Tree
 1267. Count Servers that Communicate
 1282. Group the People Given the Group Size They Belong To
@@ -220,6 +221,7 @@ Solutions and thoughts about LeetCode problems.
 952. Largest Component Size by Common Factor
 990. Satisfiability of Equality Equations
 1102. Path With Maximum Minimum Value
+1258. Synonymous Sentences
 1319. Number of Operations to Make Network Connected
 1443. Minimum Time to Collect All Apples in a Tree
 
@@ -398,6 +400,7 @@ Solutions and thoughts about LeetCode problems.
 1219. Path with Maximum Gold
 1239. Maximum Length of a Concatenated String with Unique Characters
 1255. Maximum Score Words Formed by Letters
+1258. Synonymous Sentences
 1286. Iterator for Combination
 1415. The k-th Lexicographical String of All Happy Strings of Length n
 
@@ -407,6 +410,7 @@ Solutions and thoughts about LeetCode problems.
 140. Word Break II
 494. Target Sum
 797. All Paths From Source to Target
+1025. Divisor Game
 1066. Campus Bikes II
 1140. Stone Game II
 1220. Count Vowels Permutation
@@ -596,6 +600,7 @@ Solutions and thoughts about LeetCode problems.
 989. Add to Array-Form of Integer
 991. Broken Calculator
 1015. Smallest Integer Divisible by K
+1025. Divisor Game
 1041. Robot Bounded In Circle
 1056. Confusing Number
 1071. Greatest Common Divisor of Strings
