@@ -22,6 +22,7 @@ Solutions and thoughts about LeetCode problems.
 716. Max Stack
 725. Split Linked List in Parts
 876. Middle of the Linked List
+1019. Next Greater Node In Linked List
 1290. Convert Binary Number in a Linked List to Integer
 
 ### Hash Table
@@ -91,6 +92,7 @@ Solutions and thoughts about LeetCode problems.
 895. Maximum Frequency Stack
 901. Online Stock Span
 946. Validate Stack Sequences
+1019. Next Greater Node In Linked List
 1047. Remove All Adjacent Duplicates In String
 1209. Remove All Adjacent Duplicates in String II
 1441. Build an Array With Stack Operations
@@ -250,6 +252,7 @@ Solutions and thoughts about LeetCode problems.
 824. Goat Latin
 859. Buddy Strings
 880. Decoded String at Index
+944. Delete Columns to Make Sorted
 1002. Find Common Characters
 1055. Shortest Way to Form String
 1065. Index Pairs of a String
@@ -410,6 +413,7 @@ Solutions and thoughts about LeetCode problems.
 140. Word Break II
 494. Target Sum
 797. All Paths From Source to Target
+877. Stone Game
 1025. Divisor Game
 1066. Campus Bikes II
 1140. Stone Game II
