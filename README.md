@@ -75,6 +75,7 @@ Solutions and thoughts about LeetCode problems.
 1485. Clone Binary Tree With Random Pointer
 1488. Avoid Flood in The City
 1496. Path Crossing
+1500. Design a File Sharing System
 
 ### Stack
 98. Validate Binary Search Tree
@@ -197,8 +198,11 @@ Solutions and thoughts about LeetCode problems.
 1451. Rearrange Words in a Sentence (TreeMap)
 1485. Clone Binary Tree With Random Pointer
 1488. Avoid Flood in The City
+1500. Design a File Sharing System (TreeSet)
 
 ### Graph
+207. Course Schedule
+210. Course Schedule II
 269. Alien Dictionary
 277. Find the Celebrity
 737. Sentence Similarity II
@@ -206,6 +210,7 @@ Solutions and thoughts about LeetCode problems.
 743. Network Delay Time (shortest path)
 785. Is Graph Bipartite?
 787. Cheapest Flights Within K Stops
+802. Find Eventual Safe States
 1042. Flower Planting With No Adjacent
 1168. Optimize Water Distribution in a Village (MST)
 1245. Tree Diameter
@@ -297,6 +302,7 @@ Solutions and thoughts about LeetCode problems.
 1460. Make Two Arrays Equal by Reversing Sub-arrays
 1481. Least Number of Unique Integers after K Removals
 1498. Number of Subsequences That Satisfy the Given Sum Condition
+1502. Can Make Arithmetic Progression From Sequence
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -366,6 +372,7 @@ Solutions and thoughts about LeetCode problems.
 778. Swim in Rising Water
 783. Minimum Distance Between BST Nodes (inorder traversal)
 785. Is Graph Bipartite?
+802. Find Eventual Safe States
 814. Binary Tree Pruning
 872. Leaf-Similar Trees
 951. Flip Equivalent Binary Trees
@@ -445,6 +452,7 @@ Solutions and thoughts about LeetCode problems.
 1014. Best Sightseeing Pair
 1027. Longest Arithmetic Sequence
 1031. Maximum Sum of Two Non-Overlapping Subarrays
+1043. Partition Array for Maximum Sum
 1048. Longest String Chain
 1049. Last Stone Weight II (Knapsack)
 1062. Longest Repeating Substring
@@ -458,6 +466,7 @@ Solutions and thoughts about LeetCode problems.
 1339. Maximum Product of Splitted Binary Tree
 1395. Count Number of Teams
 1444. Number of Ways of Cutting a Pizza
+1504. Count Submatrices With All Ones
 
 ### BFS
 103. Binary Tree Zigzag Level Order Traversal
@@ -686,6 +695,7 @@ Solutions and thoughts about LeetCode problems.
 1314. Matrix Block Sum
 1413. Minimum Value to Get Positive Step by Step Sum
 1422. Maximum Score After Splitting a String
+1504. Count Submatrices With All Ones
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
