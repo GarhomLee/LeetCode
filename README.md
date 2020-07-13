@@ -178,6 +178,7 @@ Solutions and thoughts about LeetCode problems.
 814. Binary Tree Pruning
 846. Hand of Straights (TreeMap)
 951. Flip Equivalent Binary Trees
+962. Maximum Width Ramp (TreeMap)
 993. Cousins in Binary Tree
 1110. Delete Nodes And Return Forest
 1181. Before and After Puzzle (TreeSet)
@@ -321,6 +322,7 @@ Solutions and thoughts about LeetCode problems.
 778. Swim in Rising Water
 792. Number of Matching Subsequences
 875. Koko Eating Bananas (search in range)
+962. Maximum Width Ramp (TreeMap)
 1011. Capacity To Ship Packages Within D Days
 1055. Shortest Way to Form String
 1060. Missing Element in Sorted Array (in index)
@@ -381,6 +383,7 @@ Solutions and thoughts about LeetCode problems.
 1305. All Elements in Two Binary Search Trees (inorder traversal)
 1315. Sum of Nodes with Even-Valued Grandparent
 1339. Maximum Product of Splitted Binary Tree (postorder & preorder traversal)
+1382. Balance a Binary Search Tree (inorder)
 1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
 1443. Minimum Time to Collect All Apples in a Tree
 1448. Count Good Nodes in Binary Tree
