@@ -77,6 +77,7 @@ Solutions and thoughts about LeetCode problems.
 1488. Avoid Flood in The City
 1496. Path Crossing
 1500. Design a File Sharing System
+1506. Find Root of N-Ary Tree
 
 ### Stack
 98. Validate Binary Search Tree
@@ -200,6 +201,7 @@ Solutions and thoughts about LeetCode problems.
 1485. Clone Binary Tree With Random Pointer
 1488. Avoid Flood in The City
 1500. Design a File Sharing System (TreeSet)
+1506. Find Root of N-Ary Tree
 
 ### Graph
 207. Course Schedule
@@ -595,6 +597,7 @@ Solutions and thoughts about LeetCode problems.
 1342. Number of Steps to Reduce a Number to Zero
 1442. Count Triplets That Can Form Two Arrays of Equal XOR
 1486. XOR Operation in an Array
+1506. Find Root of N-Ary Tree
 
 ### Math
 227. Basic Calculator II
