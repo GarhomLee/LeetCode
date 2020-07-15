@@ -14,6 +14,7 @@ Solutions and thoughts about LeetCode problems.
 1437. Check If All 1's Are at Least Length K Places Away
 1460. Make Two Arrays Equal by Reversing Sub-arrays
 1480. Running Sum of 1d Array
+1512. Number of Good Pairs
 
 ### Linked List
 138. Copy List with Random Pointer
@@ -303,6 +304,7 @@ Solutions and thoughts about LeetCode problems.
 1481. Least Number of Unique Integers after K Removals
 1498. Number of Subsequences That Satisfy the Given Sum Condition
 1502. Can Make Arithmetic Progression From Sequence
+1508. Range Sum of Sorted Subarray Sums
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
