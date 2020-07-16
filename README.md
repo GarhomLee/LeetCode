@@ -14,6 +14,7 @@ Solutions and thoughts about LeetCode problems.
 1437. Check If All 1's Are at Least Length K Places Away
 1460. Make Two Arrays Equal by Reversing Sub-arrays
 1480. Running Sum of 1d Array
+1491. Average Salary Excluding the Minimum and Maximum Salary
 1512. Number of Good Pairs
 
 ### Linked List
@@ -146,6 +147,7 @@ Solutions and thoughts about LeetCode problems.
 1353. Maximum Number of Events That Can Be Attended
 1405. Longest Happy String
 1481. Least Number of Unique Integers after K Removals
+1514. Path with Maximum Probability
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -198,6 +200,7 @@ Solutions and thoughts about LeetCode problems.
 1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
 1448. Count Good Nodes in Binary Tree
 1451. Rearrange Words in a Sentence (TreeMap)
+1469. Find All The Lonely Nodes
 1485. Clone Binary Tree With Random Pointer
 1488. Avoid Flood in The City
 1500. Design a File Sharing System (TreeSet)
@@ -220,6 +223,7 @@ Solutions and thoughts about LeetCode problems.
 1311. Get Watched Videos by Your Friends
 1376. Time Needed to Inform All Employees
 1462. Course Schedule IV
+1514. Path with Maximum Probability
 
 ### Disjoint Set
 305. Number of Islands II
@@ -276,6 +280,7 @@ Solutions and thoughts about LeetCode problems.
 1328. Break a Palindrome
 1446. Consecutive Characters
 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
+1513. Number of Substrings With Only 1s
 
 
 ## Algorithm
@@ -307,6 +312,7 @@ Solutions and thoughts about LeetCode problems.
 1498. Number of Subsequences That Satisfy the Given Sum Condition
 1502. Can Make Arithmetic Progression From Sequence
 1508. Range Sum of Sorted Subarray Sums
+1509. Minimum Difference Between Largest and Smallest Value in Three Moves
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -399,6 +405,7 @@ Solutions and thoughts about LeetCode problems.
 1443. Minimum Time to Collect All Apples in a Tree
 1448. Count Good Nodes in Binary Tree
 1457. Pseudo-Palindromic Paths in a Binary Tree
+1469. Find All The Lonely Nodes
 1485. Clone Binary Tree With Random Pointer
 
 ### Backtracking (DFS)
@@ -639,6 +646,7 @@ Solutions and thoughts about LeetCode problems.
 1427. Perform String Shifts
 1447. Simplified Fractions (GCD template)
 1497. Check If Array Pairs Are Divisible by k
+1513. Number of Substrings With Only 1s
 
 ### Info Cache
 36. Valid Sudoku
