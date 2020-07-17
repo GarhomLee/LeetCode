@@ -13,8 +13,10 @@ Solutions and thoughts about LeetCode problems.
 1375. Bulb Switcher III
 1437. Check If All 1's Are at Least Length K Places Away
 1460. Make Two Arrays Equal by Reversing Sub-arrays
+1470. Shuffle the Array
 1480. Running Sum of 1d Array
 1491. Average Salary Excluding the Minimum and Maximum Salary
+1492. The kth Factor of n
 1512. Number of Good Pairs
 
 ### Linked List
@@ -146,6 +148,7 @@ Solutions and thoughts about LeetCode problems.
 1329. Sort the Matrix Diagonally
 1353. Maximum Number of Events That Can Be Attended
 1405. Longest Happy String
+1471. The k Strongest Values in an Array
 1481. Least Number of Unique Integers after K Removals
 1514. Path with Maximum Probability
 
@@ -203,6 +206,7 @@ Solutions and thoughts about LeetCode problems.
 1469. Find All The Lonely Nodes
 1485. Clone Binary Tree With Random Pointer
 1488. Avoid Flood in The City
+1490. Clone N-ary Tree
 1500. Design a File Sharing System (TreeSet)
 1506. Find Root of N-Ary Tree
 
@@ -308,6 +312,7 @@ Solutions and thoughts about LeetCode problems.
 1433. Check If a String Can Break Another String
 1451. Rearrange Words in a Sentence
 1460. Make Two Arrays Equal by Reversing Sub-arrays
+1471. The k Strongest Values in an Array
 1481. Least Number of Unique Integers after K Removals
 1498. Number of Subsequences That Satisfy the Given Sum Condition
 1502. Can Make Arithmetic Progression From Sequence
@@ -407,6 +412,7 @@ Solutions and thoughts about LeetCode problems.
 1457. Pseudo-Palindromic Paths in a Binary Tree
 1469. Find All The Lonely Nodes
 1485. Clone Binary Tree With Random Pointer
+1490. Clone N-ary Tree
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -477,6 +483,7 @@ Solutions and thoughts about LeetCode problems.
 1339. Maximum Product of Splitted Binary Tree
 1395. Count Number of Teams
 1444. Number of Ways of Cutting a Pizza
+1493. Longest Subarray of 1's After Deleting One Element
 1504. Count Submatrices With All Ones
 
 ### BFS
@@ -536,6 +543,7 @@ Solutions and thoughts about LeetCode problems.
 1423. Maximum Points You Can Obtain from Cards
 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 1456. Maximum Number of Vowels in a Substring of Given Length
+1493. Longest Subarray of 1's After Deleting One Element
 1498. Number of Subsequences That Satisfy the Given Sum Condition
 
 ### Greedy
@@ -603,6 +611,7 @@ Solutions and thoughts about LeetCode problems.
 1318. Minimum Flips to Make a OR b Equal to c
 1342. Number of Steps to Reduce a Number to Zero
 1442. Count Triplets That Can Form Two Arrays of Equal XOR
+1470. Shuffle the Array
 1486. XOR Operation in an Array
 1506. Find Root of N-Ary Tree
 
