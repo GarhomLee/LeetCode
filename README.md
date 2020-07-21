@@ -75,6 +75,7 @@ Solutions and thoughts about LeetCode problems.
 1452. People Whose List of Favorite Companies Is Not a Subset of Another List
 1461. Check If a String Contains All Binary Codes of Size K
 1462. Course Schedule IV
+1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
 1481. Least Number of Unique Integers after K Removals
 1485. Clone Binary Tree With Random Pointer
 1488. Avoid Flood in The City
@@ -102,6 +103,7 @@ Solutions and thoughts about LeetCode problems.
 1047. Remove All Adjacent Duplicates In String
 1209. Remove All Adjacent Duplicates in String II
 1441. Build an Array With Stack Operations
+1475. Final Prices With a Special Discount in a Shop
 
 ### Queue
 103. Binary Tree Zigzag Level Order Traversal
@@ -312,6 +314,7 @@ Solutions and thoughts about LeetCode problems.
 1433. Check If a String Can Break Another String
 1451. Rearrange Words in a Sentence
 1460. Make Two Arrays Equal by Reversing Sub-arrays
+1464. Maximum Product of Two Elements in an Array
 1471. The k Strongest Values in an Array
 1481. Least Number of Unique Integers after K Removals
 1498. Number of Subsequences That Satisfy the Given Sum Condition
@@ -543,6 +546,7 @@ Solutions and thoughts about LeetCode problems.
 1423. Maximum Points You Can Obtain from Cards
 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 1456. Maximum Number of Vowels in a Substring of Given Length
+1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
 1493. Longest Subarray of 1's After Deleting One Element
 1498. Number of Subsequences That Satisfy the Given Sum Condition
 
@@ -717,6 +721,7 @@ Solutions and thoughts about LeetCode problems.
 1314. Matrix Block Sum
 1413. Minimum Value to Get Positive Step by Step Sum
 1422. Maximum Score After Splitting a String
+1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
 1504. Count Submatrices With All Ones
 
 ### Synchronization
