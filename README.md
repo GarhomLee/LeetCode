@@ -28,6 +28,7 @@ Solutions and thoughts about LeetCode problems.
 876. Middle of the Linked List
 1019. Next Greater Node In Linked List
 1290. Convert Binary Number in a Linked List to Integer
+1474. Delete N Nodes After M Nodes of a Linked List
 
 ### Hash Table
 138. Copy List with Random Pointer
@@ -229,6 +230,7 @@ Solutions and thoughts about LeetCode problems.
 1311. Get Watched Videos by Your Friends
 1376. Time Needed to Inform All Employees
 1462. Course Schedule IV
+1466. Reorder Routes to Make All Paths Lead to the City Zero
 1514. Path with Maximum Probability
 1519. Number of Nodes in the Sub-Tree With the Same Label
 
@@ -285,6 +287,7 @@ Solutions and thoughts about LeetCode problems.
 1309. Decrypt String from Alphabet to Integer Mapping
 1312. Minimum Insertion Steps to Make a String Palindrome
 1328. Break a Palindrome
+1408. String Matching in an Array
 1446. Consecutive Characters
 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
 1513. Number of Substrings With Only 1s
@@ -337,6 +340,7 @@ Solutions and thoughts about LeetCode problems.
 1099. Two Sum Less Than K (low & high)
 1209. Remove All Adjacent Duplicates in String II (left & right)
 1213. Intersection of Three Sorted Arrays
+1474. Delete N Nodes After M Nodes of a Linked List
 
 ### Binary Search
 378. Kth Smallest Element in a Sorted Matrix (search in range)
@@ -530,6 +534,7 @@ Solutions and thoughts about LeetCode problems.
 1311. Get Watched Videos by Your Friends
 1376. Time Needed to Inform All Employees
 1462. Course Schedule IV
+1466. Reorder Routes to Make All Paths Lead to the City Zero
 
 ### Quick Select
 215. Kth Largest Element in an Array
@@ -687,6 +692,7 @@ Solutions and thoughts about LeetCode problems.
 895. Maximum Frequency Stack
 901. Online Stock Span
 1396. Design Underground System
+1472. Design Browser History
 
 ### Intervals
 253. Meeting Rooms II
