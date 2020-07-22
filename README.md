@@ -230,6 +230,7 @@ Solutions and thoughts about LeetCode problems.
 1376. Time Needed to Inform All Employees
 1462. Course Schedule IV
 1514. Path with Maximum Probability
+1519. Number of Nodes in the Sub-Tree With the Same Label
 
 ### Disjoint Set
 305. Number of Islands II
@@ -287,6 +288,7 @@ Solutions and thoughts about LeetCode problems.
 1446. Consecutive Characters
 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
 1513. Number of Substrings With Only 1s
+1520. Maximum Number of Non-Overlapping Substrings
 
 
 ## Algorithm
@@ -321,6 +323,7 @@ Solutions and thoughts about LeetCode problems.
 1502. Can Make Arithmetic Progression From Sequence
 1508. Range Sum of Sorted Subarray Sums
 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
+1520. Maximum Number of Non-Overlapping Substrings
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -416,6 +419,7 @@ Solutions and thoughts about LeetCode problems.
 1469. Find All The Lonely Nodes
 1485. Clone Binary Tree With Random Pointer
 1490. Clone N-ary Tree
+1519. Number of Nodes in the Sub-Tree With the Same Label
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -581,6 +585,8 @@ Solutions and thoughts about LeetCode problems.
 1432. Max Difference You Can Get From Changing an Integer
 1433. Check If a String Can Break Another String
 1481. Least Number of Unique Integers after K Removals
+1518. Water Bottles
+1520. Maximum Number of Non-Overlapping Substrings
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -693,6 +699,7 @@ Solutions and thoughts about LeetCode problems.
 1272. Remove Interval
 1288. Remove Covered Intervals
 1353. Maximum Number of Events That Can Be Attended
+1520. Maximum Number of Non-Overlapping Substrings
 
 
 ### Find Missing/Duplicate Number
