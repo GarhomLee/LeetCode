@@ -287,6 +287,7 @@ Solutions and thoughts about LeetCode problems.
 1309. Decrypt String from Alphabet to Integer Mapping
 1312. Minimum Insertion Steps to Make a String Palindrome
 1328. Break a Palindrome
+1400. Construct K Palindrome Strings
 1408. String Matching in an Array
 1446. Consecutive Characters
 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
@@ -316,6 +317,7 @@ Solutions and thoughts about LeetCode problems.
 1288. Remove Covered Intervals
 1329. Sort the Matrix Diagonally
 1353. Maximum Number of Events That Can Be Attended
+1403. Minimum Subsequence in Non-Increasing Order
 1433. Check If a String Can Break Another String
 1451. Rearrange Words in a Sentence
 1460. Make Two Arrays Equal by Reversing Sub-arrays
@@ -585,6 +587,7 @@ Solutions and thoughts about LeetCode problems.
 1296. Divide Array in Sets of K Consecutive Numbers
 1353. Maximum Number of Events That Can Be Attended
 1386. Cinema Seat Allocation
+1400. Construct K Palindrome Strings
 1405. Longest Happy String
 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 1432. Max Difference You Can Get From Changing an Integer
@@ -720,6 +723,7 @@ Solutions and thoughts about LeetCode problems.
 1252. Cells with Odd Values in a Matrix
 1275. Find Winner on a Tic Tac Toe Game
 1342. Number of Steps to Reduce a Number to Zero
+1404. Number of Steps to Reduce a Number in Binary Representation to One
 1486. XOR Operation in an Array
 
 
