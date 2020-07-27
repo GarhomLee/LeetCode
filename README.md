@@ -674,6 +674,8 @@ Solutions and thoughts about LeetCode problems.
 1447. Simplified Fractions (GCD template)
 1497. Check If Array Pairs Are Divisible by k
 1513. Number of Substrings With Only 1s
+1523. Count Odd Numbers in an Interval Range
+1524. Number of Sub-arrays With Odd Sum
 
 ### Info Cache
 36. Valid Sudoku
@@ -740,6 +742,7 @@ Solutions and thoughts about LeetCode problems.
 1422. Maximum Score After Splitting a String
 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
 1504. Count Submatrices With All Ones
+1524. Number of Sub-arrays With Odd Sum
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
