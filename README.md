@@ -83,6 +83,7 @@ Solutions and thoughts about LeetCode problems.
 1496. Path Crossing
 1500. Design a File Sharing System
 1506. Find Root of N-Ary Tree
+1530. Number of Good Leaf Nodes Pairs
 
 ### Stack
 98. Validate Binary Search Tree
@@ -137,6 +138,7 @@ Solutions and thoughts about LeetCode problems.
 642. Design Search Autocomplete System
 659. Split Array into Consecutive Subsequences (minHeap)
 743. Network Delay Time (shortest path)
+759. Employee Free Time
 767. Reorganize String
 778. Swim in Rising Water
 855. Exam Room
@@ -212,6 +214,7 @@ Solutions and thoughts about LeetCode problems.
 1490. Clone N-ary Tree
 1500. Design a File Sharing System (TreeSet)
 1506. Find Root of N-Ary Tree
+1530. Number of Good Leaf Nodes Pairs
 
 ### Graph
 207. Course Schedule
@@ -293,6 +296,8 @@ Solutions and thoughts about LeetCode problems.
 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
 1513. Number of Substrings With Only 1s
 1520. Maximum Number of Non-Overlapping Substrings
+1528. Shuffle String
+1529. Bulb Switcher IV
 
 
 ## Algorithm
@@ -426,6 +431,7 @@ Solutions and thoughts about LeetCode problems.
 1485. Clone Binary Tree With Random Pointer
 1490. Clone N-ary Tree
 1519. Number of Nodes in the Sub-Tree With the Same Label
+1530. Number of Good Leaf Nodes Pairs
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -595,6 +601,7 @@ Solutions and thoughts about LeetCode problems.
 1481. Least Number of Unique Integers after K Removals
 1518. Water Bottles
 1520. Maximum Number of Non-Overlapping Substrings
+1529. Bulb Switcher IV
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -614,6 +621,7 @@ Solutions and thoughts about LeetCode problems.
 218. The Skyline Problem
 253. Meeting Rooms II
 370. Range Addition
+759. Employee Free Time
 
 ### Bit Manipulation
 201. Bitwise AND of Numbers Range
@@ -706,6 +714,7 @@ Solutions and thoughts about LeetCode problems.
 452. Minimum Number of Arrows to Burst Balloons
 729. My Calendar I
 731. My Calendar II
+759. Employee Free Time
 1235. Maximum Profit in Job Scheduling
 1272. Remove Interval
 1288. Remove Covered Intervals
