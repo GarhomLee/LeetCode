@@ -18,6 +18,8 @@ Solutions and thoughts about LeetCode problems.
 1491. Average Salary Excluding the Minimum and Maximum Salary
 1492. The kth Factor of n
 1512. Number of Good Pairs
+1534. Count Good Triplets
+1535. Find the Winner of an Array Game
 
 ### Linked List
 138. Copy List with Random Pointer
@@ -334,6 +336,7 @@ Solutions and thoughts about LeetCode problems.
 1508. Range Sum of Sorted Subarray Sums
 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
 1520. Maximum Number of Non-Overlapping Substrings
+1536. Minimum Swaps to Arrange a Binary Grid
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -375,6 +378,8 @@ Solutions and thoughts about LeetCode problems.
 1300. Sum of Mutated Array Closest to Target (search in range)
 1428. Leftmost Column with at Least a One (search in index)
 1482. Minimum Number of Days to Make m Bouquets (search in range)
+1533. Find the Index of the Large Integer
+1537. Get the Maximum Score
 
 ### Recursion (DFS)
 98. Validate Binary Search Tree
@@ -504,6 +509,7 @@ Solutions and thoughts about LeetCode problems.
 1444. Number of Ways of Cutting a Pizza
 1493. Longest Subarray of 1's After Deleting One Element
 1504. Count Submatrices With All Ones
+1537. Get the Maximum Score
 
 ### BFS
 103. Binary Tree Zigzag Level Order Traversal
@@ -602,6 +608,7 @@ Solutions and thoughts about LeetCode problems.
 1518. Water Bottles
 1520. Maximum Number of Non-Overlapping Substrings
 1529. Bulb Switcher IV
+1536. Minimum Swaps to Arrange a Binary Grid
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -736,7 +743,8 @@ Solutions and thoughts about LeetCode problems.
 1342. Number of Steps to Reduce a Number to Zero
 1404. Number of Steps to Reduce a Number in Binary Representation to One
 1486. XOR Operation in an Array
-
+1535. Find the Winner of an Array Game
+1536. Minimum Swaps to Arrange a Binary Grid
 
 ### Prefix Sum
 325. Maximum Size Subarray Sum Equals k
