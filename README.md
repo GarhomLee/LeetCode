@@ -504,6 +504,7 @@ Solutions and thoughts about LeetCode problems.
 1262. Greatest Sum Divisible by Three
 1277. Count Square Submatrices with All Ones
 1289. Minimum Falling Path Sum II
+1326. Minimum Number of Taps to Open to Water a Garden
 1339. Maximum Product of Splitted Binary Tree
 1395. Count Number of Teams
 1444. Number of Ways of Cutting a Pizza
@@ -520,6 +521,7 @@ Solutions and thoughts about LeetCode problems.
 210. Course Schedule II
 286. Walls and Gates
 314. Binary Tree Vertical Order Traversal
+317. Shortest Distance from All Buildings
 339. Nested List Weight Sum
 364. Nested List Weight Sum II
 490. The Maze
