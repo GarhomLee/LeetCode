@@ -536,6 +536,7 @@ Solutions and thoughts about LeetCode problems.
 778. Swim in Rising Water
 785. Is Graph Bipartite?
 797. All Paths From Source to Target
+815. Bus Routes
 821. Shortest Distance to a Character
 909. Snakes and Ladders
 1091. Shortest Path in Binary Matrix
