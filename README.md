@@ -358,6 +358,7 @@ Solutions and thoughts about LeetCode problems.
 611. Valid Triangle Number
 702. Search in a Sorted Array of Unknown Size
 718. Maximum Length of Repeated Subarray (search in index or length)
+727. Minimum Window Subsequence
 729. My Calendar I
 731. My Calendar II
 778. Swim in Rising Water
@@ -484,6 +485,7 @@ Solutions and thoughts about LeetCode problems.
 712. Minimum ASCII Delete Sum for Two Strings
 714. Best Time to Buy and Sell Stock with Transaction Fee
 718. Maximum Length of Repeated Subarray
+727. Minimum Window Subsequence
 740. Delete and Earn
 898. Bitwise ORs of Subarrays
 918. Maximum Sum Circular Subarray
