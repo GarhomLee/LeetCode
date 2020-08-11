@@ -86,6 +86,7 @@ Solutions and thoughts about LeetCode problems.
 1500. Design a File Sharing System
 1506. Find Root of N-Ary Tree
 1530. Number of Good Leaf Nodes Pairs
+1541. Minimum Insertions to Balance a Parentheses String
 
 ### Stack
 98. Validate Binary Search Tree
@@ -381,6 +382,7 @@ Solutions and thoughts about LeetCode problems.
 1482. Minimum Number of Days to Make m Bouquets (search in range)
 1533. Find the Index of the Large Integer
 1537. Get the Maximum Score
+1539. Kth Missing Positive Number
 
 ### Recursion (DFS)
 98. Validate Binary Search Tree
@@ -614,6 +616,7 @@ Solutions and thoughts about LeetCode problems.
 1520. Maximum Number of Non-Overlapping Substrings
 1529. Bulb Switcher IV
 1536. Minimum Swaps to Arrange a Binary Grid
+1540. Can Convert String in K Moves
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -652,6 +655,7 @@ Solutions and thoughts about LeetCode problems.
 1470. Shuffle the Array
 1486. XOR Operation in an Array
 1506. Find Root of N-Ary Tree
+1542. Find Longest Awesome Substring
 
 ### Math
 227. Basic Calculator II

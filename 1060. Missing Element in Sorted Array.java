@@ -30,3 +30,22 @@ class Solution {
 
 
 优化：观察到gaps[i] = nums[i] - nums[0] - i，可以把时间复杂度优化到O(log n)，空间复杂度优化到O(1)
+
+
+二刷：类似1539. Kth Missing Positive Number
+class Solution {
+    public int missingElement(int[] arr, int k) {
+        int low = 0, high = arr.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] - arr[0] - mid >= k) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        
+        int startNum = arr[0] + low - 1;
+        return startNum + k;
+    }
+}
