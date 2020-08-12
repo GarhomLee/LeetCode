@@ -87,6 +87,7 @@ Solutions and thoughts about LeetCode problems.
 1506. Find Root of N-Ary Tree
 1530. Number of Good Leaf Nodes Pairs
 1541. Minimum Insertions to Balance a Parentheses String
+1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 
 ### Stack
 98. Validate Binary Search Tree
@@ -109,6 +110,7 @@ Solutions and thoughts about LeetCode problems.
 1209. Remove All Adjacent Duplicates in String II
 1441. Build an Array With Stack Operations
 1475. Final Prices With a Special Discount in a Shop
+1544. Make The String Great
 
 ### Queue
 103. Binary Tree Zigzag Level Order Traversal
@@ -440,6 +442,7 @@ Solutions and thoughts about LeetCode problems.
 1490. Clone N-ary Tree
 1519. Number of Nodes in the Sub-Tree With the Same Label
 1530. Number of Good Leaf Nodes Pairs
+1545. Find Kth Bit in Nth Binary String
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -617,6 +620,7 @@ Solutions and thoughts about LeetCode problems.
 1529. Bulb Switcher IV
 1536. Minimum Swaps to Arrange a Binary Grid
 1540. Can Convert String in K Moves
+1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -769,6 +773,7 @@ Solutions and thoughts about LeetCode problems.
 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
 1504. Count Submatrices With All Ones
 1524. Number of Sub-arrays With Odd Sum
+1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
