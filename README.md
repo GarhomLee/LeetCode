@@ -478,6 +478,7 @@ Solutions and thoughts about LeetCode problems.
 1223. Dice Roll Simulation
 1306. Jump Game III
 1312. Minimum Insertion Steps to Make a String Palindrome
+1547. Minimum Cost to Cut a Stick
 
 ### Dynamic Programming (Bottom-up)
 139. Word Break
