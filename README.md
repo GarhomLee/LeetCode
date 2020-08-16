@@ -20,6 +20,7 @@ Solutions and thoughts about LeetCode problems.
 1512. Number of Good Pairs
 1534. Count Good Triplets
 1535. Find the Winner of an Array Game
+1550. Three Consecutive Odds
 
 ### Linked List
 138. Copy List with Random Pointer
@@ -385,6 +386,7 @@ Solutions and thoughts about LeetCode problems.
 1533. Find the Index of the Large Integer
 1537. Get the Maximum Score
 1539. Kth Missing Positive Number
+1552. Magnetic Force Between Two Balls
 
 ### Recursion (DFS)
 98. Validate Binary Search Tree
@@ -479,6 +481,7 @@ Solutions and thoughts about LeetCode problems.
 1306. Jump Game III
 1312. Minimum Insertion Steps to Make a String Palindrome
 1547. Minimum Cost to Cut a Stick
+1553. Minimum Number of Days to Eat N Oranges
 
 ### Dynamic Programming (Bottom-up)
 139. Word Break
@@ -622,6 +625,7 @@ Solutions and thoughts about LeetCode problems.
 1536. Minimum Swaps to Arrange a Binary Grid
 1540. Can Convert String in K Moves
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
+1551. Minimum Operations to Make Array Equal
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -705,6 +709,7 @@ Solutions and thoughts about LeetCode problems.
 1513. Number of Substrings With Only 1s
 1523. Count Odd Numbers in an Interval Range
 1524. Number of Sub-arrays With Odd Sum
+1551. Minimum Operations to Make Array Equal
 
 ### Info Cache
 36. Valid Sudoku
@@ -714,6 +719,7 @@ Solutions and thoughts about LeetCode problems.
 907. Sum of Subarray Minimums
 1275. Find Winner on a Tic Tac Toe Game
 1358. Number of Substrings Containing All Three Characters
+1550. Three Consecutive Odds
 
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)
@@ -759,6 +765,7 @@ Solutions and thoughts about LeetCode problems.
 1486. XOR Operation in an Array
 1535. Find the Winner of an Array Game
 1536. Minimum Swaps to Arrange a Binary Grid
+1551. Minimum Operations to Make Array Equal
 
 ### Prefix Sum
 325. Maximum Size Subarray Sum Equals k
