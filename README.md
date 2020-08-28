@@ -343,6 +343,7 @@ Solutions and thoughts about LeetCode problems.
 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
 1520. Maximum Number of Non-Overlapping Substrings
 1536. Minimum Swaps to Arrange a Binary Grid
+1561. Maximum Number of Coins You Can Get
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -390,6 +391,7 @@ Solutions and thoughts about LeetCode problems.
 1537. Get the Maximum Score
 1539. Kth Missing Positive Number
 1552. Magnetic Force Between Two Balls
+1562. Find Latest Group of Size M (TreeMap)
 
 ### Recursion (DFS)
 98. Validate Binary Search Tree
@@ -630,6 +632,7 @@ Solutions and thoughts about LeetCode problems.
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 1551. Minimum Operations to Make Array Equal
 1558. Minimum Numbers of Function Calls to Make Target Array
+1561. Maximum Number of Coins You Can Get
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
