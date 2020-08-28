@@ -242,6 +242,7 @@ Solutions and thoughts about LeetCode problems.
 1466. Reorder Routes to Make All Paths Lead to the City Zero
 1514. Path with Maximum Probability
 1519. Number of Nodes in the Sub-Tree With the Same Label
+1557. Minimum Number of Vertices to Reach All Nodes
 
 ### Disjoint Set
 305. Number of Islands II
@@ -304,6 +305,7 @@ Solutions and thoughts about LeetCode problems.
 1520. Maximum Number of Non-Overlapping Substrings
 1528. Shuffle String
 1529. Bulb Switcher IV
+1556. Thousand Separator
 
 
 ## Algorithm
@@ -371,6 +373,7 @@ Solutions and thoughts about LeetCode problems.
 962. Maximum Width Ramp (TreeMap)
 1011. Capacity To Ship Packages Within D Days
 1055. Shortest Way to Form String
+1064. Fixed Point
 1060. Missing Element in Sorted Array (in index)
 1150. Check If a Number Is Majority Element in a Sorted Array
 1157. Online Majority Element In Subarray
@@ -626,6 +629,7 @@ Solutions and thoughts about LeetCode problems.
 1540. Can Convert String in K Moves
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 1551. Minimum Operations to Make Array Equal
+1558. Minimum Numbers of Function Calls to Make Target Array
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -665,6 +669,7 @@ Solutions and thoughts about LeetCode problems.
 1486. XOR Operation in an Array
 1506. Find Root of N-Ary Tree
 1542. Find Longest Awesome Substring
+1558. Minimum Numbers of Function Calls to Make Target Array
 
 ### Math
 227. Basic Calculator II
@@ -710,6 +715,7 @@ Solutions and thoughts about LeetCode problems.
 1523. Count Odd Numbers in an Interval Range
 1524. Number of Sub-arrays With Odd Sum
 1551. Minimum Operations to Make Array Equal
+1556. Thousand Separator
 
 ### Info Cache
 36. Valid Sudoku
