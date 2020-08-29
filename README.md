@@ -112,6 +112,7 @@ Solutions and thoughts about LeetCode problems.
 1441. Build an Array With Stack Operations
 1475. Final Prices With a Special Discount in a Shop
 1544. Make The String Great
+1564. Put Boxes Into the Warehouse I
 
 ### Queue
 103. Binary Tree Zigzag Level Order Traversal
@@ -344,6 +345,7 @@ Solutions and thoughts about LeetCode problems.
 1520. Maximum Number of Non-Overlapping Substrings
 1536. Minimum Swaps to Arrange a Binary Grid
 1561. Maximum Number of Coins You Can Get
+1564. Put Boxes Into the Warehouse I
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -450,6 +452,7 @@ Solutions and thoughts about LeetCode problems.
 1519. Number of Nodes in the Sub-Tree With the Same Label
 1530. Number of Good Leaf Nodes Pairs
 1545. Find Kth Bit in Nth Binary String
+1559. Detect Cycles in 2D Grid
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -487,6 +490,7 @@ Solutions and thoughts about LeetCode problems.
 1312. Minimum Insertion Steps to Make a String Palindrome
 1547. Minimum Cost to Cut a Stick
 1553. Minimum Number of Days to Eat N Oranges
+1563. Stone Game V
 
 ### Dynamic Programming (Bottom-up)
 139. Word Break
@@ -633,6 +637,7 @@ Solutions and thoughts about LeetCode problems.
 1551. Minimum Operations to Make Array Equal
 1558. Minimum Numbers of Function Calls to Make Target Array
 1561. Maximum Number of Coins You Can Get
+1564. Put Boxes Into the Warehouse I
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -791,6 +796,7 @@ Solutions and thoughts about LeetCode problems.
 1504. Count Submatrices With All Ones
 1524. Number of Sub-arrays With Odd Sum
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
+1563. Stone Game V
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
