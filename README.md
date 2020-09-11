@@ -21,6 +21,7 @@ Solutions and thoughts about LeetCode problems.
 1534. Count Good Triplets
 1535. Find the Winner of an Array Game
 1550. Three Consecutive Odds
+1566. Detect Pattern of Length M Repeated K or More Times
 
 ### Linked List
 138. Copy List with Random Pointer
@@ -109,6 +110,7 @@ Solutions and thoughts about LeetCode problems.
 1019. Next Greater Node In Linked List
 1047. Remove All Adjacent Duplicates In String
 1209. Remove All Adjacent Duplicates in String II
+1381. Design a Stack With Increment Operation
 1441. Build an Array With Stack Operations
 1475. Final Prices With a Special Discount in a Shop
 1544. Make The String Great
@@ -531,6 +533,7 @@ Solutions and thoughts about LeetCode problems.
 1493. Longest Subarray of 1's After Deleting One Element
 1504. Count Submatrices With All Ones
 1537. Get the Maximum Score
+1567. Maximum Length of Subarray With Positive Product
 
 ### BFS
 103. Binary Tree Zigzag Level Order Traversal
@@ -733,6 +736,7 @@ Solutions and thoughts about LeetCode problems.
 907. Sum of Subarray Minimums
 1275. Find Winner on a Tic Tac Toe Game
 1358. Number of Substrings Containing All Three Characters
+1381. Design a Stack With Increment Operation
 1550. Three Consecutive Odds
 
 ### Design
@@ -745,6 +749,7 @@ Solutions and thoughts about LeetCode problems.
 706. Design HashMap
 895. Maximum Frequency Stack
 901. Online Stock Span
+1381. Design a Stack With Increment Operation
 1396. Design Underground System
 1472. Design Browser History
 
