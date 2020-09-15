@@ -309,6 +309,7 @@ Solutions and thoughts about LeetCode problems.
 1528. Shuffle String
 1529. Bulb Switcher IV
 1556. Thousand Separator
+1573. Number of Ways to Split a String
 
 
 ## Algorithm
@@ -598,6 +599,7 @@ Solutions and thoughts about LeetCode problems.
 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
 1493. Longest Subarray of 1's After Deleting One Element
 1498. Number of Subsequences That Satisfy the Given Sum Condition
+1574. Shortest Subarray to be Removed to Make Array Sorted
 
 ### Greedy
 68. Text Justification
