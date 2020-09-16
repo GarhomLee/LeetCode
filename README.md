@@ -90,6 +90,7 @@ Solutions and thoughts about LeetCode problems.
 1530. Number of Good Leaf Nodes Pairs
 1541. Minimum Insertions to Balance a Parentheses String
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
+1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 
 ### Stack
 98. Validate Binary Search Tree
@@ -224,6 +225,7 @@ Solutions and thoughts about LeetCode problems.
 1500. Design a File Sharing System (TreeSet)
 1506. Find Root of N-Ary Tree
 1530. Number of Good Leaf Nodes Pairs
+1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers (TreeMap)
 
 ### Graph
 207. Course Schedule
@@ -310,6 +312,7 @@ Solutions and thoughts about LeetCode problems.
 1529. Bulb Switcher IV
 1556. Thousand Separator
 1573. Number of Ways to Split a String
+1576. Replace All ?'s to Avoid Consecutive Repeating Characters
 
 
 ## Algorithm
@@ -643,6 +646,7 @@ Solutions and thoughts about LeetCode problems.
 1558. Minimum Numbers of Function Calls to Make Target Array
 1561. Maximum Number of Coins You Can Get
 1564. Put Boxes Into the Warehouse I
+1578. Minimum Deletion Cost to Avoid Repeating Letters
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -740,6 +744,7 @@ Solutions and thoughts about LeetCode problems.
 1358. Number of Substrings Containing All Three Characters
 1381. Design a Stack With Increment Operation
 1550. Three Consecutive Odds
+1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)
