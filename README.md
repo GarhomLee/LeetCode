@@ -166,6 +166,7 @@ Solutions and thoughts about LeetCode problems.
 1471. The k Strongest Values in an Array
 1481. Least Number of Unique Integers after K Removals
 1514. Path with Maximum Probability
+1584. Min Cost to Connect All Points (MST)
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -248,6 +249,7 @@ Solutions and thoughts about LeetCode problems.
 1514. Path with Maximum Probability
 1519. Number of Nodes in the Sub-Tree With the Same Label
 1557. Minimum Number of Vertices to Reach All Nodes
+1584. Min Cost to Connect All Points (Minimum Spanning Tree, Kruskals algo)
 
 ### Disjoint Set
 305. Number of Islands II
@@ -263,6 +265,8 @@ Solutions and thoughts about LeetCode problems.
 1258. Synonymous Sentences
 1319. Number of Operations to Make Network Connected
 1443. Minimum Time to Collect All Apples in a Tree
+1579. Remove Max Number of Edges to Keep Graph Fully Traversable
+1584. Min Cost to Connect All Points
 
 ### Trie
 212. Word Search II
@@ -497,6 +501,7 @@ Solutions and thoughts about LeetCode problems.
 1547. Minimum Cost to Cut a Stick
 1553. Minimum Number of Days to Eat N Oranges
 1563. Stone Game V
+1575. Count All Possible Routes
 
 ### Dynamic Programming (Bottom-up)
 139. Word Break
@@ -647,6 +652,7 @@ Solutions and thoughts about LeetCode problems.
 1561. Maximum Number of Coins You Can Get
 1564. Put Boxes Into the Warehouse I
 1578. Minimum Deletion Cost to Avoid Repeating Letters
+1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -745,6 +751,7 @@ Solutions and thoughts about LeetCode problems.
 1381. Design a Stack With Increment Operation
 1550. Three Consecutive Odds
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
+1582. Special Positions in a Binary Matrix
 
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)
