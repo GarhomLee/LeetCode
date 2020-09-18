@@ -705,6 +705,7 @@ Solutions and thoughts about LeetCode problems.
 628. Maximum Product of Three Numbers
 772. Basic Calculator III
 780. Reaching Points
+829. Consecutive Numbers Sum
 836. Rectangle Overlap
 867. Transpose Matrix
 888. Fair Candy Swap
