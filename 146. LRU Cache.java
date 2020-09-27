@@ -1,5 +1,29 @@
 https://leetcode.com/problems/lru-cache/submissions/
 
+// 二刷：LinkedHashMap
+
+class LRUCache extends LinkedHashMap<Integer, Integer> {
+    private int capacity;
+    
+    public LRUCache(int capacity) {
+        super(capacity, 0.75f, true);
+        this.capacity = capacity;
+    }
+    
+    public int get(int key) {
+        return super.getOrDefault(key, -1);
+    }
+    
+    public void put(int key, int value) {
+        super.put(key, value);
+    }
+    
+    public boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
+        return this.size() > this.capacity;
+    }
+}
+
+
 // 思路：利用Map + Double Linked List实现。
 //      自建class Node，利用Node实现自建的class DoubleLinkedList。维护以下变量：
 //      1）head，tail，是前后两个sentinel node

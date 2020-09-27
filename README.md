@@ -227,6 +227,7 @@ Solutions and thoughts about LeetCode problems.
 1506. Find Root of N-Ary Tree
 1530. Number of Good Leaf Nodes Pairs
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers (TreeMap)
+1586. Binary Search Tree Iterator II
 
 ### Graph
 207. Course Schedule
@@ -356,6 +357,7 @@ Solutions and thoughts about LeetCode problems.
 1536. Minimum Swaps to Arrange a Binary Grid
 1561. Maximum Number of Coins You Can Get
 1564. Put Boxes Into the Warehouse I
+1589. Maximum Sum Obtained of Any Permutation
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -463,6 +465,7 @@ Solutions and thoughts about LeetCode problems.
 1530. Number of Good Leaf Nodes Pairs
 1545. Find Kth Bit in Nth Binary String
 1559. Detect Cycles in 2D Grid
+1586. Binary Search Tree Iterator II
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -653,6 +656,7 @@ Solutions and thoughts about LeetCode problems.
 1564. Put Boxes Into the Warehouse I
 1578. Minimum Deletion Cost to Avoid Repeating Letters
 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
+1589. Maximum Sum Obtained of Any Permutation
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -673,6 +677,7 @@ Solutions and thoughts about LeetCode problems.
 253. Meeting Rooms II
 370. Range Addition
 759. Employee Free Time
+1589. Maximum Sum Obtained of Any Permutation
 
 ### Bit Manipulation
 201. Bitwise AND of Numbers Range
@@ -748,6 +753,7 @@ Solutions and thoughts about LeetCode problems.
 809. Expressive Words
 907. Sum of Subarray Minimums
 1275. Find Winner on a Tic Tac Toe Game
+1352. Product of the Last K Numbers (Prefix Product)
 1358. Number of Substrings Containing All Three Characters
 1381. Design a Stack With Increment Operation
 1550. Three Consecutive Odds
@@ -764,9 +770,11 @@ Solutions and thoughts about LeetCode problems.
 706. Design HashMap
 895. Maximum Frequency Stack
 901. Online Stock Span
+1352. Product of the Last K Numbers
 1381. Design a Stack With Increment Operation
 1396. Design Underground System
 1472. Design Browser History
+1586. Binary Search Tree Iterator II
 
 ### Intervals
 253. Meeting Rooms II
@@ -817,6 +825,7 @@ Solutions and thoughts about LeetCode problems.
 1524. Number of Sub-arrays With Odd Sum
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 1563. Stone Game V
+1588. Sum of All Odd Length Subarrays
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
