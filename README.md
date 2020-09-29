@@ -318,6 +318,8 @@ Solutions and thoughts about LeetCode problems.
 1556. Thousand Separator
 1573. Number of Ways to Split a String
 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
+1592. Rearrange Spaces Between Words
+1593. Split a String Into the Max Number of Unique Substrings
 
 
 ## Algorithm
@@ -486,6 +488,7 @@ Solutions and thoughts about LeetCode problems.
 1258. Synonymous Sentences
 1286. Iterator for Combination
 1415. The k-th Lexicographical String of All Happy Strings of Length n
+1593. Split a String Into the Max Number of Unique Substrings
 
 
 ### Recursion with Memoization (Top-down)
@@ -826,6 +829,7 @@ Solutions and thoughts about LeetCode problems.
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 1563. Stone Game V
 1588. Sum of All Odd Length Subarrays
+1590. Make Sum Divisible by P
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
