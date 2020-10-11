@@ -26,3 +26,27 @@ class Solution {
         return maxLen;
     }
 }
+
+
+再刷：可以用Sliding Window
+time complexity: O(n)
+space complexity: O(128)
+
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int[] count = new int[128];
+        int maxLen = 0;
+        for (int left = 0, right = 0; right < s.length(); right++) {
+            char cRight = s.charAt(right);
+            count[cRight]++;
+            while (count[cRight] > 1) {
+                char cLeft = s.charAt(left++);
+                count[cLeft]--;
+            }
+            
+            maxLen = Math.max(maxLen, right - left + 1);
+        }
+        
+        return maxLen;
+    }
+}

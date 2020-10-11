@@ -251,6 +251,7 @@ Solutions and thoughts about LeetCode problems.
 1519. Number of Nodes in the Sub-Tree With the Same Label
 1557. Minimum Number of Vertices to Reach All Nodes
 1584. Min Cost to Connect All Points (Minimum Spanning Tree, Kruskals algo)
+1615. Maximal Network Rank
 
 ### Disjoint Set
 305. Number of Islands II
@@ -320,6 +321,8 @@ Solutions and thoughts about LeetCode problems.
 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
 1592. Rearrange Spaces Between Words
 1593. Split a String Into the Max Number of Unique Substrings
+1614. Maximum Nesting Depth of the Parentheses
+1616. Split Two Strings to Make Palindrome
 
 
 ## Algorithm
@@ -468,6 +471,7 @@ Solutions and thoughts about LeetCode problems.
 1545. Find Kth Bit in Nth Binary String
 1559. Detect Cycles in 2D Grid
 1586. Binary Search Tree Iterator II
+1612. Check If Two Expression Trees are Equivalent
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -601,6 +605,7 @@ Solutions and thoughts about LeetCode problems.
 783. Minimum Distance Between BST Nodes
 
 ### Sliding Window
+3. Longest Substring Without Repeating Characters
 76. Minimum Window Substring （模版题）
 159. Longest Substring with At Most Two Distinct Characters
 239. Sliding Window Maximum
@@ -660,6 +665,7 @@ Solutions and thoughts about LeetCode problems.
 1578. Minimum Deletion Cost to Avoid Repeating Letters
 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 1589. Maximum Sum Obtained of Any Permutation
+1616. Split Two Strings to Make Palindrome
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
