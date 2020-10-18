@@ -91,6 +91,7 @@ Solutions and thoughts about LeetCode problems.
 1541. Minimum Insertions to Balance a Parentheses String
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
+1624. Largest Substring Between Two Equal Characters
 
 ### Stack
 98. Validate Binary Search Tree
@@ -252,6 +253,7 @@ Solutions and thoughts about LeetCode problems.
 1557. Minimum Number of Vertices to Reach All Nodes
 1584. Min Cost to Connect All Points (Minimum Spanning Tree, Kruskals algo)
 1615. Maximal Network Rank
+1617. Count Subtrees With Max Distance Between Cities
 
 ### Disjoint Set
 305. Number of Islands II
@@ -269,6 +271,7 @@ Solutions and thoughts about LeetCode problems.
 1443. Minimum Time to Collect All Apples in a Tree
 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 1584. Min Cost to Connect All Points
+1627. Graph Connectivity With Threshold
 
 ### Trie
 212. Word Search II
@@ -323,6 +326,7 @@ Solutions and thoughts about LeetCode problems.
 1593. Split a String Into the Max Number of Unique Substrings
 1614. Maximum Nesting Depth of the Parentheses
 1616. Split Two Strings to Make Palindrome
+1625. Lexicographically Smallest String After Applying Operations
 
 
 ## Algorithm
@@ -363,6 +367,7 @@ Solutions and thoughts about LeetCode problems.
 1561. Maximum Number of Coins You Can Get
 1564. Put Boxes Into the Warehouse I
 1589. Maximum Sum Obtained of Any Permutation
+1626. Best Team With No Conflicts
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -472,6 +477,7 @@ Solutions and thoughts about LeetCode problems.
 1559. Detect Cycles in 2D Grid
 1586. Binary Search Tree Iterator II
 1612. Check If Two Expression Trees are Equivalent
+1625. Lexicographically Smallest String After Applying Operations
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -553,6 +559,7 @@ Solutions and thoughts about LeetCode problems.
 1504. Count Submatrices With All Ones
 1537. Get the Maximum Score
 1567. Maximum Length of Subarray With Positive Product
+1626. Best Team With No Conflicts
 
 ### BFS
 103. Binary Tree Zigzag Level Order Traversal
@@ -594,6 +601,7 @@ Solutions and thoughts about LeetCode problems.
 1376. Time Needed to Inform All Employees
 1462. Course Schedule IV
 1466. Reorder Routes to Make All Paths Lead to the City Zero
+1617. Count Subtrees With Max Distance Between Cities
 
 ### Quick Select
 215. Kth Largest Element in an Array
@@ -707,6 +715,7 @@ Solutions and thoughts about LeetCode problems.
 1506. Find Root of N-Ary Tree
 1542. Find Longest Awesome Substring
 1558. Minimum Numbers of Function Calls to Make Target Array
+1617. Count Subtrees With Max Distance Between Cities (Bit Mask)
 
 ### Math
 227. Basic Calculator II
@@ -768,6 +777,7 @@ Solutions and thoughts about LeetCode problems.
 1550. Three Consecutive Odds
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 1582. Special Positions in a Binary Matrix
+1624. Largest Substring Between Two Equal Characters
 
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)
