@@ -22,6 +22,7 @@ Solutions and thoughts about LeetCode problems.
 1535. Find the Winner of an Array Game
 1550. Three Consecutive Odds
 1566. Detect Pattern of Length M Repeated K or More Times
+1629. Slowest Key
 
 ### Linked List
 138. Copy List with Random Pointer
@@ -168,6 +169,7 @@ Solutions and thoughts about LeetCode problems.
 1481. Least Number of Unique Integers after K Removals
 1514. Path with Maximum Probability
 1584. Min Cost to Connect All Points (MST)
+1631. Path With Minimum Effort
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -272,6 +274,7 @@ Solutions and thoughts about LeetCode problems.
 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 1584. Min Cost to Connect All Points
 1627. Graph Connectivity With Threshold
+1631. Path With Minimum Effort
 
 ### Trie
 212. Word Search II
@@ -367,7 +370,9 @@ Solutions and thoughts about LeetCode problems.
 1561. Maximum Number of Coins You Can Get
 1564. Put Boxes Into the Warehouse I
 1589. Maximum Sum Obtained of Any Permutation
+1619. Mean of Array After Removing Some Elements
 1626. Best Team With No Conflicts
+1630. Arithmetic Subarrays
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -778,6 +783,7 @@ Solutions and thoughts about LeetCode problems.
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 1582. Special Positions in a Binary Matrix
 1624. Largest Substring Between Two Equal Characters
+1629. Slowest Key
 
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)

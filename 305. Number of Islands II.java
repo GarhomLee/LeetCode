@@ -87,3 +87,77 @@ class Solution {
         }
     }
 }
+
+
+二刷：用普通的DisjointSet模板
+class Solution {
+    class DisjointSet {
+        int[] parent;
+        int[] size;
+        
+        public DisjointSet(int n) {
+            parent = new int[n];
+            size = new int[n];
+            for (int i = 0; i < n; i++) {
+                parent[i] = i;
+                size[i] = 1;
+            }
+        }
+        
+        public void connect(int i, int j) {
+            int ri = find(i), rj = find(j);
+            if (ri == rj) return;
+            if (size[ri] > size[rj]) {
+                connect(rj, ri);
+                return;
+            }
+            
+            parent[ri] = rj;
+            size[rj] += size[ri];
+        }
+        
+        public int find(int i) {
+            while (i != parent[i]) {
+                parent[i] = parent[parent[i]];
+                i = parent[i];
+            }   
+            return i;
+        }
+        
+        public boolean isConnected(int i, int j) {
+            return find(i) == find(j);
+        }
+    }
+    public List<Integer> numIslands2(int m, int n, int[][] positions) {
+        int count = 0;
+        List<Integer> res = new ArrayList<>();
+        
+        int[] dir = {-1, 0, 1, 0, -1};
+        DisjointSet ds = new DisjointSet(m*n);
+        int[][] grid = new int[m][n];
+        for (int[] pos : positions) {
+            int row = pos[0], col = pos[1];
+            int curr = row*n + col;
+            if (grid[row][col] == 0) {
+                // update only when the position is not visited yet
+                count += 1;
+                grid[row][col] = 1;
+                for (int i = 0; i + 1 < dir.length; i++) {
+                    int nextRow = row + dir[i], nextCol = col + dir[i + 1];
+                    int next = nextRow*n + nextCol;
+                    if (nextRow < 0 || nextRow >= m || nextCol < 0 || nextCol >= n 
+                        || grid[nextRow][nextCol] == 0) continue;
+
+                    if (!ds.isConnected(curr, next)) {
+                        count -= 1;
+                    }
+                    ds.connect(curr, next);
+                }
+            }
+            
+            res.add(count);
+        }
+        
+        return res;
+    }
+}
