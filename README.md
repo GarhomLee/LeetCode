@@ -779,6 +779,7 @@ Solutions and thoughts about LeetCode problems.
 1551. Minimum Operations to Make Array Equal
 1556. Thousand Separator
 1641. Count Sorted Vowel Strings
+1643. Kth Smallest Instructions
 
 ### Info Cache
 36. Valid Sudoku
