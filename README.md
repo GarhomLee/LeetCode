@@ -23,6 +23,8 @@ Solutions and thoughts about LeetCode problems.
 1550. Three Consecutive Odds
 1566. Detect Pattern of Length M Repeated K or More Times
 1629. Slowest Key
+1634. Add Two Polynomials Represented as Linked Lists
+1636. Sort Array by Increasing Frequency
 
 ### Linked List
 138. Copy List with Random Pointer
@@ -93,6 +95,7 @@ Solutions and thoughts about LeetCode problems.
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 1624. Largest Substring Between Two Equal Characters
+1640. Check Array Formation Through Concatenation
 
 ### Stack
 98. Validate Binary Search Tree
@@ -170,6 +173,7 @@ Solutions and thoughts about LeetCode problems.
 1514. Path with Maximum Probability
 1584. Min Cost to Connect All Points (MST)
 1631. Path With Minimum Effort
+1642. Furthest Building You Can Reach (minHeap)
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -231,6 +235,7 @@ Solutions and thoughts about LeetCode problems.
 1530. Number of Good Leaf Nodes Pairs
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers (TreeMap)
 1586. Binary Search Tree Iterator II
+1637. Widest Vertical Area Between Two Points Containing No Points (TreeSet)
 
 ### Graph
 207. Course Schedule
@@ -373,6 +378,8 @@ Solutions and thoughts about LeetCode problems.
 1619. Mean of Array After Removing Some Elements
 1626. Best Team With No Conflicts
 1630. Arithmetic Subarrays
+1636. Sort Array by Increasing Frequency (IntStream)
+1637. Widest Vertical Area Between Two Points Containing No Points
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -387,6 +394,7 @@ Solutions and thoughts about LeetCode problems.
 1209. Remove All Adjacent Duplicates in String II (left & right)
 1213. Intersection of Three Sorted Arrays
 1474. Delete N Nodes After M Nodes of a Linked List
+1634. Add Two Polynomials Represented as Linked Lists
 
 ### Binary Search
 378. Kth Smallest Element in a Sorted Matrix (search in range)
@@ -421,6 +429,7 @@ Solutions and thoughts about LeetCode problems.
 1539. Kth Missing Positive Number
 1552. Magnetic Force Between Two Balls
 1562. Find Latest Group of Size M (TreeMap)
+1637. Widest Vertical Area Between Two Points Containing No Points (TreeSet)
 
 ### Recursion (DFS)
 98. Validate Binary Search Tree
@@ -565,6 +574,7 @@ Solutions and thoughts about LeetCode problems.
 1537. Get the Maximum Score
 1567. Maximum Length of Subarray With Positive Product
 1626. Best Team With No Conflicts
+1641. Count Sorted Vowel Strings
 
 ### BFS
 103. Binary Tree Zigzag Level Order Traversal
@@ -768,6 +778,7 @@ Solutions and thoughts about LeetCode problems.
 1524. Number of Sub-arrays With Odd Sum
 1551. Minimum Operations to Make Array Equal
 1556. Thousand Separator
+1641. Count Sorted Vowel Strings
 
 ### Info Cache
 36. Valid Sudoku
