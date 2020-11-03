@@ -145,6 +145,7 @@ Solutions and thoughts about LeetCode problems.
 1311. Get Watched Videos by Your Friends
 1429. First Unique Number
 1462. Course Schedule IV
+1602. Find Nearest Right Node in Binary Tree
 
 ### Heap
 218. The Skyline Problem
@@ -429,6 +430,7 @@ Solutions and thoughts about LeetCode problems.
 1539. Kth Missing Positive Number
 1552. Magnetic Force Between Two Balls
 1562. Find Latest Group of Size M (TreeMap)
+1618. Maximum Font to Fit a Sentence in a Screen
 1637. Widest Vertical Area Between Two Points Containing No Points (TreeSet)
 
 ### Recursion (DFS)
@@ -617,6 +619,7 @@ Solutions and thoughts about LeetCode problems.
 1462. Course Schedule IV
 1466. Reorder Routes to Make All Paths Lead to the City Zero
 1617. Count Subtrees With Max Distance Between Cities
+1602. Find Nearest Right Node in Binary Tree
 
 ### Quick Select
 215. Kth Largest Element in an Array
@@ -689,6 +692,7 @@ Solutions and thoughts about LeetCode problems.
 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
 1589. Maximum Sum Obtained of Any Permutation
 1616. Split Two Strings to Make Palindrome
+1605. Find Valid Matrix Given Row and Column Sums
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
