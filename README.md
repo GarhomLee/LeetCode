@@ -238,6 +238,7 @@ Solutions and thoughts about LeetCode problems.
 1586. Binary Search Tree Iterator II
 1637. Widest Vertical Area Between Two Points Containing No Points (TreeSet)
 1648. Sell Diminishing-Valued Colored Balls (TreeMap)
+1644. Lowest Common Ancestor of a Binary Tree II (postorder)
 
 ### Graph
 207. Course Schedule
@@ -497,6 +498,7 @@ Solutions and thoughts about LeetCode problems.
 1586. Binary Search Tree Iterator II
 1612. Check If Two Expression Trees are Equivalent
 1625. Lexicographically Smallest String After Applying Operations
+1644. Lowest Common Ancestor of a Binary Tree II
 
 ### Backtracking (DFS)
 22. Generate Parentheses
