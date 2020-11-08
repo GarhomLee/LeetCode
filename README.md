@@ -237,6 +237,7 @@ Solutions and thoughts about LeetCode problems.
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers (TreeMap)
 1586. Binary Search Tree Iterator II
 1637. Widest Vertical Area Between Two Points Containing No Points (TreeSet)
+1648. Sell Diminishing-Valued Colored Balls (TreeMap)
 
 ### Graph
 207. Course Schedule
@@ -381,6 +382,8 @@ Solutions and thoughts about LeetCode problems.
 1630. Arithmetic Subarrays
 1636. Sort Array by Increasing Frequency (IntStream)
 1637. Widest Vertical Area Between Two Points Containing No Points
+1647. Minimum Deletions to Make Character Frequencies Unique
+1648. Sell Diminishing-Valued Colored Balls
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -693,6 +696,7 @@ Solutions and thoughts about LeetCode problems.
 1589. Maximum Sum Obtained of Any Permutation
 1616. Split Two Strings to Make Palindrome
 1605. Find Valid Matrix Given Row and Column Sums
+1647. Minimum Deletions to Make Character Frequencies Unique
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -784,6 +788,7 @@ Solutions and thoughts about LeetCode problems.
 1556. Thousand Separator
 1641. Count Sorted Vowel Strings
 1643. Kth Smallest Instructions
+1648. Sell Diminishing-Valued Colored Balls
 
 ### Info Cache
 36. Valid Sudoku
