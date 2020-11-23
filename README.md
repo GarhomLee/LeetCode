@@ -539,6 +539,7 @@ Solutions and thoughts about LeetCode problems.
 1553. Minimum Number of Days to Eat N Oranges
 1563. Stone Game V
 1575. Count All Possible Routes
+1654. Minimum Jumps to Reach Home
 
 ### Dynamic Programming (Bottom-up)
 139. Word Break
@@ -583,7 +584,7 @@ Solutions and thoughts about LeetCode problems.
 1626. Best Team With No Conflicts
 1641. Count Sorted Vowel Strings
 
-### BFS
+### Breath First Search (BFS)
 103. Binary Tree Zigzag Level Order Traversal
 117. Populating Next Right Pointers in Each Node II
 126. Word Ladder II
@@ -625,6 +626,7 @@ Solutions and thoughts about LeetCode problems.
 1466. Reorder Routes to Make All Paths Lead to the City Zero
 1617. Count Subtrees With Max Distance Between Cities
 1602. Find Nearest Right Node in Binary Tree
+1654. Minimum Jumps to Reach Home
 
 ### Quick Select
 215. Kth Largest Element in an Array
@@ -650,6 +652,7 @@ Solutions and thoughts about LeetCode problems.
 1493. Longest Subarray of 1's After Deleting One Element
 1498. Number of Subsequences That Satisfy the Given Sum Condition
 1574. Shortest Subarray to be Removed to Make Array Sorted
+1652. Defuse the Bomb
 
 ### Greedy
 68. Text Justification
@@ -699,6 +702,7 @@ Solutions and thoughts about LeetCode problems.
 1616. Split Two Strings to Make Palindrome
 1605. Find Valid Matrix Given Row and Column Sums
 1647. Minimum Deletions to Make Character Frequencies Unique
+1653. Minimum Deletions to Make String Balanced
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -875,6 +879,7 @@ Solutions and thoughts about LeetCode problems.
 1563. Stone Game V
 1588. Sum of All Odd Length Subarrays
 1590. Make Sum Divisible by P
+1653. Minimum Deletions to Make String Balanced
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
