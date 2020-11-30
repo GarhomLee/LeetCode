@@ -146,6 +146,7 @@ Solutions and thoughts about LeetCode problems.
 1429. First Unique Number
 1462. Course Schedule IV
 1602. Find Nearest Right Node in Binary Tree
+1670. Design Front Middle Back Queue (Deque)
 
 ### Heap
 218. The Skyline Problem
@@ -338,6 +339,7 @@ Solutions and thoughts about LeetCode problems.
 1614. Maximum Nesting Depth of the Parentheses
 1616. Split Two Strings to Make Palindrome
 1625. Lexicographically Smallest String After Applying Operations
+1668. Maximum Repeating Substring
 
 
 ## Algorithm
@@ -385,6 +387,7 @@ Solutions and thoughts about LeetCode problems.
 1637. Widest Vertical Area Between Two Points Containing No Points
 1647. Minimum Deletions to Make Character Frequencies Unique
 1648. Sell Diminishing-Valued Colored Balls
+1657. Determine if Two Strings Are Close
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -827,6 +830,8 @@ Solutions and thoughts about LeetCode problems.
 1396. Design Underground System
 1472. Design Browser History
 1586. Binary Search Tree Iterator II
+1656. Design an Ordered Stream
+1670. Design Front Middle Back Queue
 
 ### Intervals
 253. Meeting Rooms II
