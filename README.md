@@ -185,6 +185,7 @@ Solutions and thoughts about LeetCode problems.
 901. Online Stock Span
 907. Sum of Subarray Minimums
 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+1673. Find the Most Competitive Subsequence
 
 ### Tree
 98. Validate Binary Search Tree (BST)
