@@ -96,6 +96,7 @@ Solutions and thoughts about LeetCode problems.
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 1624. Largest Substring Between Two Equal Characters
 1640. Check Array Formation Through Concatenation
+1679. Max Number of K-Sum Pairs
 
 ### Stack
 98. Validate Binary Search Tree
@@ -147,6 +148,7 @@ Solutions and thoughts about LeetCode problems.
 1462. Course Schedule IV
 1602. Find Nearest Right Node in Binary Tree
 1670. Design Front Middle Back Queue (Deque)
+1660. Correct a Binary Tree
 
 ### Heap
 218. The Skyline Problem
@@ -241,6 +243,7 @@ Solutions and thoughts about LeetCode problems.
 1637. Widest Vertical Area Between Two Points Containing No Points (TreeSet)
 1648. Sell Diminishing-Valued Colored Balls (TreeMap)
 1644. Lowest Common Ancestor of a Binary Tree II (postorder)
+1676. Lowest Common Ancestor of a Binary Tree IV (preorder)
 
 ### Graph
 207. Course Schedule
@@ -503,6 +506,7 @@ Solutions and thoughts about LeetCode problems.
 1612. Check If Two Expression Trees are Equivalent
 1625. Lexicographically Smallest String After Applying Operations
 1644. Lowest Common Ancestor of a Binary Tree II
+1676. Lowest Common Ancestor of a Binary Tree IV
 
 ### Backtracking (DFS)
 22. Generate Parentheses
@@ -525,7 +529,6 @@ Solutions and thoughts about LeetCode problems.
 1415. The k-th Lexicographical String of All Happy Strings of Length n
 1593. Split a String Into the Max Number of Unique Substrings
 
-
 ### Recursion with Memoization (Top-down)
 139. Word Break
 140. Word Break II
@@ -544,6 +547,7 @@ Solutions and thoughts about LeetCode problems.
 1563. Stone Game V
 1575. Count All Possible Routes
 1654. Minimum Jumps to Reach Home
+1682. Longest Palindromic Subsequence II
 
 ### Dynamic Programming (Bottom-up)
 139. Word Break
@@ -631,6 +635,7 @@ Solutions and thoughts about LeetCode problems.
 1617. Count Subtrees With Max Distance Between Cities
 1602. Find Nearest Right Node in Binary Tree
 1654. Minimum Jumps to Reach Home
+1660. Correct a Binary Tree
 
 ### Quick Select
 215. Kth Largest Element in an Array
