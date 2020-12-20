@@ -1,5 +1,36 @@
 https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 
+二刷：DFS (postorder traversal)
+time complexity: O(n)
+space complexity: O(n)
+
+class Solution {
+    int maxLen = 0;
+    
+    public int helper(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        
+        int currLen = 1;
+        int leftLen = helper(node.left), rightLen = helper(node.right);
+        if (node.left != null && node.val == node.left.val - 1) {
+            currLen = Math.max(currLen, 1 + leftLen);
+        }
+        if (node.right != null && node.val == node.right.val - 1) {
+            currLen = Math.max(currLen, 1 + rightLen);
+        }
+        
+        maxLen = Math.max(maxLen, currLen);
+        return currLen;
+    }
+    
+    public int longestConsecutive(TreeNode root) {
+        helper(root);
+        return maxLen;
+    }
+}
+
 // 思路：DFS，类似preorder traversal
 //         在递归的过程中，不断更新全局变量maxLen，表示当前找到的longest consecutive sequence长度。
 //         递归函数定义：void dfs(TreeNode curr, TreeNode pre, int len)，表示遍历从curr节点开始

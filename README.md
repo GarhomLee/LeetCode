@@ -46,6 +46,7 @@ Solutions and thoughts about LeetCode problems.
 353. Design Snake Game
 356. Line Reflection
 519. Random Flip Matrix
+548. Split Array with Equal Sum
 582. Kill Process
 652. Find Duplicate Subtrees
 659. Split Array into Consecutive Subsequences
@@ -201,6 +202,7 @@ Solutions and thoughts about LeetCode problems.
 428. Serialize and Deserialize N-ary Tree
 510. Inorder Successor in BST II
 536. Construct Binary Tree from String (preorder traversal)
+549. Binary Tree Longest Consecutive Sequence II (postorder)
 606. Construct String from Binary Tree
 637. Average of Levels in Binary Tree
 652. Find Duplicate Subtrees
@@ -460,6 +462,7 @@ Solutions and thoughts about LeetCode problems.
 489. Robot Room Cleaner
 490. The Maze
 536. Construct Binary Tree from String
+549. Binary Tree Longest Consecutive Sequence II
 606. Construct String from Binary Tree
 652. Find Duplicate Subtrees
 655. Print Binary Tree
@@ -810,6 +813,7 @@ Solutions and thoughts about LeetCode problems.
 ### Info Cache
 36. Valid Sudoku
 348. Design Tic-Tac-Toe
+549. Binary Tree Longest Consecutive Sequence II
 794. Valid Tic-Tac-Toe State
 809. Expressive Words
 907. Sum of Subarray Minimums
@@ -877,6 +881,7 @@ Solutions and thoughts about LeetCode problems.
 ### Prefix Sum
 325. Maximum Size Subarray Sum Equals k
 528. Random Pick with Weight
+548. Split Array with Equal Sum
 724. Find Pivot Index
 1031. Maximum Sum of Two Non-Overlapping Subarrays
 1140. Stone Game II
