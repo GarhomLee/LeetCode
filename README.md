@@ -204,6 +204,7 @@ Solutions and thoughts about LeetCode problems.
 536. Construct Binary Tree from String (preorder traversal)
 549. Binary Tree Longest Consecutive Sequence II (postorder)
 606. Construct String from Binary Tree
+623. Add One Row to Tree (postorder)
 637. Average of Levels in Binary Tree
 652. Find Duplicate Subtrees
 655. Print Binary Tree
@@ -464,6 +465,7 @@ Solutions and thoughts about LeetCode problems.
 536. Construct Binary Tree from String
 549. Binary Tree Longest Consecutive Sequence II
 606. Construct String from Binary Tree
+623. Add One Row to Tree
 652. Find Duplicate Subtrees
 655. Print Binary Tree
 669. Trim a Binary Search Tree
@@ -560,6 +562,7 @@ Solutions and thoughts about LeetCode problems.
 416. Partition Equal Subset Sum (Knapsack)
 418. Sentence Screen Fitting
 494. Target Sum
+562. Longest Line of Consecutive One in Matrix
 678. Valid Parenthesis String
 712. Minimum ASCII Delete Sum for Two Strings
 714. Best Time to Buy and Sell Stock with Transaction Fee
@@ -768,6 +771,7 @@ Solutions and thoughts about LeetCode problems.
 390. Elimination Game
 396. Rotate Function
 400. Nth Digit
+573. Squirrel Simulation
 628. Maximum Product of Three Numbers
 772. Basic Calculator III
 780. Reaching Points
