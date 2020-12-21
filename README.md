@@ -818,6 +818,7 @@ Solutions and thoughts about LeetCode problems.
 36. Valid Sudoku
 348. Design Tic-Tac-Toe
 549. Binary Tree Longest Consecutive Sequence II
+624. Maximum Distance in Arrays
 794. Valid Tic-Tac-Toe State
 809. Expressive Words
 907. Sum of Subarray Minimums
