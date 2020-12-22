@@ -563,6 +563,7 @@ Solutions and thoughts about LeetCode problems.
 418. Sentence Screen Fitting
 494. Target Sum
 562. Longest Line of Consecutive One in Matrix
+646. Maximum Length of Pair Chain
 678. Valid Parenthesis String
 712. Minimum ASCII Delete Sum for Two Strings
 714. Best Time to Buy and Sell Stock with Transaction Fee
@@ -660,6 +661,7 @@ Solutions and thoughts about LeetCode problems.
 159. Longest Substring with At Most Two Distinct Characters
 239. Sliding Window Maximum
 340. Longest Substring with At Most K Distinct Characters
+643. Maximum Average Subarray I
 1234. Replace the Substring for Balanced String
 1358. Number of Substrings Containing All Three Characters
 1423. Maximum Points You Can Obtain from Cards
