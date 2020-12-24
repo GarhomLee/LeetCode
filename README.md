@@ -296,6 +296,7 @@ Solutions and thoughts about LeetCode problems.
 ### Trie
 212. Word Search II
 642. Design Search Autocomplete System
+648. Replace Words
 1268. Search Suggestions System
 
 
@@ -310,6 +311,7 @@ Solutions and thoughts about LeetCode problems.
 428. Serialize and Deserialize N-ary Tree
 536. Construct Binary Tree from String
 640. Solve the Equation
+648. Replace Words
 657. Robot Return to Origin
 681. Next Closest Time
 712. Minimum ASCII Delete Sum for Two Strings
@@ -521,6 +523,7 @@ Solutions and thoughts about LeetCode problems.
 267. Palindrome Permutation II
 291. Word Pattern II
 465. Optimal Account Balancing
+638. Shopping Offers
 642. Design Search Autocomplete System
 797. All Paths From Source to Target
 980. Unique Paths III
@@ -564,6 +567,7 @@ Solutions and thoughts about LeetCode problems.
 494. Target Sum
 562. Longest Line of Consecutive One in Matrix
 646. Maximum Length of Pair Chain
+650. 2 Keys Keyboard
 678. Valid Parenthesis String
 712. Minimum ASCII Delete Sum for Two Strings
 714. Best Time to Buy and Sell Stock with Transaction Fee
