@@ -570,6 +570,7 @@ Solutions and thoughts about LeetCode problems.
 646. Maximum Length of Pair Chain
 650. 2 Keys Keyboard
 651. 4 Keys Keyboard
+673. Number of Longest Increasing Subsequence
 678. Valid Parenthesis String
 712. Minimum ASCII Delete Sum for Two Strings
 714. Best Time to Buy and Sell Stock with Transaction Fee
