@@ -470,6 +470,7 @@ Solutions and thoughts about LeetCode problems.
 623. Add One Row to Tree
 652. Find Duplicate Subtrees
 655. Print Binary Tree
+663. Equal Tree Partition (postorder)
 669. Trim a Binary Search Tree
 687. Longest Univalue Path (postorder traversal)
 690. Employee Importance
@@ -568,6 +569,7 @@ Solutions and thoughts about LeetCode problems.
 562. Longest Line of Consecutive One in Matrix
 646. Maximum Length of Pair Chain
 650. 2 Keys Keyboard
+651. 4 Keys Keyboard
 678. Valid Parenthesis String
 712. Minimum ASCII Delete Sum for Two Strings
 714. Best Time to Buy and Sell Stock with Transaction Fee
