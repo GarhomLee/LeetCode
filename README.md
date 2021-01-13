@@ -50,6 +50,7 @@ Solutions and thoughts about LeetCode problems.
 582. Kill Process
 652. Find Duplicate Subtrees
 659. Split Array into Consecutive Subsequences
+677. Map Sum Pairs
 721. Accounts Merge
 734. Sentence Similarity
 792. Number of Matching Subsequences
@@ -297,6 +298,7 @@ Solutions and thoughts about LeetCode problems.
 212. Word Search II
 642. Design Search Autocomplete System
 648. Replace Words
+677. Map Sum Pairs
 1268. Search Suggestions System
 
 
@@ -314,6 +316,7 @@ Solutions and thoughts about LeetCode problems.
 648. Replace Words
 657. Robot Return to Origin
 681. Next Closest Time
+696. Count Binary Substrings
 712. Minimum ASCII Delete Sum for Two Strings
 792. Number of Matching Subsequences
 796. Rotate String
@@ -419,6 +422,7 @@ Solutions and thoughts about LeetCode problems.
 528. Random Pick with Weight
 611. Valid Triangle Number
 702. Search in a Sorted Array of Unknown Size
+704. Binary Search
 718. Maximum Length of Repeated Subarray (search in index or length)
 727. Minimum Window Subsequence
 729. My Calendar I
@@ -526,6 +530,7 @@ Solutions and thoughts about LeetCode problems.
 465. Optimal Account Balancing
 638. Shopping Offers
 642. Design Search Autocomplete System
+784. Letter Case Permutation
 797. All Paths From Source to Target
 980. Unique Paths III
 1066. Campus Bikes II
@@ -755,6 +760,7 @@ Solutions and thoughts about LeetCode problems.
 201. Bitwise AND of Numbers Range
 289. Game of Life
 661. Image Smoother
+693. Binary Number with Alternating Bits
 762. Prime Number of Set Bits in Binary Representation
 898. Bitwise ORs of Subarrays
 1066. Campus Bikes II
@@ -828,6 +834,7 @@ Solutions and thoughts about LeetCode problems.
 348. Design Tic-Tac-Toe
 549. Binary Tree Longest Consecutive Sequence II
 624. Maximum Distance in Arrays
+696. Count Binary Substrings
 794. Valid Tic-Tac-Toe State
 809. Expressive Words
 907. Sum of Subarray Minimums
