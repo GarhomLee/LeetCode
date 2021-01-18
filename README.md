@@ -53,6 +53,7 @@ Solutions and thoughts about LeetCode problems.
 677. Map Sum Pairs
 721. Accounts Merge
 734. Sentence Similarity
+791. Custom Sort String
 792. Number of Matching Subsequences
 811. Subdomain Visit Count
 895. Maximum Frequency Stack
@@ -364,6 +365,7 @@ Solutions and thoughts about LeetCode problems.
 280. Wiggle Sort
 287. Find the Duplicate Number
 628. Maximum Product of Three Numbers
+791. Custom Sort String
 881. Boats to Save People
 912. Sort an Array
 945. Minimum Increment to Make Array Unique
@@ -401,6 +403,7 @@ Solutions and thoughts about LeetCode problems.
 1647. Minimum Deletions to Make Character Frequencies Unique
 1648. Sell Diminishing-Valued Colored Balls
 1657. Determine if Two Strings Are Close
+1686. Stone Game VI
 
 ### Two Pointers
 287. Find the Duplicate Number (fast & slow)
@@ -734,6 +737,7 @@ Solutions and thoughts about LeetCode problems.
 1605. Find Valid Matrix Given Row and Column Sums
 1647. Minimum Deletions to Make Character Frequencies Unique
 1653. Minimum Deletions to Make String Balanced
+1686. Stone Game VI
 
 ### Divide & Conquer
 315. Count of Smaller Numbers After Self
@@ -828,6 +832,7 @@ Solutions and thoughts about LeetCode problems.
 1641. Count Sorted Vowel Strings
 1643. Kth Smallest Instructions
 1648. Sell Diminishing-Valued Colored Balls
+1685. Sum of Absolute Differences in a Sorted Array
 
 ### Info Cache
 36. Valid Sudoku
@@ -835,6 +840,7 @@ Solutions and thoughts about LeetCode problems.
 549. Binary Tree Longest Consecutive Sequence II
 624. Maximum Distance in Arrays
 696. Count Binary Substrings
+791. Custom Sort String
 794. Valid Tic-Tac-Toe State
 809. Expressive Words
 907. Sum of Subarray Minimums
@@ -919,6 +925,7 @@ Solutions and thoughts about LeetCode problems.
 1588. Sum of All Odd Length Subarrays
 1590. Make Sum Divisible by P
 1653. Minimum Deletions to Make String Balanced
+1685. Sum of Absolute Differences in a Sorted Array
 
 ### Synchronization
 1279. Traffic Light Controlled Intersection
