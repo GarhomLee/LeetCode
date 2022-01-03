@@ -406,6 +406,7 @@ Solutions and thoughts about LeetCode problems.
 1686. Stone Game VI
 
 ### Two Pointers
+189. Rotate Array
 287. Find the Duplicate Number (fast & slow)
 369. Plus One Linked List
 708. Insert into a Sorted Circular Linked List (prev & curr)
@@ -414,6 +415,7 @@ Solutions and thoughts about LeetCode problems.
 876. Middle of the Linked List (fast & slow)
 881. Boats to Save People (low & high)
 905. Sort Array By Parity (low & high)
+977. Squares of a Sorted Array (left & right)
 1099. Two Sum Less Than K (low & high)
 1209. Remove All Adjacent Duplicates in String II (left & right)
 1213. Intersection of Three Sorted Arrays
