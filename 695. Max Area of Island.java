@@ -44,3 +44,49 @@ class Solution {
         return count;
     }
 }
+
+
+solution 2: BFS
+time comp: O(rowLen * colLen)
+space comp: O(rowLen * colLen)
+
+class Solution {
+    int[] dir = {-1, 0, 1, 0, -1};
+    
+    public int maxAreaOfIsland(int[][] grid) {
+        int maxArea = 0;
+        int rowLen = grid.length, colLen = rowLen == 0 ? 0 : grid[0].length;
+        boolean[][] visited = new boolean[rowLen][colLen];
+        for (int row = 0; row < rowLen; row++) {
+            for (int col = 0; col < colLen; col++) {
+                if (grid[row][col] == 1 && !visited[row][col]) {
+                    maxArea = Math.max(maxArea, bfs(grid, row, col, visited));
+                }
+            }
+        }
+        
+        return maxArea;
+    }
+    
+    private int bfs(int[][] grid, int row, int col, boolean[][] visited) {
+        int count = 0;
+        int rowLen = grid.length, colLen = rowLen == 0 ? 0 : grid[0].length;
+        Queue<int[]> queue = new LinkedList<>();
+        queue.add(new int[]{row, col});
+        visited[row][col] = true;
+        
+        while (!queue.isEmpty()) {
+            int[] curr = queue.poll();
+            count++;
+            for (int i = 0; i < dir.length - 1; i++) {
+                int nextRow = curr[0] + dir[i], nextCol = curr[1] + dir[i + 1];
+                if (nextRow >= 0 && nextRow < rowLen && nextCol >= 0 && nextCol < colLen && grid[nextRow][nextCol] == 1 && !visited[nextRow][nextCol]) {
+                    queue.add(new int[]{nextRow, nextCol});
+                    visited[nextRow][nextCol] = true;
+                }
+            }
+        }
+        
+        return count;
+    }
+}

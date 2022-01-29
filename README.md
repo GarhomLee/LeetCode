@@ -129,6 +129,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Queue
 103. Binary Tree Zigzag Level Order Traversal
+116. Populating Next Right Pointers in Each Node
 117. Populating Next Right Pointers in Each Node II
 281. Zigzag Iterator
 286. Walls and Gates
@@ -196,6 +197,7 @@ Solutions and thoughts about LeetCode problems.
 ### Tree
 98. Validate Binary Search Tree (BST)
 103. Binary Tree Zigzag Level Order Traversal
+116. Populating Next Right Pointers in Each Node
 117. Populating Next Right Pointers in Each Node II
 285. Inorder Successor in BST (BST)
 314. Binary Tree Vertical Order Traversal (BST)
@@ -206,6 +208,7 @@ Solutions and thoughts about LeetCode problems.
 536. Construct Binary Tree from String (preorder traversal)
 549. Binary Tree Longest Consecutive Sequence II (postorder)
 606. Construct String from Binary Tree
+617. Merge Two Binary Trees
 623. Add One Row to Tree (postorder)
 637. Average of Levels in Binary Tree
 652. Find Duplicate Subtrees
@@ -476,6 +479,7 @@ Solutions and thoughts about LeetCode problems.
 536. Construct Binary Tree from String
 549. Binary Tree Longest Consecutive Sequence II
 606. Construct String from Binary Tree
+617. Merge Two Binary Trees
 623. Add One Row to Tree
 652. Find Duplicate Subtrees
 655. Print Binary Tree
@@ -619,6 +623,7 @@ Solutions and thoughts about LeetCode problems.
 
 ### Breath First Search (BFS)
 103. Binary Tree Zigzag Level Order Traversal
+116. Populating Next Right Pointers in Each Node
 117. Populating Next Right Pointers in Each Node II
 126. Word Ladder II
 127. Word Ladder
@@ -631,6 +636,7 @@ Solutions and thoughts about LeetCode problems.
 364. Nested List Weight Sum II
 490. The Maze
 505. The Maze II
+542. 01 Matrix
 582. Kill Process
 637. Average of Levels in Binary Tree
 662. Maximum Width of Binary Tree

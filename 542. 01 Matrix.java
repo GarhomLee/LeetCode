@@ -60,8 +60,52 @@ class Solution {
 
 
 解法二：BFS，视频讲解https://www.youtube.com/watch?v=F9F-TKZlHRs
-        扫描矩阵，将所有matrix[row][col] == 0放进Queue，同时将matrix[row][col] == 1的格子赋值为Integer.MAX_VALUE，
-        也就是将matrix作为距离的记录，是in-place modification。
+        扫描矩阵，将所有matrix[row][col] == 0放进Queue，同时将matrix[row][col] == 1的格子赋值-1表示还未遍历。
+        只要matrix[row][col]的值不为-1，即可知其已经经过bfs得到了最小距离。
+
+class Solution {
+    int[] dir = {-1, 0, 1, 0, -1};
+    
+    public int[][] updateMatrix(int[][] mat) {
+        int rowLen = mat.length, colLen = rowLen == 0 ? 0 : mat[0].length;
+        int[][] dist = new int[rowLen][colLen];
+        for (int row = 0; row < rowLen; row++) {
+            Arrays.fill(dist[row], -1);
+        }
+        
+        Queue<int[]> queue = new LinkedList<>();
+        
+        for (int row = 0; row < rowLen; row++) {
+            for (int col = 0; col < colLen; col++) {
+                if (mat[row][col] == 0) {
+                    // bfs(mat, row, col, dist);
+                    dist[row][col] = 0;
+                    queue.add(new int[]{row, col});
+                }
+            }
+        }
+        
+        int step = 1;
+        
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            while (size-- > 0) {
+                int[] curr = queue.poll();
+                for (int i = 0; i < dir.length - 1; i++) {
+                    int nextRow = curr[0] + dir[i], nextCol = curr[1] + dir[i + 1];
+                    if (nextRow >= 0 && nextRow < rowLen && nextCol >= 0 && nextCol < colLen && mat[nextRow][nextCol] == 1 && dist[nextRow][nextCol] == -1) {
+                        queue.add(new int[]{nextRow, nextCol});
+                        dist[nextRow][nextCol] = step;
+                    }
+                }
+            }
+            
+            step++;
+        }
+        
+        return dist;        
+    }
+}       
 
 
 解法三：DP，两次扫描
