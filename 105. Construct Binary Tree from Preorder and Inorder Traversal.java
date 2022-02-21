@@ -37,3 +37,27 @@ class Solution {
         return -1;
     }
 }
+
+
+二刷：
+class Solution {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {        
+        int n = preorder.length;
+        return construct(preorder, 0, n - 1, inorder, 0, n - 1);
+    }
+    
+    private TreeNode construct(int[] preorder, int preLow, int preHigh, int[] inorder, int inLow, int inHigh) {
+        if (inLow > inHigh) return null;
+            
+        TreeNode node = new TreeNode(preorder[preLow]);
+        int inMid = inLow;
+        while (inMid <= inHigh && inorder[inMid] != node.val) {
+            inMid++;
+        }
+        
+        int leftLen = inMid - inLow;
+        node.left = construct(preorder, preLow + 1, preLow + leftLen, inorder, inLow, inMid - 1);
+        node.right = construct(preorder, preLow + leftLen + 1, preHigh, inorder, inMid + 1, inHigh);
+        return node;
+    }
+}

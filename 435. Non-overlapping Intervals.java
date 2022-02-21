@@ -29,7 +29,7 @@ class Solution {
             }
         });
 
-        int count = 1;
+        int count = 1;  // count of non-overlapping intervals
         int end = intervals[0][1];
         for (int i = 1; i < intervals.length; i++) {
             if (intervals[i][0] >= end) {
@@ -39,5 +39,27 @@ class Solution {
         }
         
         return intervals.length - count;
+    }
+}
+
+
+二刷：
+class Solution {
+    public int eraseOverlapIntervals(int[][] intervals) {
+        Arrays.sort(intervals, (a, b) -> {
+            return a[1] == b[1] ? a[0] - b[0] : a[1] - b[1];
+        });
+        int[] curr = {Integer.MIN_VALUE, Integer.MIN_VALUE};
+        int ret = 0;    // count of overlapped ones that need to remove
+        for (int[] interval: intervals) {
+            int start = Math.max(curr[0], interval[0]), end = Math.min(curr[1], interval[1]);
+            if (start >= end) {
+                curr = interval;
+            } else {
+                ret++;
+            }
+        }
+        
+        return ret;
     }
 }

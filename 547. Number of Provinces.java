@@ -1,4 +1,4 @@
-https://leetcode.com/problems/friend-circles/
+https://leetcode.com/problems/number-of-provinces/
 
 // 解法一：Union Find (weighted quick-union)
 //        由于元素是数字，且范围在[0:n)，因此可以使用UnionFind。

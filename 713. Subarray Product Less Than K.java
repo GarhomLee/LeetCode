@@ -19,15 +19,13 @@ class Solution {
             return 0;
         }
         
-        int count = 0, product = 1;
-        int left = 0, right = 0; 
-        while (right < nums.length) {
+        int count = 0, product = 1;        
+        for (int left = 0, right = 0; right < nums.length; right++) {
             product *= nums[right];
             while (product >= k && left <= right) {
                 product /= nums[left++];
-            }
-            right++;
-            count += right - left;
+            }            
+            count += (right - left - 1);
         }
         return count;
     }

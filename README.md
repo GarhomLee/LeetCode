@@ -36,6 +36,7 @@ Solutions and thoughts about LeetCode problems.
 1019. Next Greater Node In Linked List
 1290. Convert Binary Number in a Linked List to Integer
 1474. Delete N Nodes After M Nodes of a Linked List
+1823. Find the Winner of the Circular Game
 
 ### Hash Table
 138. Copy List with Random Pointer
@@ -409,6 +410,7 @@ Solutions and thoughts about LeetCode problems.
 1686. Stone Game VI
 
 ### Two Pointers
+88. Merge Sorted Array
 189. Rotate Array
 287. Find the Duplicate Number (fast & slow)
 369. Plus One Linked List
@@ -574,6 +576,7 @@ Solutions and thoughts about LeetCode problems.
 1682. Longest Palindromic Subsequence II
 
 ### Dynamic Programming (Bottom-up)
+121. Best Time to Buy and Sell Stock
 139. Word Break
 198. House Robber
 361. Bomb Enemy
@@ -912,6 +915,7 @@ Solutions and thoughts about LeetCode problems.
 1535. Find the Winner of an Array Game
 1536. Minimum Swaps to Arrange a Binary Grid
 1551. Minimum Operations to Make Array Equal
+1823. Find the Winner of the Circular Game
 
 ### Prefix Sum
 325. Maximum Size Subarray Sum Equals k
