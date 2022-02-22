@@ -196,11 +196,13 @@ Solutions and thoughts about LeetCode problems.
 1673. Find the Most Competitive Subsequence
 
 ### Tree
-98. Validate Binary Search Tree (BST)
+98. Validate Binary Search Tree (BST) (Tree traversal with Stack模板)
 103. Binary Tree Zigzag Level Order Traversal
 116. Populating Next Right Pointers in Each Node
 117. Populating Next Right Pointers in Each Node II
+173. Binary Search Tree Iterator
 285. Inorder Successor in BST (BST)
+297. Serialize and Deserialize Binary Tree
 314. Binary Tree Vertical Order Traversal (BST)
 333. Largest BST Subtree (BST)
 426. Convert Binary Search Tree to Sorted Doubly Linked List (BST)
@@ -314,6 +316,7 @@ Solutions and thoughts about LeetCode problems.
 288. Unique Word Abbreviation
 290. Word Pattern
 291. Word Pattern II
+297. Serialize and Deserialize Binary Tree
 340. Longest Substring with At Most K Distinct Characters
 428. Serialize and Deserialize N-ary Tree
 536. Construct Binary Tree from String
@@ -470,6 +473,7 @@ Solutions and thoughts about LeetCode problems.
 210. Course Schedule II
 212. Word Search II
 286. Walls and Gates
+297. Serialize and Deserialize Binary Tree
 333. Largest BST Subtree
 339. Nested List Weight Sum
 364. Nested List Weight Sum II
