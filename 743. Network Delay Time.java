@@ -13,7 +13,7 @@ https://leetcode.com/problems/network-delay-time/
 //                 将dest对应的距离更新为total+time，同时将dest和对应的距离放入PriorityQueue中以便接下来的搜索。
 //         step4: 将所有从src可以到达的节点都搜索过以后，如果dist中的key个数小于N，说明有的节点没有被遍历到，那么返回-1.
 //         step5: 遍历dist中的所有values，表示各个节点到节点K的最短距离，那么题目要求的结果是所有最短距离中最大的值。
-// 时间复杂度：O(N log N + E)
+// 时间复杂度：O(E log E + N + E)，由于E最多N(N-1)，即N^2量级，所以有O(2E log N + N + E) -> O(E log N + N + E)
 // 空间复杂度：O(N + E)
 
 class Solution {

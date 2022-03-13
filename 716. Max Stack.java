@@ -9,7 +9,7 @@ https://leetcode.com/problems/max-stack/
 // 空间复杂度：O(n)
 
 class MaxStack {
-    DoubleLinkedList dll;
+    DoubleLinkedList dll;   // as stack
     TreeMap<Integer, List<Node>> map;
     
     /** initialize your data structure here. */

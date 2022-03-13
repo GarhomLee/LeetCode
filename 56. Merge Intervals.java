@@ -40,3 +40,30 @@ class Solution {
         return mergeList;
     }
 }
+
+
+二刷：
+
+class Solution {
+    public int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals, (a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
+        List<int[]> list = new ArrayList<>();
+        int[] candidate = intervals[0];
+        
+        
+        for (int i = 1; i < intervals.length; i++) {
+            int[] interval = intervals[i];
+            int start = Math.max(candidate[0], interval[0]), end = Math.min(candidate[1], interval[1]);
+            if (start <= end) {
+                candidate[0] = Math.min(candidate[0], interval[0]);
+                candidate[1] = Math.max(candidate[1], interval[1]);                
+            } else {
+                list.add(candidate);
+                candidate = interval;
+            }
+        }
+        
+        list.add(candidate);
+        return list.toArray(new int[0][0]);
+    }
+}

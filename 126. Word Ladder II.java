@@ -2,7 +2,7 @@ https://leetcode.com/problems/word-ladder-ii/
 
 // 比较难的一道题，步骤繁琐，不好debug。
 
-// 总体思路：单向BFS构建graph，然后用backtracking进行DFS把graph转变成List。
+// 总体思路：单向BFS构建graph，然后用DFS进行backtracking把graph转变成List。
 //         维护两个global variable：resultList，最后返回的List；children，用来构建有向图，key是parent，value是list of children。
 //         在BFS时，维护steps Map，key为word，value为word所在的level（或者说step）。同时，利用Queue进行BFS。
 //         维护boolean变量found，表示有无到达endWord。在最外层while loop，当found为true或者Queue为空时，都可以跳出循环。如果是因为found == true跳出的循环，就需要进行DFS构建List。

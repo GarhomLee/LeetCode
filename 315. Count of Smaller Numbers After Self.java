@@ -114,7 +114,36 @@ class Solution {
                 return n1.val - n2.val;
             }
         });
+
+        // or call merge()
     }
+
+    // private void merge(Node[] arr, int low, int high) {
+    //     int mid = low + (high - low) / 2;
+    //     int tempLen = high - low + 1, tempMid = mid - low;
+    //     // Node[] temp = new Node[tempLen];
+    //     // System.arraycopy(arr, low, temp, 0, tempLen);        
+    //     Node[] temp = Arrays.copyOfRange(arr, low, high + 1);
+    //     int left = tempMid, right = tempLen - 1, k = high;        
+    //     while (left >= 0 || right >= tempMid + 1) {
+    //         if (left < 0) {
+    //             arr[k] = temp[right];
+    //             right--;
+    //         } else if (right < tempMid + 1) {
+    //             arr[k] = temp[left];
+    //             arr[k].count += tempLen - 1 - right;
+    //             left--;
+    //         } else if (temp[left].val > temp[right].val) {
+    //             arr[k] = temp[right];
+    //             right--;
+    //         } else {
+    //             arr[k] = temp[left];
+    //             arr[k].count += tempLen - 1 - right;
+    //             left--;
+    //         }
+    //         k--;
+    //     }
+    // }
     
     class Node {
         int index, count, val;

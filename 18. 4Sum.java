@@ -6,7 +6,7 @@ https://leetcode.com/problems/4sum/
 // 3）helper method中，最关键的是维护一个临时的List<Integer> list = new ArrayList<>();
 // 4）当k > 2时，临时list加入当前的数，用recursion计算k - 1，然后将当前数从list移除（类似backtracking）。遍历至nums.length - k + 1个数，注意避免搜索重复的数
 // 5）当k == 2时，reduce成类2sum问题。当target == nums[left] + nums[right]时，加入临时list，再把这个list加入resultList里：resultList.add(new ArrayList(list)); 然后将nums[left]和nums[right]从list移除。注意避免搜索重复的数
-// 6）Time complexity: O(n^2)
+// 6）Time complexity: O(n^3)
 
 class Solution {
     List<List<Integer>> resultList = new ArrayList<>();

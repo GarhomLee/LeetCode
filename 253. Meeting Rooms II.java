@@ -72,3 +72,24 @@ class Solution {
         return max;
     }
 }
+
+
+三刷：
+class Solution {
+    public int minMeetingRooms(int[][] intervals) {
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);  // a: {timepoint, start/end}
+        for (int[] interval: intervals) {
+            pq.offer(new int[]{interval[0], 1});    // start
+            pq.offer(new int[]{interval[1], -1});   // end
+        }
+        
+        int count = 0, max = 0;
+        while (!pq.isEmpty()) {
+            int[] curr = pq.poll();
+            count += curr[1];
+            max = Math.max(max, count);
+        }
+        
+        return max;
+    }
+}

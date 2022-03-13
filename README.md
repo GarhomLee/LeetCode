@@ -49,6 +49,7 @@ Solutions and thoughts about LeetCode problems.
 519. Random Flip Matrix
 548. Split Array with Equal Sum
 582. Kill Process
+588. Design In-Memory File System
 652. Find Duplicate Subtrees
 659. Split Array into Consecutive Subsequences
 677. Map Sum Pairs
@@ -57,6 +58,7 @@ Solutions and thoughts about LeetCode problems.
 791. Custom Sort String
 792. Number of Matching Subsequences
 811. Subdomain Visit Count
+833. Find And Replace in String
 895. Maximum Frequency Stack
 939. Minimum Area Rectangle
 961. N-Repeated Element in Size 2N Array
@@ -98,7 +100,9 @@ Solutions and thoughts about LeetCode problems.
 1530. Number of Good Leaf Nodes Pairs
 1541. Minimum Insertions to Balance a Parentheses String
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
+1570. Dot Product of Two Sparse Vectors
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
+1606. Find Servers That Handled Most Number of Requests
 1624. Largest Substring Between Two Equal Characters
 1640. Check Array Formation Through Concatenation
 1679. Max Number of K-Sum Pairs
@@ -156,9 +160,10 @@ Solutions and thoughts about LeetCode problems.
 1670. Design Front Middle Back Queue (Deque)
 1660. Correct a Binary Tree
 
-### Heap
+### PriorityQueue (Heap)
 218. The Skyline Problem
 253. Meeting Rooms II
+347. Top K Frequent Elements
 630. Course Schedule III (maxHeap)
 642. Design Search Autocomplete System
 659. Split Array into Consecutive Subsequences (minHeap)
@@ -170,6 +175,7 @@ Solutions and thoughts about LeetCode problems.
 1046. Last Stone Weight (maxHeap)
 1054. Distant Barcodes (maxHeap)
 1057. Campus Bikes (minHeap)
+1094. Car Pooling
 1102. Path With Maximum Minimum Value (maxHeap)
 1168. Optimize Water Distribution in a Village (MST)
 1268. Search Suggestions System
@@ -182,6 +188,7 @@ Solutions and thoughts about LeetCode problems.
 1481. Least Number of Unique Integers after K Removals
 1514. Path with Maximum Probability
 1584. Min Cost to Connect All Points (MST)
+1606. Find Servers That Handled Most Number of Requests
 1631. Path With Minimum Effort
 1642. Furthest Building You Can Reach (minHeap)
 
@@ -252,6 +259,7 @@ Solutions and thoughts about LeetCode problems.
 1530. Number of Good Leaf Nodes Pairs
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers (TreeMap)
 1586. Binary Search Tree Iterator II
+1606. Find Servers That Handled Most Number of Requests (TreeSet)
 1637. Widest Vertical Area Between Two Points Containing No Points (TreeSet)
 1648. Sell Diminishing-Valued Colored Balls (TreeMap)
 1644. Lowest Common Ancestor of a Binary Tree II (postorder)
@@ -292,6 +300,7 @@ Solutions and thoughts about LeetCode problems.
 778. Swim in Rising Water
 952. Largest Component Size by Common Factor
 990. Satisfiability of Equality Equations
+1101. The Earliest Moment When Everyone Become Friends
 1102. Path With Maximum Minimum Value
 1258. Synonymous Sentences
 1319. Number of Operations to Make Network Connected
@@ -307,6 +316,7 @@ Solutions and thoughts about LeetCode problems.
 648. Replace Words
 677. Map Sum Pairs
 1268. Search Suggestions System
+1858. Longest Word With All Prefixes
 
 
 ### String
@@ -416,6 +426,7 @@ Solutions and thoughts about LeetCode problems.
 88. Merge Sorted Array
 189. Rotate Array
 287. Find the Duplicate Number (fast & slow)
+360. Sort Transformed Array
 369. Plus One Linked List
 708. Insert into a Sorted Circular Linked List (prev & curr)
 809. Expressive Words
@@ -801,6 +812,7 @@ Solutions and thoughts about LeetCode problems.
 227. Basic Calculator II
 311. Sparse Matrix Multiplication
 356. Line Reflection
+360. Sort Transformed Array
 369. Plus One Linked List
 390. Elimination Game
 396. Rotate Function
@@ -874,6 +886,7 @@ Solutions and thoughts about LeetCode problems.
 281. Zigzag Iterator
 353. Design Snake Game
 362. Design Hit Counter
+588. Design In-Memory File System
 641. Design Circular Deque
 705. Design HashSet
 706. Design HashMap
@@ -943,7 +956,10 @@ Solutions and thoughts about LeetCode problems.
 1653. Minimum Deletions to Make String Balanced
 1685. Sum of Absolute Differences in a Sorted Array
 
-### Synchronization
+### Concurrency (Synchronization)
+1114. Print in Order
+1117. Building H2O
+1188. Design Bounded Blocking Queue
 1279. Traffic Light Controlled Intersection
 
 ### Boyer–Moore majority vote algo

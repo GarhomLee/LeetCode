@@ -60,3 +60,37 @@ class Solution {
         return res;
     }
 }
+
+
+二刷：Stack top存的是当前运行的func id
+
+class Solution {
+    public int[] exclusiveTime(int n, List<String> logs) {       
+        int[] ret = new int[n];
+        int prevTime = 0;
+        Deque<Integer> stack = new LinkedList<>();  // stack of func id
+        for (String log: logs) {
+            String[] split = log.split(":");
+            int currId = Integer.valueOf(split[0]);
+            boolean isStart = split[1].equals("start");
+            int currTime = Integer.valueOf(split[2]) + (isStart ? 0 : 1);  // transform from time unit to time point
+            int deltaTime = currTime - prevTime;
+            
+            if (isStart) {
+                if (!stack.isEmpty()) {
+                    int prevId = stack.peek();
+                    ret[prevId] += deltaTime;
+                }
+                
+                stack.push(currId);
+            } else {
+                stack.pop();
+                ret[currId] += deltaTime;
+            }
+            
+            prevTime = currTime;
+        }
+        
+        return ret;
+    }
+}

@@ -47,3 +47,50 @@ class Solution {
         return mergeList;
     }
 }
+
+
+二刷：先找到合适的插入的位置；然后做merge
+
+
+class Solution {
+    public int[][] insert(int[][] intervals, int[] newInterval) {
+        List<int[]> list = new ArrayList<>();
+        boolean isInserted = false;
+
+        // insert to the proper position before merging
+        for (int[] interval: intervals) {
+            if (!isInserted && newInterval[0] <= interval[0]) {
+                list.add(newInterval);
+                isInserted = true;
+            }
+            
+            list.add(interval);
+        }       
+        
+        // not inserted yet, should be added at the end
+        if (!isInserted) {
+            list.add(newInterval);
+        }
+        
+        // do the merge
+        return mergeIntervals(list);
+    }
+    
+    private int[][] mergeIntervals(List<int[]> list) {
+        List<int[]> ret = new ArrayList<>();
+        int[] candidate = list.get(0);
+        for (int i = 1; i < list.size(); i++) {
+            int[] interval = list.get(i);
+            if (interval[0] <= candidate[1]) {
+                candidate[1] = Math.max(candidate[1], interval[1]);
+            } else {
+                ret.add(candidate);
+                candidate = interval;
+            }
+        }
+        
+        ret.add(candidate);
+        
+        return ret.toArray(new int[0][0]);
+    }
+}

@@ -6,22 +6,36 @@ https://leetcode.com/problems/evaluate-reverse-polish-notation/
 
 class Solution {
     public int evalRPN(String[] tokens) {
-        Stack<Integer> stack = new Stack();
-        for (String s: tokens) {
-            if (s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/")) {
-                char c = s.charAt(0);
-                int num2 = stack.pop(), num1 = stack.pop();
-                switch (c) {
-                    case '+': stack.push(num1 + num2); break;
-                    case '-': stack.push(num1 - num2); break;
-                    case '*': stack.push(num1 * num2); break;
-                    case '/': stack.push(num1 / num2); break;
-                }
+        Deque<Integer> stack = new ArrayDeque<>();
+        String ops = "+-*/";
+        for (String str: tokens) {
+            if (ops.contains(str)) {
+                int num1 = stack.pop(), num2 = stack.pop();
+                stack.push(cal(str, num1, num2));                
             } else {
-                stack.push(Integer.parseInt(s));
+                stack.push(Integer.parseInt(str));
             }
         }
-        return stack.peek();
+        
+        return stack.pop();
+    }
+    
+    private int cal(String op, int num1, int num2) {
+        switch (op) {
+            case "+":
+                num2 += num1;
+                break;
+            case "-":
+                num2 -= num1;
+                break;
+            case "*":
+                num2 *= num1;
+                break;
+            case "/":
+                num2 /= num1;
+                break;
+        }
+        return num2;
     }
 }
 

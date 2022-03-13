@@ -49,3 +49,38 @@ class Solution {
         
     }
 }
+
+
+二刷：用固定遍历顺序和相对坐标"{relRow, relCol}"区别不同island。
+
+class Solution {
+    int[] dir = {0, 1, 0, -1, 0};
+    
+    public int numDistinctIslands(int[][] grid) {
+        int rowLen = grid.length, colLen = rowLen == 0 ? 0 : grid[0].length;
+        Set<String> set = new HashSet<>();
+        boolean[][] visited = new boolean[rowLen][colLen];
+        for (int row = 0; row < rowLen; row++) {
+            for (int col = 0; col < colLen; col++) {
+                if (grid[row][col] == 0 || visited[row][col]) continue;
+                
+                StringBuilder sb = new StringBuilder();
+                dfs(grid, row, col, 0, 0, visited, sb);
+                set.add(sb.toString());
+            }
+        }
+        
+        return set.size();
+    }
+    
+    private void dfs(int[][] grid, int row, int col, int relRow, int relCol, boolean[][] visited, StringBuilder sb) {        
+        int rowLen = grid.length, colLen = rowLen == 0 ? 0 : grid[0].length;
+        if (row < 0 || row >= rowLen || col < 0 || col >= colLen || grid[row][col] == 0 || visited[row][col]) return;
+        
+        visited[row][col] = true;
+        sb.append('{').append(relRow).append(',').append(relCol).append('}');
+        for (int i = 0; i < dir.length - 1; i++) {
+            dfs(grid, row + dir[i], col + dir[i + 1], relRow + dir[i], relCol + dir[i + 1], visited, sb);
+        }
+    }
+}
