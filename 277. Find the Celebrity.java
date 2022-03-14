@@ -4,6 +4,31 @@ https://leetcode.com/problems/find-the-celebrity/
 // 时间复杂度：O(n^2)
 // 空间复杂度：O(n)
 
+public class Solution extends Relation {
+    
+    private int numberOfPeople;
+    
+    public int findCelebrity(int n) {
+        numberOfPeople = n;
+        for (int i = 0; i < n; i++) {
+            if (isCelebrity(i)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    
+    private boolean isCelebrity(int i) {
+        for (int j = 0; j < numberOfPeople; j++) {
+            if (i == j) continue; // Don't ask if they know themselves.
+            if (knows(i, j) || !knows(j, i)) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
 
 // 优化思路：Greedy, 2-pass。视频讲解：https://www.laioffer.com/en/videos/2018-05-07-277-find-the-celebrity/
 //         第一次遍历：维护变量candidate，表示当前搜索到的可能是celebrity的节点，初始化为0。

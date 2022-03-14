@@ -1,6 +1,37 @@
 https://leetcode.com/problems/encode-and-decode-strings/
 
-// 解法一：利用non-ASCII字符作为分割，即大于等于257的字符
+idea1: Encode as "length + delimiter (eg. '|') + string itself"
+    When decoding, just need to first extract the length info.
+
+public class Codec {
+
+    // Encodes a list of strings to a single string.
+    public String encode(List<String> strs) {
+        StringBuilder sb = new StringBuilder();
+        for (String s: strs) {
+            sb.append(s.length()).append('|').append(s);
+        }
+        
+        return sb.toString();
+    }
+
+    // Decodes a single string to a list of strings.
+    public List<String> decode(String s) {
+        List<String> ret = new ArrayList<>();
+        int idx = 0;
+        while (idx < s.length()) {
+            int delimiterIdx = s.indexOf('|', idx);
+            int length = Integer.parseInt(s.substring(idx, delimiterIdx));
+            ret.add(s.substring(delimiterIdx + 1, delimiterIdx + 1 + length));
+            idx = delimiterIdx + 1 + length; 
+        }
+        
+        return ret;
+    }
+}
+
+
+// 解法二：利用non-ASCII字符作为分割，即大于等于257的字符
 //         String encode(List<String> strs)：
 //             如果input为空，那么直接返回空字符串""。
 //             否则，在strs中的每个字符串后，加上(char) 257，类似'å'，作为分隔符。也就是说，即使strs是空字符串列表，也至少会有一个"å"。

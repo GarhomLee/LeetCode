@@ -47,3 +47,41 @@ class Solution {
         return costs[n - 1][preMin1];
     }
 }
+
+
+二刷：
+
+class Solution {
+    public int minCostII(int[][] costs) {
+        int n = costs.length, k = costs[0].length;
+        int[][] dp = new int[n + 1][k];
+        for (int i = 1; i <= n; i++) {
+            int smallestIdx = -1, secondSmallestIdx = -1;
+            int smallestCost = Integer.MAX_VALUE, secondSmallestCost = Integer.MAX_VALUE;
+            
+            for (int j = 0; j < k; j++) {
+                if (dp[i - 1][j] < smallestCost) {
+                    secondSmallestCost = smallestCost;
+                    secondSmallestIdx = smallestIdx;
+                    
+                    smallestCost = dp[i - 1][j];
+                    smallestIdx = j;
+                } else if (dp[i - 1][j] < secondSmallestCost) {
+                    secondSmallestCost = dp[i - 1][j];
+                    secondSmallestIdx = j;
+                }
+            }
+            
+            for (int j = 0; j < k; j++) {
+                dp[i][j] = costs[i - 1][j] + (j == smallestIdx ? secondSmallestCost : smallestCost);
+            }
+        }
+        
+        int min = Integer.MAX_VALUE;
+        for (int cost: dp[n]) {
+            min = Math.min(min, cost);
+        }
+        
+        return min;
+    }
+}
