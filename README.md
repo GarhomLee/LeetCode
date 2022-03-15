@@ -106,6 +106,7 @@ Solutions and thoughts about LeetCode problems.
 1624. Largest Substring Between Two Equal Characters
 1640. Check Array Formation Through Concatenation
 1679. Max Number of K-Sum Pairs
+2196. Create Binary Tree From Descriptions
 
 ### Stack
 98. Validate Binary Search Tree
@@ -184,6 +185,7 @@ Solutions and thoughts about LeetCode problems.
 1329. Sort the Matrix Diagonally
 1353. Maximum Number of Events That Can Be Attended
 1405. Longest Happy String
+1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows
 1471. The k Strongest Values in an Array
 1481. Least Number of Unique Integers after K Removals
 1514. Path with Maximum Probability
@@ -531,6 +533,7 @@ Solutions and thoughts about LeetCode problems.
 1339. Maximum Product of Splitted Binary Tree (postorder & preorder traversal)
 1382. Balance a Binary Search Tree (inorder)
 1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
+1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows
 1443. Minimum Time to Collect All Apples in a Tree
 1448. Count Good Nodes in Binary Tree
 1457. Pseudo-Palindromic Paths in a Binary Tree

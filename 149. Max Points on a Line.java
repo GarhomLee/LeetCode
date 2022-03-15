@@ -37,8 +37,8 @@ class Solution {
         return Arrays.asList(dx / gcd, dy / gcd);
     }
     
-    private int gcd(int m, int n){
-        if (n == 0) return m;
-        return gcd(n, m % n);
+    private int gcd(int a, int b){
+        if (b == 0) return a;
+        return gcd(b, a % b);
     }
 }
