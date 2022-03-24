@@ -883,6 +883,8 @@ Solutions and thoughts about LeetCode problems.
 1582. Special Positions in a Binary Matrix
 1624. Largest Substring Between Two Equal Characters
 1629. Slowest Key
+1769. Minimum Number of Operations to Move All Balls to Each Box
+
 
 ### Design
 271. Encode and Decode Strings (Chunked Transfer Encoding)

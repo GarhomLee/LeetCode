@@ -37,3 +37,32 @@ class BoundedBlockingQueue {
 
 
 idea2: Semaphore
+
+class BoundedBlockingQueue {
+    Queue<Integer> queue;
+    Semaphore prodSem, consSem;
+    
+    public BoundedBlockingQueue(int capacity) {
+        queue = new LinkedList<>();
+        prodSem = new Semaphore(capacity);
+        consSem = new Semaphore(0);
+    }
+    
+    public void enqueue(int element) throws InterruptedException {
+        prodSem.acquire();
+        queue.offer(element);
+        consSem.release();
+    }
+    
+    public int dequeue() throws InterruptedException {        
+        consSem.acquire();
+        int ret = queue.poll();
+        prodSem.release();
+        
+        return ret;
+    }
+    
+    public int size() {
+        return queue.size();
+    }
+}

@@ -45,3 +45,32 @@ class Solution {
         }
     }
 }
+
+
+二刷：Rolling Hash. See: https://www.bilibili.com/video/BV1pK411g7VB?spm_id_from=333.999.0.0, at 26min
+    分别从左至右（正序）和从右至左（倒序）计算rolling hash value，如果hash相同，则为共同部分。
+
+class Solution {
+    public String shortestPalindrome(String s) {
+        if (s == null || s.length() <= 1) return s;
+        
+        long MOD = Integer.MAX_VALUE;
+        long base = 26;
+        long hashLeft = 0, hashRight = 0, factor = 1L;
+        int startIdx = 0;
+        for (int i = 0; i < s.length(); i++) {
+            hashLeft = ((base * hashLeft) % MOD + (s.charAt(i) - 'a')) % MOD;
+            hashRight = (hashRight + ((s.charAt(i) - 'a') * factor) % MOD) % MOD;
+            if (hashLeft == hashRight) {
+                startIdx = i + 1;
+            }
+            
+            factor = factor * base % MOD;
+        }
+        
+        StringBuilder sb = new StringBuilder(s.substring(startIdx));
+        sb.reverse().append(s);
+        
+        return sb.toString();
+    }
+}

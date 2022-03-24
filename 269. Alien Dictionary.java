@@ -113,7 +113,27 @@ class Solution {
             }
         }
         
-        build(words, graph);
+        // build graph
+        for (int i = 1; i < words.length; i++) {
+            String w1 = words[i - 1], w2 = words[i];
+            int len = Math.min(w1.length(), w2.length());
+            boolean diffFound = false;
+            for (int j = 0; j < len && !diffFound; j++) {
+                char c1 = w1.charAt(j), c2 = w2.charAt(j);
+                if (c1 != c2) {
+                    diffFound = true;
+                    if (!graph.get(c1).contains(c2)) {
+                        graph.get(c1).add(c2);
+                        indegree[c2 - 'a']++;
+                    }
+                }
+            }
+            
+            // input can be invalid
+            if (!diffFound && w1.length() > w2.length()) {
+                return "";
+            }
+        }
         
         StringBuilder sb = new StringBuilder();
         Queue<Character> queue = new LinkedList<>();
@@ -137,23 +157,5 @@ class Solution {
         }
         
         return sb.length() == graph.size() ? sb.toString() : "";
-    }
-    
-    private void build(String[] words, Map<Character, Set<Character>> graph) {
-        for (int i = 1; i < words.length; i++) {
-            String w1 = words[i - 1], w2 = words[i];
-            int len = Math.min(w1.length(), w2.length());
-            for (int j = 0; j < len; j++) {
-                char c1 = w1.charAt(j), c2 = w2.charAt(j);
-                if (c1 != c2) {
-                    if (!graph.get(c1).contains(c2)) {
-                        graph.get(c1).add(c2);
-                        indegree[c2 - 'a']++;
-                    }
-                    break;
-                }
-            }
-        }
-    }
-    
+    }    
 }

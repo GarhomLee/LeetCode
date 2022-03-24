@@ -187,3 +187,104 @@ class AllOne {
     }
     
 }
+
+
+二刷： 2 HashMaps + DoubleLinkedList
+
+class AllOne {
+    Map<String, Integer> countMap;   // key -> count
+    Map<Integer, Node> nodeMap; // count -> node
+    Node head, tail;            
+    
+    public AllOne() {
+        countMap = new HashMap<>();
+        nodeMap = new HashMap<>();
+        head = new Node();
+        tail = new Node();
+        head.next = tail;
+        tail.prev = head;
+    }
+    
+    public void inc(String key) {
+        int currCount = !countMap.containsKey(key) ? 0 : countMap.get(key), nextCount = currCount + 1;
+        
+        // update countMap
+        countMap.put(key, nextCount);
+        
+        // update nodeMap
+        Node currNode = currCount == 0 ? head : nodeMap.get(currCount);
+        if (!nodeMap.containsKey(nextCount)) {
+            nodeMap.put(nextCount, new Node());                
+            addAfter(currNode, nodeMap.get(nextCount));
+        }
+        nodeMap.get(nextCount).set.add(key);
+        
+        // update linked list
+        if (currNode != head) {
+            currNode.set.remove(key);
+            if (currNode.set.isEmpty()) {
+                nodeMap.remove(currCount);
+                remove(currNode);
+            }
+        }
+    }
+    
+    public void dec(String key) {
+        int currCount = countMap.get(key), nextCount = currCount - 1;
+        Node currNode = nodeMap.get(currCount);
+        
+        if (nextCount == 0) {
+            // update countMap
+            countMap.remove(key);            
+        } else {
+            // update countMap
+            countMap.put(key, nextCount);
+            
+            // update nodeMap
+            if (!nodeMap.containsKey(nextCount)) {
+                nodeMap.put(nextCount, new Node());                
+                addAfter(currNode.prev, nodeMap.get(nextCount));
+            }
+            nodeMap.get(nextCount).set.add(key);
+        }
+        
+        // update linked list
+        currNode.set.remove(key);
+        if (currNode.set.isEmpty()) {
+            nodeMap.remove(currCount);
+            remove(currNode);
+        }
+    }
+    
+    public String getMaxKey() {
+        Node lastNode = tail.prev;
+        return lastNode == head ? "" : lastNode.set.iterator().next();
+    }
+    
+    public String getMinKey() {
+        Node firstNode = head.next;
+        return firstNode == tail ? "" : firstNode.set.iterator().next();
+    }
+    
+    private void addAfter(Node node1, Node node2) {
+        node2.next = node1.next;
+        node2.next.prev = node2;
+        node1.next = node2;
+        node2.prev = node1;
+    }
+    
+    private void remove(Node node) {
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+    }
+        
+    // contains a set of keys with the same count
+    class Node {
+        Node prev, next;
+        Set<String> set;
+        
+        public Node() {
+            set = new HashSet<>();
+        }
+    }
+}

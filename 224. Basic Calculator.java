@@ -54,53 +54,40 @@ class Solution {
     }
 }
 
-优化：由于只有'+'和'-'，所以可以只用一个变量int preSign来表示'+'和'-'。
-     取巧点在于，当遇到'('时，只需要同时将res和preSign加入Stack，表示二者相关联。
+优化：由于只有'+'和'-'，所以可以只用一个变量int sign来表示'+'和'-'。
+     取巧点在于，当遇到'('时，只需要同时将sum和sign加入Stack，表示二者相关联。
      同时，最后不以')'结尾的情况单独出来考虑，这样增加了代码可读性。
 
 class Solution {
     public int calculate(String s) {
-        Stack<Integer> numStack = new Stack();
-        
-        int curr = 0, res = 0;
-        int preSign = 1;
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == ' ') continue;
+        Deque<Integer> sumStack = new ArrayDeque<>(), signStack = new ArrayDeque<>();
+        int sign = 1, sum = 0, curr = 0;    // sum: sum of the current level; curr: value of current number
+        for (char c: s.toCharArray()) {
+            if (c == ' ') continue;
             
-            if (s.charAt(i) >= '0' && s.charAt(i) <= '9') {
-                curr = curr * 10 + (s.charAt(i) - '0');
-            } else if (s.charAt(i) == '+') {
-                res += preSign * curr;
-                preSign = 1;
+            if (Character.isDigit(c)) {
+                curr = curr * 10 + (c - '0');
+            } else if (c == '+' || c == '-') {
+                sum += sign * curr;
+                curr = 0;
+                sign = c == '+' ? 1 : -1;
+            } else if (c == '(') {
+                sumStack.push(sum);
+                sum = 0;
                 
-                curr = 0;  // reset
-            } else if (s.charAt(i) == '-') {
-                res += preSign * curr;
-                preSign = -1;
+                signStack.push(sign);
+                sign = 1;
+            } else {
+                sum += sign * curr;
+                sum = sumStack.pop() + (signStack.pop() * sum);
                 
-                curr = 0;  // reset
-            } else if (s.charAt(i) == '(') {
-                numStack.push(res);
-                numStack.push(preSign);  // {Trick}
-                
-                curr = 0;  // reset
-                res = 0;
-                preSign = 1;
-            } else if (s.charAt(i) == ')') {
-                res += preSign * curr;  // get res in the current scope
-                
-                preSign = numStack.pop();
-                int preRes =  numStack.pop();
-                res = preRes + preSign * res;  // update res in the previous scope
-                
-                curr = 0;  // reset
-                preSign = 1;
+                sign = 1;
+                curr = 0;
             }
         }
         
-        if (curr != 0) {  // expression is not ended with ')', curr will not reset to 0
-            res += preSign * curr;
-        }
-        return res;
+        sum += sign * curr;
+        
+        return sum;
     }
 }
