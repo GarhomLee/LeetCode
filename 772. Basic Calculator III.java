@@ -69,3 +69,72 @@ class Solution {
         return res;
     }
 }
+
+
+二刷：
+
+class Solution {
+    public int calculate(String s) {
+        int curr = 0, size = 0;
+        char op = '+';
+        String ops = "+-*/";
+        Deque<Integer> numStack = new ArrayDeque<>(), sizeStack = new ArrayDeque<>();
+        Deque<Character> opStack = new ArrayDeque<>();
+        
+        for (int i = 0; i <= s.length(); i++) {
+            if (i == s.length() || ops.indexOf(s.charAt(i)) >= 0 || s.charAt(i) == ')') {
+                switch (op) {
+                    case '+': {
+                        numStack.push(curr); 
+                        size++;
+                        break;
+                    }
+                    case '-': {
+                        numStack.push(-curr);
+                        size++;
+                        break;
+                    }
+                    case '*': {
+                        numStack.push(numStack.pop() * curr); 
+                        break;
+                    }
+                    case '/': {
+                        numStack.push(numStack.pop() / curr); 
+                        break;
+                    }
+                }                
+                curr = 0;   // curr should be reset anyway
+                
+                if (i < s.length() && s.charAt(i) == ')') {
+                    // update curr
+                    while (size-- > 0) {
+                        curr += numStack.pop();
+                    }   
+                    op = opStack.pop(); // update op
+                    size = sizeStack.pop(); // update size
+                } else if (i < s.length() && ops.indexOf(s.charAt(i)) >= 0) {
+                    // curr has been updated above
+                    // size has been updated above
+                    op = s.charAt(i);   // update op
+                }
+            } else if (Character.isDigit(s.charAt(i))) {
+                curr = curr * 10 + (s.charAt(i) - '0');
+            } else if (s.charAt(i) == '(') {
+                // no need to update curr, as it's been updated when char is an op
+                
+                opStack.push(op);
+                op = '+';
+                
+                sizeStack.push(size);
+                size = 0;
+            }
+        }
+        
+        int ret = 0;
+        while (!numStack.isEmpty()) {
+            ret += numStack.pop();
+        }
+        
+        return ret;
+    }
+}
