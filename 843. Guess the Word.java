@@ -26,15 +26,15 @@ class Solution {
     
     public void findSecretWord(String[] wordlist, Master master) {
         for (int i = 0; i < 10; i++) {
-        String guess = findBestGuess(wordlist);
-        int match = master.guess(guess);
-        List<String> list = new ArrayList<>();
-        for (String word: wordlist) {
-            if (getMatchCount(guess, word) == match) {
-                list.add(word);
+            String guess = findBestGuess(wordlist);
+            int match = master.guess(guess);
+            List<String> list = new ArrayList<>();
+            for (String word: wordlist) {
+                if (getMatchCount(guess, word) == match) {
+                    list.add(word);
+                }
             }
-        }
-        wordlist = list.toArray(new String[0]);
+            wordlist = list.toArray(new String[0]);
         }
     }
     

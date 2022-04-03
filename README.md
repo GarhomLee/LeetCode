@@ -106,6 +106,8 @@ Solutions and thoughts about LeetCode problems.
 1624. Largest Substring Between Two Equal Characters
 1640. Check Array Formation Through Concatenation
 1679. Max Number of K-Sum Pairs
+2013. Detect Squares
+2135. Count Words Obtained After Adding a Letter
 2196. Create Binary Tree From Descriptions
 
 ### Stack
@@ -193,6 +195,7 @@ Solutions and thoughts about LeetCode problems.
 1606. Find Servers That Handled Most Number of Requests
 1631. Path With Minimum Effort
 1642. Furthest Building You Can Reach (minHeap)
+1834. Single-Threaded CPU
 
 ### Monotonic Queue
 84. Largest Rectangle in Histogram
@@ -423,6 +426,7 @@ Solutions and thoughts about LeetCode problems.
 1648. Sell Diminishing-Valued Colored Balls
 1657. Determine if Two Strings Are Close
 1686. Stone Game VI
+1834. Single-Threaded CPU
 
 ### Two Pointers
 88. Merge Sorted Array
@@ -479,6 +483,8 @@ Solutions and thoughts about LeetCode problems.
 1562. Find Latest Group of Size M (TreeMap)
 1618. Maximum Font to Fit a Sentence in a Screen
 1637. Widest Vertical Area Between Two Points Containing No Points (TreeSet)
+2034. Stock Price Fluctuation (TreeMap)
+2158. Amount of New Area Painted Each Day (TreeMap)
 
 ### Recursion (DFS)
 98. Validate Binary Search Tree
@@ -641,6 +647,7 @@ Solutions and thoughts about LeetCode problems.
 1567. Maximum Length of Subarray With Positive Product
 1626. Best Team With No Conflicts
 1641. Count Sorted Vowel Strings
+1937. Maximum Number of Points with Cost
 
 ### Breath First Search (BFS)
 103. Binary Tree Zigzag Level Order Traversal
@@ -781,6 +788,7 @@ Solutions and thoughts about LeetCode problems.
 269. Alien Dictionary
 207. Course Schedule
 210. Course Schedule II
+2115. Find All Possible Recipes from Given Supplies
 
 ### Sweep Line
 218. The Skyline Problem
@@ -810,6 +818,7 @@ Solutions and thoughts about LeetCode problems.
 1542. Find Longest Awesome Substring
 1558. Minimum Numbers of Function Calls to Make Target Array
 1617. Count Subtrees With Max Distance Between Cities (Bit Mask)
+2135. Count Words Obtained After Adding a Letter
 
 ### Math
 227. Basic Calculator II
@@ -863,6 +872,7 @@ Solutions and thoughts about LeetCode problems.
 1643. Kth Smallest Instructions
 1648. Sell Diminishing-Valued Colored Balls
 1685. Sum of Absolute Differences in a Sorted Array
+2013. Detect Squares
 
 ### Info Cache
 36. Valid Sudoku
@@ -918,6 +928,7 @@ Solutions and thoughts about LeetCode problems.
 1288. Remove Covered Intervals
 1353. Maximum Number of Events That Can Be Attended
 1520. Maximum Number of Non-Overlapping Substrings
+2158. Amount of New Area Painted Each Day
 
 
 ### Find Missing/Duplicate Number
